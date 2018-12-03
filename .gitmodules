@@ -1,3 +1,0 @@
-[submodule "data/parlnet"]
-	path = data/parlnet
-	url = https://github.com/briatte/parlnet.git
