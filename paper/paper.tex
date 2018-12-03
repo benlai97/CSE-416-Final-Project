@@ -1,0 +1,91 @@
+%
+% Generic Template
+% Created on 11/6/2017 by Jonathan Chen
+%
+
+\documentclass[12pt]{article}
+\usepackage[left=0.8in,right=0.8in,top=0.8in,bottom=0.8in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}                  % for header
+\usepackage{graphicx}                  % for figures
+\usepackage{amsmath}                   % for extented math markup
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{minted}
+\usepackage{enumitem}
+\usepackage{csquotes}
+\usepackage{caption}
+\usepackage{lipsum}
+\usepackage[bookmarks=false]{hyperref} % for URL embedding
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\course}{CSE416A}
+\newcommand{\names}{Benjamin Lai, Cate Jiang, and Jonathan Chen}
+
+% create sheader and footer for every page
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Legislative Complex Networks}}
+\chead{}
+\rhead{Lai, Jiang, and Chen}
+\cfoot{\thepage}
+
+% environment for cases
+\newlength\mylen
+\settowidth\mylen{\textbf{Case~5.}}
+\newlist{enumcases}{enumerate}{1}
+\setlist[enumcases,1]{label=\textbf{Case~\arabic*.},leftmargin=0pt,align=right,%
+    labelwidth=\dimexpr-\mylen-\labelsep\relax,}
+
+% images
+\captionsetup[figure]{
+  font={footnotesize,singlespacing},
+  labelfont=bf,
+  singlelinecheck=off,
+  justification=raggedright,
+  labelsep=period
+}
+
+\newcommand{\image}[5][0.6]{
+  % 1 - path to asset
+  % 2 - label
+  % 3 - title
+  % 4 - caption
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth,height=#1\textwidth,keepaspectratio]{#2}
+    \caption[(details)]{\textbf{#4}. #5}
+    \label{fig:#3}
+  \end{figure}}
+
+
+% minted
+\usemintedstyle{pastie}
+\setminted[python]{frame=lines,linenos,autogobble,framesep=1.4em,breaklines,%
+                   escapeinside=||,mathescape,python3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% the document begins here!
+
+\title{Comparative Analysis of Legislative Complex Networks of Select North American and European Countries}
+\author{\names}
+\date{December 11, 2018}
+    
+\begin{document}
+\maketitle
+% \vspace{0.1em}
+\thispagestyle{empty}
+
+\begin{abstract}
+    % TODO: Maybe fill in abstract.
+    \lipsum[1]
+\end{abstract}
+
+\section{Introduction}
+
+\newpage
+
+\section{Introduction}
+
+\end{document}
