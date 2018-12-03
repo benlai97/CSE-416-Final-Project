@@ -2,5 +2,12 @@
 *.pyc
 ipynb_checkpoints
 
+# Latex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+
 # Mac
 .DS_Store
