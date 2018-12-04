@@ -1,6 +1,6 @@
 # Python
 *.pyc
-ipynb_checkpoints
+.ipynb_checkpoints
 
 # Latex
 *.aux

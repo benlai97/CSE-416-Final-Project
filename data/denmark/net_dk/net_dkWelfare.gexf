@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2015-12-26">
+    <creator>rgexf</creator>
+    <description>legislative cosponsorship network, fruchtermanreingold placement, 216 bills</description>
+    <keywords>parliament, denmark</keywords>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node" mode="static">
+      <attribute id="att1" title="url" type="string"/>
+      <attribute id="att2" title="party" type="string"/>
+      <attribute id="att3" title="constituency" type="string"/>
+      <attribute id="att4" title="n_bills" type="float"/>
+      <attribute id="att5" title="photo" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="1" label="Anders Samuelsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/LAANSA.aspx"/>
+          <attvalue for="att2" value="Liberal Alliance"/>
+          <attvalue for="att3" value="Vejle_Amtskreds"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/LAANSA.jpg"/>
+        </attvalues>
+        <viz:color r="253" g="180" b="98" a="0.5"/>
+        <viz:position x="37" y="17" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="2" label="Anita Christensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFANCH.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Sydjyllands_Storkreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/DFANCH.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="6.8" y="-24.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="3" label="Anita Knakkergaard">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFANKN.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Nordjyllands_Amtskreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/DFANKN.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="1.4" y="-26.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="4" label="Anne Baastrup">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFANBA.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Roskilde_Amtskreds"/>
+          <attvalue for="att4" value="25"/>
+          <attvalue for="att5" value="photos/SFANBA.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="11.8" y="20.7" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="5" label="Anne Grete Holmsgaard">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFANGH.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Fyns_Amtskreds"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/SFANGH.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="6.4" y="23.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="6" label="Anne Marie Geisler Andersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVANGA.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Københavns_Omegns_Storkreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/RVANGA.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="4.8" y="20" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="7" label="Annette Vilhelmsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFANVI.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Fyns_Storkreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/SFANVI.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="38.1" y="11.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="8" label="Astrid Krag">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SASKR.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Vejle_Amtskreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/SASKR.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="15.5" y="12.3" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="9" label="Benedikte Kiær">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/KFBEKI.aspx"/>
+          <attvalue for="att2" value="Det Konservative Folkeparti"/>
+          <attvalue for="att3" value="Københavns_Omegns_Storkreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/KFBEKI.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="34" y="-8.8" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="10" label="Bent Bøgsted">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFBENB.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Nordjyllands_Amtskreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/DFBENB.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="2.2" y="-15.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="11" label="Bente Dahl">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVBEDA.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Sønderjyllands_Amtskreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/RVBEDA.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="12.7" y="26.3" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="12" label="Birthe Skaarup">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFBISK.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Vejle_Amtskreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/DFBISK.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="7.6" y="-27.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="13" label="Bjarne Laustsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SBJAL.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Nordjyllands_Amtskreds"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/SBJAL.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-4.8" y="22.2" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="14" label="Carsten Hansen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SCAHA.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Fyns_Amtskreds"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/SCAHA.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="11.1" y="40.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="15" label="Charlotte Fischer">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVCHFI.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Vestre_Storkreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/RVCHFI.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="28.6" y="34.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="16" label="Christian H. Hansen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/LGCHHH.aspx"/>
+          <attvalue for="att2" value="Independent"/>
+          <attvalue for="att3" value="Ringkøbing_Amtskreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/LGCHHH.jpg"/>
+        </attvalues>
+        <viz:color r="170" g="170" b="170" a="0.5"/>
+        <viz:position x="7.3" y="-8.2" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="17" label="Christian Juhl">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELCHJU.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Sjællands_Storkreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/ELCHJU.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="30" y="-2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="18" label="Christian Langballe">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFCHLA.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Vestjyllands_Storkreds"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/DFCHLA.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="0.4" y="-20" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="19" label="Christine Antorini">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SCHAN.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Østre_Storkreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/SCHAN.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="8.2" y="39.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="20" label="Dennis Flydtkjær">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFDEFL.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Ringkøbing_Amtskreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/DFDEFL.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="13.9" y="-24.4" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="21" label="Doris Jakobsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SMDOJA.aspx"/>
+          <attvalue for="att2" value="Siumut"/>
+          <attvalue for="att3" value="Grønland"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SMDOJA.jpg"/>
+        </attvalues>
+        <viz:color r="251" g="128" b="114" a="0.5"/>
+        <viz:position x="-24.6" y="-10.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="22" label="Edmund Joensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/NAEDJO.aspx"/>
+          <attvalue for="att2" value="Sambandsflokkurin"/>
+          <attvalue for="att3" value="Færøerne"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/NAEDJO.jpg"/>
+        </attvalues>
+        <viz:color r="55" g="126" b="184" a="0.5"/>
+        <viz:position x="-27.8" y="-7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="23" label="Elisabeth Geday">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVELGE.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/RVELGE.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="-6.3" y="19.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="24" label="Ellen Trane Nørby">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/VELTN.aspx"/>
+          <attvalue for="att2" value="Venstre"/>
+          <attvalue for="att3" value="Sønderjyllands_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/VELTN.jpg"/>
+        </attvalues>
+        <viz:color r="1" g="102" b="94" a="0.5"/>
+        <viz:position x="46.2" y="-19" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="25" label="Eva Kjer Hansen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/VEVKH.aspx"/>
+          <attvalue for="att2" value="Venstre"/>
+          <attvalue for="att3" value="Vejle_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/VEVKH.jpg"/>
+        </attvalues>
+        <viz:color r="1" g="102" b="94" a="0.5"/>
+        <viz:position x="48.4" y="-11.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="26" label="Eyvind Vesselbo">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/VEYVE.aspx"/>
+          <attvalue for="att2" value="Venstre"/>
+          <attvalue for="att3" value="Århus_Amtskreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/VEYVE.jpg"/>
+        </attvalues>
+        <viz:color r="1" g="102" b="94" a="0.5"/>
+        <viz:position x="41.4" y="-15.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="27" label="Finn Sørensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELFINS.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Københavns_Storkreds"/>
+          <attvalue for="att4" value="19"/>
+          <attvalue for="att5" value="photos/ELFINS.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="19.2" y="0.2" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="28" label="Flemming Bonne">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFFLBO.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Sjællands_Storkreds"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/SFFLBO.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="7.5" y="21.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="29" label="Flemming Damgaard Larsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/VFLDL.aspx"/>
+          <attvalue for="att2" value="Venstre"/>
+          <attvalue for="att3" value="Roskilde_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/VFLDL.jpg"/>
+        </attvalues>
+        <viz:color r="1" g="102" b="94" a="0.5"/>
+        <viz:position x="51.9" y="-6.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="30" label="Frank Aaen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELFRAA.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Nordjyllands_Amtskreds"/>
+          <attvalue for="att4" value="29"/>
+          <attvalue for="att5" value="photos/ELFRAA.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="12.1" y="4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="31" label="Frode Sørensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFROS.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Sønderjyllands_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SFROS.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="12.9" y="38.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="32" label="Hans Kristian Skibby">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFHAKS.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Vejle_Amtskreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/DFHAKS.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="26.4" y="36.3" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="33" label="Helge Adam Møller">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/KFHELM.aspx"/>
+          <attvalue for="att2" value="Det Konservative Folkeparti"/>
+          <attvalue for="att3" value="Storstrøms_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/KFHELM.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="43" y="-4.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="34" label="Henning Hyllested">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELHEHY.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Sydjyllands_Storkreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/ELHEHY.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="25.5" y="-7.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="35" label="Henrik Brodersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFHEBR.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Vestsjællands_Amtskreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/DFHEBR.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="24.4" y="37.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="36" label="Holger K. Nielsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFHONI.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/SFHONI.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="28.6" y="9.7" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="37" label="Ib Poulsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFIBPO.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Nordjyllands_Storkreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/DFIBPO.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="30.9" y="31" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="38" label="Inge-Lene Ebdrup">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/VINLE.aspx"/>
+          <attvalue for="att2" value="Liberal Alliance"/>
+          <attvalue for="att3" value="Nordjyllands_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/VINLE.jpg"/>
+        </attvalues>
+        <viz:color r="253" g="180" b="98" a="0.5"/>
+        <viz:position x="-16.7" y="-23.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="39" label="Jan Petersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SJAPE.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Århus_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SJAPE.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-2" y="32.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="40" label="Jens Henrik Thulesen Dahl">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFJEHT.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Fyns_Storkreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/DFJEHT.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="24.8" y="-28.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="41" label="Jens Peter Vernersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SJEPV.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Ringkøbing_Amtskreds"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/SJEPV.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-8.9" y="9.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="42" label="Johanne Schmidt-Nielsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELJOSN.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Københavns_Storkreds"/>
+          <attvalue for="att4" value="26"/>
+          <attvalue for="att5" value="photos/ELJOSN.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="13.6" y="8.3" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="43" label="Johs. Poulsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVJOPO.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Ringkøbing_Amtskreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/RVJOPO.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="30" y="33" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="44" label="Jonas Dahl">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFJODA.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Østjyllands_Storkreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/SFJODA.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="17.6" y="19" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="45" label="Jørgen Arbo-Bæhr">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELJARB.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Vestre_Storkreds"/>
+          <attvalue for="att4" value="24"/>
+          <attvalue for="att5" value="photos/ELJARB.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="12.9" y="9.5" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="46" label="Julie Rademacher">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SJURA.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Sydjyllands_Storkreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SJURA.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="30.2" y="22.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="47" label="Julie Skovsby">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SJULS.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Fyns_Storkreds"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/SJULS.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-4.6" y="11.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="48" label="Jytte Andersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SJYAN.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Vestsjællands_Amtskreds"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/SJYAN.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="3.8" y="37.8" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="49" label="Kamal Qureshi">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFKAQU.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Søndre_Storkreds"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/SFKAQU.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="21.4" y="23.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="50" label="Karen Ellemann">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/VKAEL.aspx"/>
+          <attvalue for="att2" value="Venstre"/>
+          <attvalue for="att3" value="Københavns_Omegns_Storkreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/VKAEL.jpg"/>
+        </attvalues>
+        <viz:color r="1" g="102" b="94" a="0.5"/>
+        <viz:position x="38.1" y="-21.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="51" label="Karen Hækkerup">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SKARH.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/SKARH.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-19.2" y="6.3" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="52" label="Karin Nødgaard">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFKARN.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Ribe_Amtskreds"/>
+          <attvalue for="att4" value="15"/>
+          <attvalue for="att5" value="photos/DFKARN.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="20.7" y="-14.2" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="53" label="Karina Adsbøl">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFKAAD.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Sydjyllands_Storkreds"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/DFKAAD.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="19.2" y="-20.3" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="54" label="Karina Lorentzen Dehnhardt">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFKALO.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Sydjyllands_Storkreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/SFKALO.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="12.3" y="22.6" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="55" label="Karl H. Bornhøft">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFKABO.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Nordjyllands_Storkreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/SFKABO.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="15.5" y="27.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="56" label="Kim Christiansen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFKICH.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Århus_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/DFKICH.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="18.3" y="-33.3" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="57" label="Kirsten Brosbøl">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SKIBR.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Århus_Amtskreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/SKIBR.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-7" y="25.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="58" label="Kristen Touborg">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFKRTO.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Ringkøbing_Amtskreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/SFKRTO.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="0.7" y="10.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="59" label="Kristian Jensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/VKRJE.aspx"/>
+          <attvalue for="att2" value="Venstre"/>
+          <attvalue for="att3" value="Ringkøbing_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/VKRJE.jpg"/>
+        </attvalues>
+        <viz:color r="1" g="102" b="94" a="0.5"/>
+        <viz:position x="47.3" y="-14.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="60" label="Kristian Thulesen Dahl">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFKRTD.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Vejle_Amtskreds"/>
+          <attvalue for="att4" value="22"/>
+          <attvalue for="att5" value="photos/DFKRTD.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="12.7" y="-18.7" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="61" label="Lars Dohn">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELLADO.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Vestjyllands_Storkreds"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/ELLADO.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="27.6" y="-2.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="62" label="Lars-Emil Johansen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/NALAEJ.aspx"/>
+          <attvalue for="att2" value="Siumut"/>
+          <attvalue for="att3" value="Grønland"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/NALAEJ.jpg"/>
+        </attvalues>
+        <viz:color r="251" g="128" b="114" a="0.5"/>
+        <viz:position x="-3.2" y="1.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="63" label="Leif Mikkelsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/LALEMI.aspx"/>
+          <attvalue for="att2" value="Liberal Alliance"/>
+          <attvalue for="att3" value="Århus_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/LALEMI.jpg"/>
+        </attvalues>
+        <viz:color r="253" g="180" b="98" a="0.5"/>
+        <viz:position x="-22.1" y="-16.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="64" label="Lene Hansen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SLEHA.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Nordjyllands_Amtskreds"/>
+          <attvalue for="att4" value="14"/>
+          <attvalue for="att5" value="photos/SLEHA.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-8.1" y="17.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="65" label="Lennart Damsbo-Andersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SLEDA.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Sjællands_Storkreds"/>
+          <attvalue for="att4" value="7"/>
+          <attvalue for="att5" value="photos/SLEDA.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-2.1" y="20.3" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="66" label="Line Barfod">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELLIBA.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Frederiksborg_Amtskreds"/>
+          <attvalue for="att4" value="54"/>
+          <attvalue for="att5" value="photos/ELLIBA.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="9.2" y="14.5" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="67" label="Lisbeth Bech Poulsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFLIBP.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Nordjyllands_Storkreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/SFLIBP.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="27.7" y="13" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="68" label="Lise von Seelen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SLIVS.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Sønderjyllands_Amtskreds"/>
+          <attvalue for="att4" value="12"/>
+          <attvalue for="att5" value="photos/SLIVS.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="6.6" y="16.3" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="69" label="Liselott Blixt">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFLIBL.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Sjællands_Storkreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/DFLIBL.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="9.5" y="-25.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="70" label="Lissa Mathiasen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SLIMA.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Vejle_Amtskreds"/>
+          <attvalue for="att4" value="14"/>
+          <attvalue for="att5" value="photos/SLIMA.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="10.6" y="28" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="71" label="Lone Dybkjær">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVLODY.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Østre_Storkreds"/>
+          <attvalue for="att4" value="11"/>
+          <attvalue for="att5" value="photos/RVLODY.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="19.7" y="27.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="72" label="Lone Møller">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SLONEM.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Frederiksborg_Amtskreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/SLONEM.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-14.4" y="13.3" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="73" label="Magnus Heunicke">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SMAHE.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Storstrøms_Amtskreds"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/SMAHE.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-6.2" y="27.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="74" label="Mai Mercado">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/KFMAHE.aspx"/>
+          <attvalue for="att2" value="Det Konservative Folkeparti"/>
+          <attvalue for="att3" value="Fyns_Storkreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/KFMAHE.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="28.2" y="1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="75" label="Maja Panduro">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SMAPA.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Østjyllands_Storkreds"/>
+          <attvalue for="att4" value="5"/>
+          <attvalue for="att5" value="photos/SMAPA.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-3.1" y="9.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="76" label="Margrethe Vestager">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVMAVE.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Frederiksborg_Amtskreds"/>
+          <attvalue for="att4" value="10"/>
+          <attvalue for="att5" value="photos/RVMAVE.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="13.3" y="18.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="77" label="Marianne Jelved">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVMAJE.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Roskilde_Amtskreds"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/RVMAJE.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="14.7" y="17.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="78" label="Marie Krarup">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFMAKR.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Sydjyllands_Storkreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/DFMAKR.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="1.6" y="-21.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="79" label="Martin Henriksen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFMAHR.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Vestre_Storkreds"/>
+          <attvalue for="att4" value="11"/>
+          <attvalue for="att5" value="photos/DFMAHR.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="10.4" y="-15" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="80" label="Martin Lidegaard">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVMALI.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Vestre_Storkreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/RVMALI.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="7.1" y="24.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="81" label="Merete Riisager">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/LAMERI.aspx"/>
+          <attvalue for="att2" value="Liberal Alliance"/>
+          <attvalue for="att3" value="Fyns_Storkreds"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/LAMERI.jpg"/>
+        </attvalues>
+        <viz:color r="253" g="180" b="98" a="0.5"/>
+        <viz:position x="35.5" y="10.2" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="82" label="Meta Fuglsang">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFMEFU.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Sjællands_Storkreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SFMEFU.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-5.2" y="3.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="83" label="Mette Bock">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/LAMEBO.aspx"/>
+          <attvalue for="att2" value="Liberal Alliance"/>
+          <attvalue for="att3" value="Sydjyllands_Storkreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/LAMEBO.jpg"/>
+        </attvalues>
+        <viz:color r="253" g="180" b="98" a="0.5"/>
+        <viz:position x="45.7" y="10.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="84" label="Mette Frederiksen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SMEFR.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="16"/>
+          <attvalue for="att5" value="photos/SMEFR.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="5" y="10" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="85" label="Mette Gjerskov">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SMEGJ.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Roskilde_Amtskreds"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/SMEGJ.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-14.2" y="18.7" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="86" label="Mette Hjermind Dencker">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFMEHD.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Østjyllands_Storkreds"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/DFMEHD.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="18.6" y="-24.2" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="87" label="Mia Falkenberg">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFMIFA.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Vestsjællands_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/DFMIFA.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="-2.2" y="-13.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="88" label="Mike Legarth">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/KFMILE.aspx"/>
+          <attvalue for="att2" value="Det Konservative Folkeparti"/>
+          <attvalue for="att3" value="Sydjyllands_Storkreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/KFMILE.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="35.3" y="-24.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="89" label="Mogens Lykketoft">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SMOLY.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SMOLY.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="43.1" y="-0.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="90" label="Morten Bødskov">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SMORB.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SMORB.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="15" y="39" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="91" label="Morten Homann">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFMOHO.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Århus_Amtskreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/SFMOHO.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="20.1" y="26" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="92" label="Morten Marinus">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFMOMJ.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Nordjyllands_Storkreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/DFMOMJ.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="27.8" y="-20.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="93" label="Morten Østergaard">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVMORS.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Århus_Amtskreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/RVMORS.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="18.9" y="12" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="94" label="Nanna Westerby">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFNAWJ.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Nordjyllands_Storkreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SFNAWJ.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-21.5" y="26" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="95" label="Naser Khader">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/KFNAKH.aspx"/>
+          <attvalue for="att2" value="Det Konservative Folkeparti"/>
+          <attvalue for="att3" value="Vestre_Storkreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/KFNAKH.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="-18.6" y="-19" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="96" label="Niels Christian Nielsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SNIEN.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Fyns_Storkreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/SNIEN.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="0.1" y="28.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="97" label="Nikolaj Villumsen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELNIVI.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Sjællands_Storkreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/ELNIVI.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="27.9" y="-5.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="98" label="Ole Glahn">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/RVOSEG.aspx"/>
+          <attvalue for="att2" value="Radikale Venstre"/>
+          <attvalue for="att3" value="Vestsjællands_Amtskreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/RVOSEG.jpg"/>
+        </attvalues>
+        <viz:color r="197" g="27" b="125" a="0.5"/>
+        <viz:position x="-17.7" y="3.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="99" label="Ole Sohn">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SOLES.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Vestsjællands_Amtskreds"/>
+          <attvalue for="att4" value="29"/>
+          <attvalue for="att5" value="photos/SOLES.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="13.3" y="23.3" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="100" label="Ole Vagn Christensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SOLVC.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Viborg_Amtskreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/SOLVC.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-19.5" y="9.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="101" label="Orla Hav">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SORHA.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Nordjyllands_Storkreds"/>
+          <attvalue for="att4" value="4"/>
+          <attvalue for="att5" value="photos/SORHA.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-4.9" y="9.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="102" label="Özlem Sara Cekic">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFOZSC.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Københavns_Storkreds"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/SFOZSC.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="5.1" y="17.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="103" label="Per Clausen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELPECL.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Nordjyllands_Amtskreds"/>
+          <attvalue for="att4" value="39"/>
+          <attvalue for="att5" value="photos/ELPECL.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="5.8" y="1.3" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="104" label="Per Kaalund">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SPEKA.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SPEKA.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="5.7" y="39.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="105" label="Pernille Blach Hansen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SPEBL.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Viborg_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SPEBL.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-23.7" y="17.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="106" label="Pernille Frahm">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFPEFR.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Århus_Amtskreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/SFPEFR.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="4.7" y="24.6" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="107" label="Pernille Rosenkrantz-Theil">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SPERT.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Østre_Storkreds"/>
+          <attvalue for="att4" value="12"/>
+          <attvalue for="att5" value="photos/SPERT.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="9.5" y="3.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="108" label="Pernille Skipper">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELPESK.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Fyns_Storkreds"/>
+          <attvalue for="att4" value="16"/>
+          <attvalue for="att5" value="photos/ELPESK.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="22.5" y="7.1" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="109" label="Pernille Vigsø Bagge">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFPEVB.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Nordjyllands_Amtskreds"/>
+          <attvalue for="att4" value="18"/>
+          <attvalue for="att5" value="photos/SFPEVB.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="18.4" y="18" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="110" label="Peter Skaarup">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFPESK.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Østre_Storkreds"/>
+          <attvalue for="att4" value="21"/>
+          <attvalue for="att5" value="photos/DFPESK.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="15.1" y="-16.6" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="111" label="Peter Westermann">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFPETW.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Nordsjællands_Storkreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/SFPETW.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="8.7" y="29.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="112" label="Pia Adelsteen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFPIAD.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Nordsjællands_Storkreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/DFPIAD.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="22.2" y="-32.8" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="113" label="Pia Gjellerup">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SPIGJ.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Vestre_Storkreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SPIGJ.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="16.8" y="37.6" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="114" label="Pia Kjærsgaard">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFPIKJ.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="12"/>
+          <attvalue for="att5" value="photos/DFPIKJ.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="13.6" y="-17.2" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="115" label="Pia Kristensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFPIKR.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Roskilde_Amtskreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/DFPIKR.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="9.4" y="-18.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="116" label="Pia Olsen Dyhr">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFPIOD.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Frederiksborg_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SFPIOD.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="29.6" y="21" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="117" label="Poul Henrik Hedeboe">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFPOHH.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Frederiksborg_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SFPOHH.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="-3.3" y="-5.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="118" label="Rasmus Prehn">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SRAPR.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Nordjyllands_Amtskreds"/>
+          <attvalue for="att4" value="15"/>
+          <attvalue for="att5" value="photos/SRAPR.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="3.2" y="18.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="119" label="René Christensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFRECH.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Sjællands_Storkreds"/>
+          <attvalue for="att4" value="15"/>
+          <attvalue for="att5" value="photos/DFRECH.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="19.5" y="-19.2" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="120" label="René Skau Björnsson">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SRESJ.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Østjyllands_Storkreds"/>
+          <attvalue for="att4" value="18"/>
+          <attvalue for="att5" value="photos/SRESJ.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="1.5" y="18.6" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="121" label="Rosa Lund">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELROLU.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Københavns_Storkreds"/>
+          <attvalue for="att4" value="9"/>
+          <attvalue for="att5" value="photos/ELROLU.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="21.9" y="1.9" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="122" label="Rune Lund">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/rune-lund.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Fyns_Amtskreds"/>
+          <attvalue for="att4" value="18"/>
+          <attvalue for="att5" value="photos/rune-lund.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="7.9" y="4.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="123" label="Sanne Rubinke">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFSARU.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Østjyllands_Storkreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SFSARU.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="28.7" y="24.2" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="124" label="Sara Olsvig">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/NASAOL.aspx"/>
+          <attvalue for="att2" value="Inuit Ataqatigiit"/>
+          <attvalue for="att3" value="Grønland"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/NASAOL.jpg"/>
+        </attvalues>
+        <viz:color r="128" g="177" b="211" a="0.5"/>
+        <viz:position x="-25.3" y="-4.5" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="125" label="Simon Emil Ammitzbøll">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/LASIEA.aspx"/>
+          <attvalue for="att2" value="Liberal Alliance"/>
+          <attvalue for="att3" value="Storstrøms_Amtskreds"/>
+          <attvalue for="att4" value="15"/>
+          <attvalue for="att5" value="photos/LASIEA.jpg"/>
+        </attvalues>
+        <viz:color r="253" g="180" b="98" a="0.5"/>
+        <viz:position x="25.4" y="17.4" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="126" label="Sjúrður Skaale">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SSJSK.aspx"/>
+          <attvalue for="att2" value="Javnaðarflokkurin"/>
+          <attvalue for="att3" value="Færøerne"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/SSJSK.jpg"/>
+        </attvalues>
+        <viz:color r="166" g="86" b="40" a="0.5"/>
+        <viz:position x="-29.4" y="-2.4" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="127" label="Sophie Hæstorp Andersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SSOHA.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Vestre_Storkreds"/>
+          <attvalue for="att4" value="6"/>
+          <attvalue for="att5" value="photos/SSOHA.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-12.6" y="23.1" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="128" label="Søren Egge Rasmussen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/soren-egge-rasmussen.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Århus_Amtskreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/soren-egge-rasmussen.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="-1.9" y="-6.3" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="129" label="Søren Espersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFSESP.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="11"/>
+          <attvalue for="att5" value="photos/DFSESP.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="22.7" y="-12" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="130" label="Søren Søndergaard">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/soren-sondergaard.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Bornholms_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="2.9" y="5.1" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="131" label="Stine Brix">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/ELSTMB.aspx"/>
+          <attvalue for="att2" value="Enhedslisten"/>
+          <attvalue for="att3" value="Nordjyllands_Storkreds"/>
+          <attvalue for="att4" value="19"/>
+          <attvalue for="att5" value="photos/ELSTMB.jpg"/>
+        </attvalues>
+        <viz:color r="77" g="175" b="74" a="0.5"/>
+        <viz:position x="15.6" y="1.8" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="132" label="Thomas Adelskov">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/STHAD.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Vestsjællands_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/STHAD.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-0.1" y="33.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="133" label="Thomas Jensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/STHJE.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Vestjyllands_Storkreds"/>
+          <attvalue for="att4" value="12"/>
+          <attvalue for="att5" value="photos/STHJE.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-5.2" y="16.6" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="134" label="Thor Pedersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/VTHPE.aspx"/>
+          <attvalue for="att2" value="Venstre"/>
+          <attvalue for="att3" value="Frederiksborg_Amtskreds"/>
+          <attvalue for="att4" value="1"/>
+          <attvalue for="att5" value="photos/VTHPE.jpg"/>
+        </attvalues>
+        <viz:color r="1" g="102" b="94" a="0.5"/>
+        <viz:position x="33.6" y="-2.5" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="135" label="Tina Petersen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/DFTIPE.aspx"/>
+          <attvalue for="att2" value="Dansk Folkeparti"/>
+          <attvalue for="att3" value="Fyns_Amtskreds"/>
+          <attvalue for="att4" value="8"/>
+          <attvalue for="att5" value="photos/DFTIPE.jpg"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="51" a="0.5"/>
+        <viz:position x="12.5" y="-22.6" z="1"/>
+        <viz:size value="3"/>
+      </node>
+      <node id="136" label="Tom Behnke">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/KFTOBE.aspx"/>
+          <attvalue for="att2" value="Det Konservative Folkeparti"/>
+          <attvalue for="att3" value="Københavns_Amtskreds"/>
+          <attvalue for="att4" value="3"/>
+          <attvalue for="att5" value="photos/KFTOBE.jpg"/>
+        </attvalues>
+        <viz:color r="179" g="222" b="105" a="0.5"/>
+        <viz:position x="31.1" y="-17.6" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="137" label="Trine Mach">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFTRPM.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Københavns_Storkreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/SFTRPM.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="29.2" y="13.9" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="138" label="Villum Christensen">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/LAVICH.aspx"/>
+          <attvalue for="att2" value="Liberal Alliance"/>
+          <attvalue for="att3" value="Sjællands_Storkreds"/>
+          <attvalue for="att4" value="2"/>
+          <attvalue for="att5" value="photos/LAVICH.jpg"/>
+        </attvalues>
+        <viz:color r="253" g="180" b="98" a="0.5"/>
+        <viz:position x="36.9" y="20.7" z="1"/>
+        <viz:size value="1"/>
+      </node>
+      <node id="139" label="Villy Søvndal">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SFVILS.aspx"/>
+          <attvalue for="att2" value="Socialistisk Folkeparti"/>
+          <attvalue for="att3" value="Vejle_Amtskreds"/>
+          <attvalue for="att4" value="14"/>
+          <attvalue for="att5" value="photos/SFVILS.jpg"/>
+        </attvalues>
+        <viz:color r="228" g="26" b="28" a="0.5"/>
+        <viz:position x="20" y="17.5" z="1"/>
+        <viz:size value="2"/>
+      </node>
+      <node id="140" label="Yildiz Akdogan">
+        <attvalues>
+          <attvalue for="att1" value="http://www.ft.dk/folketinget/findmedlem/SYIAK.aspx"/>
+          <attvalue for="att2" value="Socialdemokratiet"/>
+          <attvalue for="att3" value="Københavns_Storkreds"/>
+          <attvalue for="att4" value="10"/>
+          <attvalue for="att5" value="photos/SYIAK.jpg"/>
+        </attvalues>
+        <viz:color r="247" g="129" b="191" a="0.5"/>
+        <viz:position x="-3.7" y="13.8" z="1"/>
+        <viz:size value="3"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="125" target="1" weight="1"/>
+      <edge id="1" source="138" target="1" weight="1"/>
+      <edge id="2" source="99" target="4" weight="2"/>
+      <edge id="3" source="109" target="4" weight="1"/>
+      <edge id="4" source="66" target="4" weight="1"/>
+      <edge id="5" source="71" target="4" weight="1"/>
+      <edge id="6" source="5" target="4" weight="1"/>
+      <edge id="7" source="49" target="4" weight="1"/>
+      <edge id="8" source="120" target="4" weight="1"/>
+      <edge id="9" source="71" target="5" weight="1"/>
+      <edge id="10" source="66" target="5" weight="1"/>
+      <edge id="11" source="57" target="5" weight="1"/>
+      <edge id="12" source="99" target="5" weight="2"/>
+      <edge id="13" source="45" target="5" weight="1"/>
+      <edge id="14" source="4" target="5" weight="2"/>
+      <edge id="15" source="23" target="5" weight="1"/>
+      <edge id="16" source="77" target="5" weight="1"/>
+      <edge id="17" source="109" target="5" weight="1"/>
+      <edge id="18" source="132" target="5" weight="1"/>
+      <edge id="19" source="39" target="5" weight="1"/>
+      <edge id="20" source="36" target="7" weight="1"/>
+      <edge id="21" source="77" target="11" weight="2"/>
+      <edge id="22" source="6" target="11" weight="1"/>
+      <edge id="23" source="76" target="11" weight="1"/>
+      <edge id="24" source="71" target="11" weight="1"/>
+      <edge id="25" source="80" target="11" weight="1"/>
+      <edge id="26" source="70" target="13" weight="1"/>
+      <edge id="27" source="114" target="16" weight="1"/>
+      <edge id="28" source="110" target="16" weight="1"/>
+      <edge id="29" source="79" target="16" weight="1"/>
+      <edge id="30" source="87" target="16" weight="1"/>
+      <edge id="31" source="10" target="16" weight="1"/>
+      <edge id="32" source="60" target="16" weight="1"/>
+      <edge id="33" source="2" target="20" weight="1"/>
+      <edge id="34" source="114" target="20" weight="1"/>
+      <edge id="35" source="135" target="20" weight="1"/>
+      <edge id="36" source="110" target="20" weight="1"/>
+      <edge id="37" source="119" target="20" weight="1"/>
+      <edge id="38" source="69" target="20" weight="1"/>
+      <edge id="39" source="60" target="20" weight="1"/>
+      <edge id="40" source="126" target="22" weight="1"/>
+      <edge id="41" source="21" target="22" weight="1"/>
+      <edge id="42" source="124" target="22" weight="1"/>
+      <edge id="43" source="29" target="25" weight="1"/>
+      <edge id="44" source="26" target="25" weight="1"/>
+      <edge id="45" source="59" target="26" weight="1"/>
+      <edge id="46" source="24" target="26" weight="1"/>
+      <edge id="47" source="61" target="27" weight="3"/>
+      <edge id="48" source="34" target="27" weight="4"/>
+      <edge id="49" source="30" target="27" weight="4"/>
+      <edge id="50" source="131" target="27" weight="8"/>
+      <edge id="51" source="108" target="27" weight="6"/>
+      <edge id="52" source="17" target="27" weight="4"/>
+      <edge id="53" source="45" target="27" weight="4"/>
+      <edge id="54" source="121" target="27" weight="3"/>
+      <edge id="55" source="42" target="27" weight="3"/>
+      <edge id="56" source="97" target="27" weight="2"/>
+      <edge id="57" source="103" target="27" weight="4"/>
+      <edge id="58" source="96" target="28" weight="1"/>
+      <edge id="59" source="66" target="28" weight="2"/>
+      <edge id="60" source="102" target="28" weight="1"/>
+      <edge id="61" source="58" target="28" weight="1"/>
+      <edge id="62" source="4" target="28" weight="1"/>
+      <edge id="63" source="55" target="28" weight="1"/>
+      <edge id="64" source="99" target="28" weight="3"/>
+      <edge id="65" source="45" target="30" weight="1"/>
+      <edge id="66" source="103" target="30" weight="2"/>
+      <edge id="67" source="42" target="30" weight="1"/>
+      <edge id="68" source="66" target="30" weight="2"/>
+      <edge id="69" source="122" target="30" weight="1"/>
+      <edge id="70" source="107" target="30" weight="1"/>
+      <edge id="71" source="13" target="41" weight="2"/>
+      <edge id="72" source="85" target="41" weight="2"/>
+      <edge id="73" source="58" target="41" weight="2"/>
+      <edge id="74" source="98" target="41" weight="2"/>
+      <edge id="75" source="51" target="41" weight="2"/>
+      <edge id="76" source="103" target="41" weight="2"/>
+      <edge id="77" source="23" target="41" weight="2"/>
+      <edge id="78" source="30" target="45" weight="1"/>
+      <edge id="79" source="108" target="45" weight="1"/>
+      <edge id="80" source="103" target="45" weight="1"/>
+      <edge id="81" source="66" target="45" weight="1"/>
+      <edge id="82" source="131" target="45" weight="1"/>
+      <edge id="83" source="107" target="45" weight="1"/>
+      <edge id="84" source="42" target="45" weight="1"/>
+      <edge id="85" source="122" target="45" weight="1"/>
+      <edge id="86" source="109" target="49" weight="2"/>
+      <edge id="87" source="99" target="49" weight="2"/>
+      <edge id="88" source="4" target="49" weight="2"/>
+      <edge id="89" source="92" target="52" weight="1"/>
+      <edge id="90" source="119" target="52" weight="1"/>
+      <edge id="91" source="114" target="52" weight="1"/>
+      <edge id="92" source="110" target="52" weight="1"/>
+      <edge id="93" source="53" target="52" weight="1"/>
+      <edge id="94" source="86" target="52" weight="1"/>
+      <edge id="95" source="60" target="52" weight="1"/>
+      <edge id="96" source="129" target="53" weight="5"/>
+      <edge id="97" source="86" target="53" weight="2"/>
+      <edge id="98" source="110" target="53" weight="5"/>
+      <edge id="99" source="40" target="53" weight="3"/>
+      <edge id="100" source="119" target="53" weight="5"/>
+      <edge id="101" source="60" target="53" weight="5"/>
+      <edge id="102" source="52" target="53" weight="5"/>
+      <edge id="103" source="4" target="54" weight="1"/>
+      <edge id="104" source="106" target="54" weight="1"/>
+      <edge id="105" source="99" target="54" weight="1"/>
+      <edge id="106" source="99" target="55" weight="1"/>
+      <edge id="107" source="44" target="55" weight="1"/>
+      <edge id="108" source="4" target="55" weight="1"/>
+      <edge id="109" source="114" target="60" weight="1"/>
+      <edge id="110" source="110" target="60" weight="1"/>
+      <edge id="111" source="135" target="60" weight="1"/>
+      <edge id="112" source="12" target="60" weight="1"/>
+      <edge id="113" source="115" target="60" weight="1"/>
+      <edge id="114" source="52" target="60" weight="1"/>
+      <edge id="115" source="118" target="64" weight="1"/>
+      <edge id="116" source="65" target="64" weight="1"/>
+      <edge id="117" source="133" target="64" weight="1"/>
+      <edge id="118" source="118" target="65" weight="1"/>
+      <edge id="119" source="28" target="65" weight="1"/>
+      <edge id="120" source="66" target="65" weight="1"/>
+      <edge id="121" source="93" target="66" weight="1"/>
+      <edge id="122" source="103" target="66" weight="16"/>
+      <edge id="123" source="109" target="66" weight="1"/>
+      <edge id="124" source="42" target="66" weight="11"/>
+      <edge id="125" source="102" target="66" weight="1"/>
+      <edge id="126" source="45" target="66" weight="9"/>
+      <edge id="127" source="30" target="66" weight="13"/>
+      <edge id="128" source="54" target="66" weight="1"/>
+      <edge id="129" source="76" target="66" weight="1"/>
+      <edge id="130" source="84" target="66" weight="2"/>
+      <edge id="131" source="130" target="66" weight="1"/>
+      <edge id="132" source="77" target="66" weight="1"/>
+      <edge id="133" source="68" target="66" weight="1"/>
+      <edge id="134" source="122" target="66" weight="8"/>
+      <edge id="135" source="107" target="66" weight="7"/>
+      <edge id="136" source="99" target="68" weight="1"/>
+      <edge id="137" source="84" target="68" weight="1"/>
+      <edge id="138" source="8" target="68" weight="1"/>
+      <edge id="139" source="90" target="70" weight="1"/>
+      <edge id="140" source="118" target="70" weight="3"/>
+      <edge id="141" source="13" target="70" weight="1"/>
+      <edge id="142" source="113" target="70" weight="1"/>
+      <edge id="143" source="109" target="70" weight="1"/>
+      <edge id="144" source="91" target="70" weight="1"/>
+      <edge id="145" source="31" target="70" weight="1"/>
+      <edge id="146" source="104" target="70" weight="1"/>
+      <edge id="147" source="19" target="70" weight="3"/>
+      <edge id="148" source="48" target="70" weight="6"/>
+      <edge id="149" source="14" target="70" weight="6"/>
+      <edge id="150" source="120" target="70" weight="2"/>
+      <edge id="151" source="125" target="70" weight="1"/>
+      <edge id="152" source="99" target="70" weight="1"/>
+      <edge id="153" source="66" target="70" weight="1"/>
+      <edge id="154" source="77" target="71" weight="1"/>
+      <edge id="155" source="125" target="71" weight="1"/>
+      <edge id="156" source="35" target="71" weight="3"/>
+      <edge id="157" source="32" target="71" weight="3"/>
+      <edge id="158" source="28" target="71" weight="2"/>
+      <edge id="159" source="76" target="71" weight="4"/>
+      <edge id="160" source="15" target="71" weight="1"/>
+      <edge id="161" source="37" target="71" weight="3"/>
+      <edge id="162" source="11" target="71" weight="1"/>
+      <edge id="163" source="55" target="71" weight="2"/>
+      <edge id="164" source="43" target="71" weight="4"/>
+      <edge id="165" source="64" target="72" weight="1"/>
+      <edge id="166" source="85" target="72" weight="1"/>
+      <edge id="167" source="41" target="72" weight="1"/>
+      <edge id="168" source="125" target="74" weight="1"/>
+      <edge id="169" source="81" target="74" weight="1"/>
+      <edge id="170" source="9" target="74" weight="1"/>
+      <edge id="171" source="52" target="74" weight="1"/>
+      <edge id="172" source="93" target="77" weight="2"/>
+      <edge id="173" source="76" target="77" weight="2"/>
+      <edge id="174" source="110" target="79" weight="5"/>
+      <edge id="175" source="2" target="79" weight="1"/>
+      <edge id="176" source="135" target="79" weight="1"/>
+      <edge id="177" source="69" target="79" weight="1"/>
+      <edge id="178" source="114" target="79" weight="1"/>
+      <edge id="179" source="52" target="79" weight="1"/>
+      <edge id="180" source="18" target="79" weight="5"/>
+      <edge id="181" source="10" target="79" weight="1"/>
+      <edge id="182" source="129" target="79" weight="4"/>
+      <edge id="183" source="119" target="79" weight="2"/>
+      <edge id="184" source="60" target="79" weight="5"/>
+      <edge id="185" source="53" target="79" weight="1"/>
+      <edge id="186" source="78" target="79" weight="4"/>
+      <edge id="187" source="11" target="80" weight="1"/>
+      <edge id="188" source="66" target="80" weight="1"/>
+      <edge id="189" source="68" target="80" weight="1"/>
+      <edge id="190" source="1" target="81" weight="5"/>
+      <edge id="191" source="83" target="81" weight="4"/>
+      <edge id="192" source="125" target="81" weight="5"/>
+      <edge id="193" source="101" target="84" weight="2"/>
+      <edge id="194" source="82" target="84" weight="1"/>
+      <edge id="195" source="120" target="84" weight="6"/>
+      <edge id="196" source="62" target="84" weight="1"/>
+      <edge id="197" source="140" target="84" weight="5"/>
+      <edge id="198" source="102" target="84" weight="4"/>
+      <edge id="199" source="75" target="84" weight="2"/>
+      <edge id="200" source="77" target="84" weight="1"/>
+      <edge id="201" source="68" target="84" weight="3"/>
+      <edge id="202" source="103" target="84" weight="1"/>
+      <edge id="203" source="6" target="84" weight="2"/>
+      <edge id="204" source="47" target="84" weight="2"/>
+      <edge id="205" source="4" target="84" weight="1"/>
+      <edge id="206" source="133" target="84" weight="2"/>
+      <edge id="207" source="16" target="84" weight="1"/>
+      <edge id="208" source="66" target="84" weight="3"/>
+      <edge id="209" source="76" target="84" weight="1"/>
+      <edge id="210" source="109" target="84" weight="1"/>
+      <edge id="211" source="64" target="85" weight="2"/>
+      <edge id="212" source="13" target="85" weight="2"/>
+      <edge id="213" source="105" target="85" weight="1"/>
+      <edge id="214" source="57" target="85" weight="1"/>
+      <edge id="215" source="41" target="85" weight="2"/>
+      <edge id="216" source="20" target="86" weight="1"/>
+      <edge id="217" source="114" target="86" weight="1"/>
+      <edge id="218" source="60" target="86" weight="1"/>
+      <edge id="219" source="56" target="86" weight="1"/>
+      <edge id="220" source="110" target="86" weight="1"/>
+      <edge id="221" source="112" target="86" weight="1"/>
+      <edge id="222" source="139" target="91" weight="1"/>
+      <edge id="223" source="99" target="91" weight="1"/>
+      <edge id="224" source="63" target="95" weight="1"/>
+      <edge id="225" source="38" target="95" weight="1"/>
+      <edge id="226" source="139" target="99" weight="1"/>
+      <edge id="227" source="72" target="100" weight="2"/>
+      <edge id="228" source="41" target="100" weight="2"/>
+      <edge id="229" source="99" target="102" weight="1"/>
+      <edge id="230" source="84" target="102" weight="1"/>
+      <edge id="231" source="140" target="102" weight="1"/>
+      <edge id="232" source="4" target="102" weight="1"/>
+      <edge id="233" source="6" target="102" weight="1"/>
+      <edge id="234" source="66" target="102" weight="1"/>
+      <edge id="235" source="45" target="103" weight="4"/>
+      <edge id="236" source="66" target="103" weight="8"/>
+      <edge id="237" source="128" target="103" weight="2"/>
+      <edge id="238" source="131" target="103" weight="1"/>
+      <edge id="239" source="30" target="103" weight="8"/>
+      <edge id="240" source="122" target="103" weight="6"/>
+      <edge id="241" source="117" target="103" weight="1"/>
+      <edge id="242" source="79" target="103" weight="1"/>
+      <edge id="243" source="16" target="103" weight="1"/>
+      <edge id="244" source="42" target="103" weight="1"/>
+      <edge id="245" source="58" target="103" weight="1"/>
+      <edge id="246" source="107" target="103" weight="1"/>
+      <edge id="247" source="80" target="106" weight="1"/>
+      <edge id="248" source="120" target="106" weight="1"/>
+      <edge id="249" source="66" target="106" weight="1"/>
+      <edge id="250" source="66" target="107" weight="2"/>
+      <edge id="251" source="45" target="107" weight="2"/>
+      <edge id="252" source="30" target="107" weight="1"/>
+      <edge id="253" source="103" target="107" weight="1"/>
+      <edge id="254" source="122" target="107" weight="2"/>
+      <edge id="255" source="137" target="108" weight="1"/>
+      <edge id="256" source="131" target="108" weight="2"/>
+      <edge id="257" source="121" target="108" weight="3"/>
+      <edge id="258" source="67" target="108" weight="1"/>
+      <edge id="259" source="36" target="108" weight="1"/>
+      <edge id="260" source="27" target="108" weight="2"/>
+      <edge id="261" source="42" target="108" weight="1"/>
+      <edge id="262" source="67" target="109" weight="1"/>
+      <edge id="263" source="116" target="109" weight="1"/>
+      <edge id="264" source="71" target="109" weight="1"/>
+      <edge id="265" source="36" target="109" weight="2"/>
+      <edge id="266" source="46" target="109" weight="1"/>
+      <edge id="267" source="4" target="109" weight="3"/>
+      <edge id="268" source="123" target="109" weight="1"/>
+      <edge id="269" source="99" target="109" weight="7"/>
+      <edge id="270" source="49" target="109" weight="1"/>
+      <edge id="271" source="8" target="109" weight="1"/>
+      <edge id="272" source="91" target="109" weight="1"/>
+      <edge id="273" source="66" target="109" weight="1"/>
+      <edge id="274" source="139" target="109" weight="1"/>
+      <edge id="275" source="54" target="109" weight="1"/>
+      <edge id="276" source="42" target="109" weight="1"/>
+      <edge id="277" source="44" target="109" weight="1"/>
+      <edge id="278" source="45" target="109" weight="1"/>
+      <edge id="279" source="119" target="110" weight="1"/>
+      <edge id="280" source="86" target="110" weight="1"/>
+      <edge id="281" source="52" target="110" weight="1"/>
+      <edge id="282" source="60" target="110" weight="1"/>
+      <edge id="283" source="129" target="110" weight="1"/>
+      <edge id="284" source="53" target="110" weight="1"/>
+      <edge id="285" source="106" target="111" weight="1"/>
+      <edge id="286" source="99" target="111" weight="3"/>
+      <edge id="287" source="5" target="111" weight="1"/>
+      <edge id="288" source="4" target="111" weight="1"/>
+      <edge id="289" source="60" target="115" weight="2"/>
+      <edge id="290" source="16" target="115" weight="1"/>
+      <edge id="291" source="12" target="115" weight="2"/>
+      <edge id="292" source="3" target="115" weight="2"/>
+      <edge id="293" source="110" target="115" weight="1"/>
+      <edge id="294" source="52" target="115" weight="2"/>
+      <edge id="295" source="79" target="115" weight="2"/>
+      <edge id="296" source="135" target="115" weight="2"/>
+      <edge id="297" source="114" target="115" weight="2"/>
+      <edge id="298" source="47" target="118" weight="4"/>
+      <edge id="299" source="75" target="118" weight="3"/>
+      <edge id="300" source="65" target="118" weight="4"/>
+      <edge id="301" source="73" target="118" weight="5"/>
+      <edge id="302" source="68" target="118" weight="1"/>
+      <edge id="303" source="28" target="118" weight="2"/>
+      <edge id="304" source="66" target="118" weight="1"/>
+      <edge id="305" source="42" target="118" weight="1"/>
+      <edge id="306" source="96" target="118" weight="2"/>
+      <edge id="307" source="133" target="118" weight="3"/>
+      <edge id="308" source="64" target="118" weight="4"/>
+      <edge id="309" source="44" target="118" weight="1"/>
+      <edge id="310" source="114" target="119" weight="1"/>
+      <edge id="311" source="86" target="119" weight="1"/>
+      <edge id="312" source="53" target="119" weight="1"/>
+      <edge id="313" source="110" target="119" weight="1"/>
+      <edge id="314" source="52" target="119" weight="1"/>
+      <edge id="315" source="60" target="119" weight="1"/>
+      <edge id="316" source="140" target="120" weight="1"/>
+      <edge id="317" source="84" target="120" weight="5"/>
+      <edge id="318" source="68" target="120" weight="4"/>
+      <edge id="319" source="101" target="120" weight="1"/>
+      <edge id="320" source="64" target="120" weight="5"/>
+      <edge id="321" source="131" target="121" weight="1"/>
+      <edge id="322" source="42" target="121" weight="1"/>
+      <edge id="323" source="27" target="121" weight="1"/>
+      <edge id="324" source="61" target="121" weight="2"/>
+      <edge id="325" source="108" target="121" weight="1"/>
+      <edge id="326" source="138" target="125" weight="1"/>
+      <edge id="327" source="71" target="125" weight="2"/>
+      <edge id="328" source="1" target="125" weight="2"/>
+      <edge id="329" source="49" target="125" weight="2"/>
+      <edge id="330" source="70" target="125" weight="2"/>
+      <edge id="331" source="77" target="125" weight="1"/>
+      <edge id="332" source="13" target="127" weight="1"/>
+      <edge id="333" source="94" target="127" weight="1"/>
+      <edge id="334" source="65" target="127" weight="1"/>
+      <edge id="335" source="133" target="127" weight="2"/>
+      <edge id="336" source="27" target="131" weight="6"/>
+      <edge id="337" source="108" target="131" weight="5"/>
+      <edge id="338" source="42" target="131" weight="5"/>
+      <edge id="339" source="118" target="133" weight="2"/>
+      <edge id="340" source="140" target="133" weight="2"/>
+      <edge id="341" source="13" target="133" weight="2"/>
+      <edge id="342" source="120" target="133" weight="2"/>
+      <edge id="343" source="127" target="133" weight="4"/>
+      <edge id="344" source="89" target="134" weight="1"/>
+      <edge id="345" source="36" target="134" weight="1"/>
+      <edge id="346" source="129" target="134" weight="1"/>
+      <edge id="347" source="33" target="134" weight="1"/>
+      <edge id="348" source="114" target="135" weight="3"/>
+      <edge id="349" source="110" target="135" weight="3"/>
+      <edge id="350" source="20" target="135" weight="2"/>
+      <edge id="351" source="2" target="135" weight="2"/>
+      <edge id="352" source="79" target="135" weight="1"/>
+      <edge id="353" source="69" target="135" weight="1"/>
+      <edge id="354" source="119" target="135" weight="2"/>
+      <edge id="355" source="60" target="135" weight="3"/>
+      <edge id="356" source="50" target="136" weight="2"/>
+      <edge id="357" source="119" target="136" weight="2"/>
+      <edge id="358" source="9" target="136" weight="1"/>
+      <edge id="359" source="52" target="136" weight="2"/>
+      <edge id="360" source="88" target="136" weight="3"/>
+      <edge id="361" source="26" target="136" weight="2"/>
+      <edge id="362" source="7" target="137" weight="1"/>
+      <edge id="363" source="44" target="137" weight="1"/>
+      <edge id="364" source="66" target="139" weight="1"/>
+      <edge id="365" source="49" target="139" weight="2"/>
+      <edge id="366" source="36" target="139" weight="1"/>
+      <edge id="367" source="99" target="139" weight="3"/>
+      <edge id="368" source="4" target="139" weight="7"/>
+      <edge id="369" source="76" target="139" weight="1"/>
+      <edge id="370" source="84" target="140" weight="1"/>
+      <edge id="371" source="68" target="140" weight="1"/>
+      <edge id="372" source="120" target="140" weight="1"/>
+      <edge id="373" source="101" target="140" weight="1"/>
+      <edge id="374" source="64" target="140" weight="1"/>
+      <edge id="375" source="72" target="140" weight="1"/>
+    </edges>
+  </graph>
+</gexf>
+
