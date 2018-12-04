@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="z" attr.type="float" for="node" id="z"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="url" attr.type="string" for="node" id="att1"/>
+<key attr.name="party" attr.type="string" for="node" id="att2"/>
+<key attr.name="constituency" attr.type="string" for="node" id="att3"/>
+<key attr.name="n_bills" attr.type="float" for="node" id="att4"/>
+<key attr.name="photo" attr.type="string" for="node" id="att5"/>
+<graph edgedefault="directed">
+<node id="3">
+<data key="label">Anton Heinzl</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_05076/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Niederösterreich_Mitte</data>
+<data key="att4">7.0</data>
+<data key="att5">photos/05076_4385474.jpg</data>
+<data key="size">100.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">28.160004</data>
+<data key="y">-1973.6001</data>
+<data key="z">96.0</data>
+</node>
+<node id="17">
+<data key="label">Dr. Karlheinz Töchterle</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_65319/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Landeswahlkreis_Tirol</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/65319_4386342.jpg</data>
+<data key="size">100.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">1602.5599</data>
+<data key="y">-677.6</data>
+<data key="z">96.0</data>
+</node>
+<node id="26">
+<data key="label">Gabriel Obernosterer</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_35487/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Landeswahlkreis_Kärnten</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/35487_4386958.jpg</data>
+<data key="size">100.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">1900.1599</data>
+<data key="y">301.59995</data>
+<data key="z">96.0</data>
+</node>
+<node id="36">
+<data key="label">Josef Muchitsch</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_35497/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Weststeiermark</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/35497_4582613.jpg</data>
+<data key="size">100.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-1738.24</data>
+<data key="y">599.2</data>
+<data key="z">96.0</data>
+</node>
+<node id="43">
+<data key="label">Mag. Andreas Schieder</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_35504/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/35504_4385389.jpg</data>
+<data key="size">100.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">738.56</data>
+<data key="y">1204.0</data>
+<data key="z">96.0</data>
+</node>
+<node id="44">
+<data key="label">Mag. Barbara Prammer</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_04476/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Oberösterreich</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/04476_3739248.jpg</data>
+<data key="size">100.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">1026.5599</data>
+<data key="y">1367.2</data>
+<data key="z">96.0</data>
+</node>
+<node id="54">
+<data key="label">Mag. Wolfgang Gerstl</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_67199/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">8.0</data>
+<data key="att5">photos/67199_4386512.jpg</data>
+<data key="size">100.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-576.64</data>
+<data key="y">320.80002</data>
+<data key="z">96.0</data>
+</node>
+<node id="1">
+<data key="label">Andreas Ottenschläger</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83150/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">8.0</data>
+<data key="att5">photos/83150_4386257.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-375.03998</data>
+<data key="y">-1954.4</data>
+<data key="z">96.0</data>
+</node>
+<node id="2">
+<data key="label">Angela Lueger</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_22449/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Wien_Nord</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/22449_4385411.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-1085.44</data>
+<data key="y">-744.8</data>
+<data key="z">96.0</data>
+</node>
+<node id="4">
+<data key="label">August Wöginger</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_14795/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Regionalwahlkreis_Innviertel</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/14795_4387280.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-1373.4401</data>
+<data key="y">455.2</data>
+<data key="z">96.0</data>
+</node>
+<node id="5">
+<data key="label">Carmen Gartelgruber</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_51559/index.shtml</data>
+<data key="att2">Freiheitliche Partei Österreichs</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/51559_4387803.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">1170.5599</data>
+<data key="y">-1378.4</data>
+<data key="z">96.0</data>
+</node>
+<node id="6">
+<data key="label">Christoph Hagen</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_08256/index.shtml</data>
+<data key="att2">Team Stronach</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/08256_4386149.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-682.24</data>
+<data key="y">1463.2</data>
+<data key="z">96.0</data>
+</node>
+<node id="7">
+<data key="label">Dieter Brosz, MSc</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_08239/index.shtml</data>
+<data key="att2">Die Grünen</data>
+<data key="att3">Landeswahlkreis_Niederösterreich</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/08239_4384460.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">229.75998</data>
+<data key="y">1472.8</data>
+<data key="z">96.0</data>
+</node>
+<node id="8">
+<data key="label">Dipl.-Ing. Georg Strasser</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83153/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Regionalwahlkreis_Mostviertel</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83153_4386574.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-1152.64</data>
+<data key="y">-1109.6</data>
+<data key="z">96.0</data>
+</node>
+<node id="9">
+<data key="label">Dipl.-Ing. Gerhard Deimek</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_51557/index.shtml</data>
+<data key="att2">Freiheitliche Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Traunviertel</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/51557_4444818.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">392.96002</data>
+<data key="y">-1925.6001</data>
+<data key="z">96.0</data>
+</node>
+<node id="10">
+<data key="label">Dr. Andreas F. Karlsböck</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_51564/index.shtml</data>
+<data key="att2">Freiheitliche Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Wien_Süd</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/51564_4444648.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">1880.96</data>
+<data key="y">-447.2</data>
+<data key="z">96.0</data>
+</node>
+<node id="11">
+<data key="label">Dr. Dagmar Belakowitsch-Jenewein</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_35468/index.shtml</data>
+<data key="att2">Freiheitliche Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/35468_4387913.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-1882.24</data>
+<data key="y">839.2</data>
+<data key="z">96.0</data>
+</node>
+<node id="12">
+<data key="label">Dr. Erwin Rasinger</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_02862/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Regionalwahlkreis_Wien_Süd-West</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/02862_4582336.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-1834.24</data>
+<data key="y">234.39996</data>
+<data key="z">96.0</data>
+</node>
+<node id="13">
+<data key="label">Dr. Eva Glawischnig-Piesczek</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_08240/index.shtml</data>
+<data key="att2">Die Grünen</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/08240_4582273.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">1103.36</data>
+<data key="y">954.4001</data>
+<data key="z">96.0</data>
+</node>
+<node id="14">
+<data key="label">Dr. Georg Vetter</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83143/index.shtml</data>
+<data key="att2">Team Stronach</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83143_4385928.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-1411.8401</data>
+<data key="y">1578.4001</data>
+<data key="z">96.0</data>
+</node>
+<node id="15">
+<data key="label">Dr. Johannes Jarolim</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_02889/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Wien_Innen-Ost</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/02889_4445093.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-759.04</data>
+<data key="y">1770.4001</data>
+<data key="z">96.0</data>
+</node>
+<node id="16">
+<data key="label">Dr. Josef Cap</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_00178/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/00178_3488817.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-375.03998</data>
+<data key="y">23.199993</data>
+<data key="z">96.0</data>
+</node>
+<node id="18">
+<data key="label">Dr. Kathrin Nachbaur</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83139/index.shtml</data>
+<data key="att2">Team Stronach</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/83139_4386042.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">1276.1599</data>
+<data key="y">1146.4001</data>
+<data key="z">96.0</data>
+</node>
+<node id="19">
+<data key="label">Dr. Marcus Franz</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83141/index.shtml</data>
+<data key="att2">Team Stronach</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83141_4385896.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">546.56</data>
+<data key="y">2048.8</data>
+<data key="z">96.0</data>
+</node>
+<node id="20">
+<data key="label">Dr. Nikolaus Scherak</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83125/index.shtml</data>
+<data key="att2">Das Neue Österreich</data>
+<data key="att3">Landeswahlkreis_Niederösterreich</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/83125_4380953.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">1468.1599</data>
+<data key="y">-1100.0</data>
+<data key="z">96.0</data>
+</node>
+<node id="21">
+<data key="label">Dr. Peter Wittmann</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_04477/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Niederösterreich_Süd</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/04477_4385559.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-202.23999</data>
+<data key="y">685.6</data>
+<data key="z">96.0</data>
+</node>
+<node id="22">
+<data key="label">Dr. Reinhold Lopatka</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_15526/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Regionalwahlkreis_Oststeiermark</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/15526_4387318.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">220.16</data>
+<data key="y">954.4001</data>
+<data key="z">96.0</data>
+</node>
+<node id="23">
+<data key="label">Dr. Sabine Oberhauser, MAS</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_35509/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Wien_Süd-West</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/35509_4385453.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-1315.8401</data>
+<data key="y">810.4</data>
+<data key="z">96.0</data>
+</node>
+<node id="24">
+<data key="label">Elisabeth Hakel</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_10256/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/10256_4473430.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">229.75998</data>
+<data key="y">-735.2</data>
+<data key="z">96.0</data>
+</node>
+<node id="25">
+<data key="label">Erwin Spindelberger</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_14850/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Obersteiermark</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/14850_4385303.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-1930.24</data>
+<data key="y">-34.399998</data>
+<data key="z">96.0</data>
+</node>
+<node id="27">
+<data key="label">Gabriele Tamandl</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_15531/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/15531_4387340.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-826.24</data>
+<data key="y">-1416.8</data>
+<data key="z">96.0</data>
+</node>
+<node id="28">
+<data key="label">Georg Willi</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83104/index.shtml</data>
+<data key="att2">Die Grünen</data>
+<data key="att3">Landeswahlkreis_Tirol</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83104_4384613.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">124.16</data>
+<data key="y">-1685.6001</data>
+<data key="z">96.0</data>
+</node>
+<node id="29">
+<data key="label">Hannes Weninger</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_47087/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Wien_Umgebung</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/47087_4384930.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-1757.4401</data>
+<data key="y">-946.4</data>
+<data key="z">96.0</data>
+</node>
+<node id="30">
+<data key="label">Heinz-Christian Strache</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_35518/index.shtml</data>
+<data key="att2">Freiheitliche Partei Österreichs</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/35518_4444605.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">709.7601</data>
+<data key="y">752.80005</data>
+<data key="z">96.0</data>
+</node>
+<node id="31">
+<data key="label">Ing. Hermann Schultes</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_09775/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Regionalwahlkreis_Weinviertel</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/09775_4386911.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-1651.8401</data>
+<data key="y">-1253.6</data>
+<data key="z">96.0</data>
+</node>
+<node id="32">
+<data key="label">Ing. Norbert Hofer</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_35521/index.shtml</data>
+<data key="att2">Freiheitliche Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Burgenland</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/35521_4444542.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">594.56</data>
+<data key="y">1424.8</data>
+<data key="z">96.0</data>
+</node>
+<node id="33">
+<data key="label">Ing. Waltraud Dietrich</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83140/index.shtml</data>
+<data key="att2">Team Stronach</data>
+<data key="att3">Landeswahlkreis_Steiermark</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83140_4386127.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-1671.0399</data>
+<data key="y">992.80005</data>
+<data key="z">96.0</data>
+</node>
+<node id="34">
+<data key="label">Johann Hell</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_50187/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Niederösterreich</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/50187_4385131.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-749.43994</data>
+<data key="y">-1925.6001</data>
+<data key="z">96.0</data>
+</node>
+<node id="35">
+<data key="label">Johann Höfinger</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_16234/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Regionalwahlkreis_Niederösterreich_Mitte</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/16234_4386933.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-1738.24</data>
+<data key="y">-620.0</data>
+<data key="z">96.0</data>
+</node>
+<node id="37">
+<data key="label">Josef Schellhorn</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_84056/index.shtml</data>
+<data key="att2">Das Neue Österreich</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/84056_5225882.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">1871.3601</data>
+<data key="y">52.000015</data>
+<data key="z">96.0</data>
+</node>
+<node id="38">
+<data key="label">Kai Jan Krainer</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_14842/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/14842_4582232.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-586.24</data>
+<data key="y">-1244.0</data>
+<data key="z">96.0</data>
+</node>
+<node id="39">
+<data key="label">Karlheinz Kopf</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_02822/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Landeswahlkreis_Vorarlberg</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/02822_4405723.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">1218.5599</data>
+<data key="y">1472.8</data>
+<data key="z">96.0</data>
+</node>
+<node id="40">
+<data key="label">Leopold Steinbichler</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_04395/index.shtml</data>
+<data key="att2">Team Stronach</data>
+<data key="att3">Landeswahlkreis_Oberösterreich</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/04395_4386064.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">1592.96</data>
+<data key="y">320.80002</data>
+<data key="z">96.0</data>
+</node>
+<node id="41">
+<data key="label">Mag. Alev Korun</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_51587/index.shtml</data>
+<data key="att2">Die Grünen</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/51587_4384700.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">1631.3601</data>
+<data key="y">-1368.8</data>
+<data key="z">96.0</data>
+</node>
+<node id="42">
+<data key="label">Mag. Andrea Kuntzl</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_08178/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/08178_3491279.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">1276.1599</data>
+<data key="y">-706.4</data>
+<data key="z">96.0</data>
+</node>
+<node id="45">
+<data key="label">Mag. Christoph Vavrik</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83126/index.shtml</data>
+<data key="att2">Das Neue Österreich</data>
+<data key="att3">Landeswahlkreis_Steiermark</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83126_4380767.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">824.95996</data>
+<data key="y">-1349.6</data>
+<data key="z">96.0</data>
+</node>
+<node id="46">
+<data key="label">Mag. Dr. Maria Theresia Fekter</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_00311/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Regionalwahlkreis_Hausruckviertel</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/00311_4387369.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">306.56</data>
+<data key="y">-418.39996</data>
+<data key="z">96.0</data>
+</node>
+<node id="47">
+<data key="label">Mag. Dr. Matthias Strolz</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_10304/index.shtml</data>
+<data key="att2">Das Neue Österreich</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/10304_4380916.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">786.55994</data>
+<data key="y">1693.6</data>
+<data key="z">96.0</data>
+</node>
+<node id="48">
+<data key="label">Mag. Dr. Wolfgang Zinggl</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_22573/index.shtml</data>
+<data key="att2">Die Grünen</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/22573_4384551.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">1036.1599</data>
+<data key="y">-1685.6001</data>
+<data key="z">96.0</data>
+</node>
+<node id="49">
+<data key="label">Mag. Gerald Loacker</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83121/index.shtml</data>
+<data key="att2">Das Neue Österreich</data>
+<data key="att3">Landeswahlkreis_Vorarlberg</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83121_4380811.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">-1997.4401</data>
+<data key="y">503.2</data>
+<data key="z">96.0</data>
+</node>
+<node id="50">
+<data key="label">Mag. Maximilian Unterrainer</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83115/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Tirol</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83115_4385188.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">1919.3601</data>
+<data key="y">608.80005</data>
+<data key="z">96.0</data>
+</node>
+<node id="51">
+<data key="label">Mag. Michaela Steinacker</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83059/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/83059_4387040.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-1104.64</data>
+<data key="y">1693.6</data>
+<data key="z">96.0</data>
+</node>
+<node id="52">
+<data key="label">Mag. Nikolaus Alm</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83119/index.shtml</data>
+<data key="att2">Das Neue Österreich</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83119_4380895.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">-67.84</data>
+<data key="y">1799.2</data>
+<data key="z">96.0</data>
+</node>
+<node id="53">
+<data key="label">Mag. Roman Haider</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_51560/index.shtml</data>
+<data key="att2">Freiheitliche Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Oberösterreich</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/51560_4445156.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">1736.96</data>
+<data key="y">4.0000114</data>
+<data key="z">96.0</data>
+</node>
+<node id="55">
+<data key="label">Otto Pendl</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_05375/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Niederösterreich_Süd</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/05375_4385016.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-1075.8401</data>
+<data key="y">109.6</data>
+<data key="z">96.0</data>
+</node>
+<node id="56">
+<data key="label">Petra Steger</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83135/index.shtml</data>
+<data key="att2">Freiheitliche Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Wien</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/83135_4387553.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">1391.3601</data>
+<data key="y">-370.4</data>
+<data key="z">96.0</data>
+</node>
+<node id="57">
+<data key="label">Rouven Ertlschweiger, MSc</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_83433/index.shtml</data>
+<data key="att2">Team Stronach</data>
+<data key="att3">Bundeswahlvorschlag</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/83433_4582543.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">1880.96</data>
+<data key="y">-773.6</data>
+<data key="z">96.0</data>
+</node>
+<node id="58">
+<data key="label">Rudolf Plessl</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_51549/index.shtml</data>
+<data key="att2">Sozialdemokratische Partei Österreichs</data>
+<data key="att3">Regionalwahlkreis_Weinviertel</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/51549_4385643.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-1911.04</data>
+<data key="y">-418.39996</data>
+<data key="z">96.0</data>
+</node>
+<node id="59">
+<data key="label">Wendelin Mölzer</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_36187/index.shtml</data>
+<data key="att2">Freiheitliche Partei Österreichs</data>
+<data key="att3">Landeswahlkreis_Kärnten</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/36187_4387575.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">248.96002</data>
+<data key="y">-1052.0</data>
+<data key="z">96.0</data>
+</node>
+<node id="60">
+<data key="label">Werner Amon, MBA</data>
+<data key="att1">http://www.parlament.gv.at/WWER/PAD_02819/index.shtml</data>
+<data key="att2">Österreichische Volkspartei</data>
+<data key="att3">Landeswahlkreis_Steiermark</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/02819_4387252.jpg</data>
+<data key="size">4.0</data>
+<data key="r">68</data>
+<data key="g">68</data>
+<data key="b">68</data>
+<data key="x">-1133.4401</data>
+<data key="y">-341.6</data>
+<data key="z">96.0</data>
+</node>
+<edge id="0" source="3" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="1" source="60" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="2" source="1" target="3">
+<data key="weight">6.0</data>
+</edge>
+<edge id="3" source="28" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="4" source="9" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="5" source="45" target="5">
+<data key="weight">1.0</data>
+</edge>
+<edge id="6" source="20" target="5">
+<data key="weight">1.0</data>
+</edge>
+<edge id="7" source="48" target="5">
+<data key="weight">2.0</data>
+</edge>
+<edge id="8" source="52" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="9" source="2" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10" source="51" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="11" source="6" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="12" source="54" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge id="13" source="56" target="17">
+<data key="weight">1.0</data>
+</edge>
+<edge id="14" source="20" target="17">
+<data key="weight">3.0</data>
+</edge>
+<edge id="15" source="42" target="17">
+<data key="weight">3.0</data>
+</edge>
+<edge id="16" source="57" target="17">
+<data key="weight">2.0</data>
+</edge>
+<edge id="17" source="10" target="17">
+<data key="weight">1.0</data>
+</edge>
+<edge id="18" source="54" target="21">
+<data key="weight">4.0</data>
+</edge>
+<edge id="19" source="22" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="20" source="4" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="21" source="59" target="24">
+<data key="weight">1.0</data>
+</edge>
+<edge id="22" source="46" target="24">
+<data key="weight">1.0</data>
+</edge>
+<edge id="23" source="12" target="25">
+<data key="weight">2.0</data>
+</edge>
+<edge id="24" source="37" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="25" source="50" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="26" source="40" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="27" source="53" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="28" source="38" target="27">
+<data key="weight">1.0</data>
+</edge>
+<edge id="29" source="29" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="30" source="1" target="34">
+<data key="weight">1.0</data>
+</edge>
+<edge id="31" source="58" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="32" source="29" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="33" source="33" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="34" source="4" target="36">
+<data key="weight">2.0</data>
+</edge>
+<edge id="35" source="49" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="36" source="11" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="37" source="12" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="38" source="20" target="41">
+<data key="weight">1.0</data>
+</edge>
+<edge id="39" source="30" target="43">
+<data key="weight">3.0</data>
+</edge>
+<edge id="40" source="39" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="41" source="13" target="43">
+<data key="weight">4.0</data>
+</edge>
+<edge id="42" source="47" target="43">
+<data key="weight">4.0</data>
+</edge>
+<edge id="43" source="7" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="44" source="18" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="45" source="32" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="46" source="22" target="43">
+<data key="weight">5.0</data>
+</edge>
+<edge id="47" source="18" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="48" source="47" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="49" source="32" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="50" source="39" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="51" source="13" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="52" source="19" target="47">
+<data key="weight">1.0</data>
+</edge>
+<edge id="53" source="14" target="51">
+<data key="weight">1.0</data>
+</edge>
+<edge id="54" source="15" target="51">
+<data key="weight">4.0</data>
+</edge>
+<edge id="55" source="21" target="54">
+<data key="weight">1.0</data>
+</edge>
+<edge id="56" source="60" target="55">
+<data key="weight">1.0</data>
+</edge>
+<edge id="57" source="54" target="55">
+<data key="weight">2.0</data>
+</edge>
+<edge id="58" source="4" target="55">
+<data key="weight">1.0</data>
+</edge>
+</graph>
+</graphml>
