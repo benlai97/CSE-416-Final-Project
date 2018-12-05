@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="z" attr.type="float" for="node" id="z"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="url" attr.type="string" for="node" id="att1"/>
+<key attr.name="party" attr.type="string" for="node" id="att2"/>
+<key attr.name="constituency" attr.type="string" for="node" id="att3"/>
+<key attr.name="n_bills" attr.type="float" for="node" id="att4"/>
+<key attr.name="photo" attr.type="string" for="node" id="att5"/>
+<graph edgedefault="directed">
+<node id="4">
+<data key="label">Benny Engelbrecht</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SBEEN.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Sydjyllands_Storkreds</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/SBEEN.jpg</data>
+<data key="size">100.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-884.60486</data>
+<data key="y">327.6878</data>
+<data key="z">48.0</data>
+</node>
+<node id="6">
+<data key="label">Bente Dahl</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/RVBEDA.aspx</data>
+<data key="att2">Radikale Venstre</data>
+<data key="att3">Sønderjyllands_Amtskreds</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/RVBEDA.jpg</data>
+<data key="size">100.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">-299.00488</data>
+<data key="y">-22.712196</data>
+<data key="z">48.0</data>
+</node>
+<node id="8">
+<data key="label">Bjarne Laustsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SBJAL.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Nordjyllands_Amtskreds</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/SBJAL.jpg</data>
+<data key="size">100.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-567.8048</data>
+<data key="y">404.4878</data>
+<data key="z">48.0</data>
+</node>
+<node id="14">
+<data key="label">Dennis Flydtkjær</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFDEFL.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Ringkøbing_Amtskreds</data>
+<data key="att4">12.0</data>
+<data key="att5">photos/DFDEFL.jpg</data>
+<data key="size">100.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">425.7951</data>
+<data key="y">-497.9122</data>
+<data key="z">48.0</data>
+</node>
+<node id="17">
+<data key="label">Erling Bonnesen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/VERBO.aspx</data>
+<data key="att2">Venstre</data>
+<data key="att3">Fyns_Amtskreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/VERBO.jpg</data>
+<data key="size">100.0</data>
+<data key="r">1</data>
+<data key="g">102</data>
+<data key="b">94</data>
+<data key="x">944.19507</data>
+<data key="y">-296.3122</data>
+<data key="z">48.0</data>
+</node>
+<node id="19">
+<data key="label">Eva Kjer Hansen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/VEVKH.aspx</data>
+<data key="att2">Venstre</data>
+<data key="att3">Vejle_Amtskreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/VEVKH.jpg</data>
+<data key="size">100.0</data>
+<data key="r">1</data>
+<data key="g">102</data>
+<data key="b">94</data>
+<data key="x">1035.3951</data>
+<data key="y">366.0878</data>
+<data key="z">48.0</data>
+</node>
+<node id="21">
+<data key="label">Frank Aaen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELFRAA.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Nordjyllands_Amtskreds</data>
+<data key="att4">11.0</data>
+<data key="att5">photos/ELFRAA.jpg</data>
+<data key="size">100.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-1028.6049</data>
+<data key="y">-3.512198</data>
+<data key="z">48.0</data>
+</node>
+<node id="29">
+<data key="label">Jørgen Arbo-Bæhr</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELJARB.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Vestre_Storkreds</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/ELJARB.jpg</data>
+<data key="size">100.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-980.60486</data>
+<data key="y">-85.1122</data>
+<data key="z">48.0</data>
+</node>
+<node id="33">
+<data key="label">Karina Adsbøl</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFKAAD.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Sydjyllands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/DFKAAD.jpg</data>
+<data key="size">100.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">209.79514</data>
+<data key="y">-829.1122</data>
+<data key="z">48.0</data>
+</node>
+<node id="39">
+<data key="label">Kristen Touborg</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFKRTO.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Ringkøbing_Amtskreds</data>
+<data key="att4">7.0</data>
+<data key="att5">photos/SFKRTO.jpg</data>
+<data key="size">100.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-414.2049</data>
+<data key="y">270.0878</data>
+<data key="z">48.0</data>
+</node>
+<node id="40">
+<data key="label">Kristian Thulesen Dahl</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFKRTD.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Vejle_Amtskreds</data>
+<data key="att4">13.0</data>
+<data key="att5">photos/DFKRTD.jpg</data>
+<data key="size">100.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">392.19513</data>
+<data key="y">-713.91223</data>
+<data key="z">48.0</data>
+</node>
+<node id="45">
+<data key="label">Line Barfod</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELLIBA.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Frederiksborg_Amtskreds</data>
+<data key="att4">12.0</data>
+<data key="att5">photos/ELLIBA.jpg</data>
+<data key="size">100.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-1115.0049</data>
+<data key="y">-181.11221</data>
+<data key="z">48.0</data>
+</node>
+<node id="46">
+<data key="label">Lone Dybkjær</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/RVLODY.aspx</data>
+<data key="att2">Radikale Venstre</data>
+<data key="att3">Østre_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/RVLODY.jpg</data>
+<data key="size">100.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">94.59512</data>
+<data key="y">826.8878</data>
+<data key="z">48.0</data>
+</node>
+<node id="51">
+<data key="label">Marlene Harpsøe</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFMABH.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Nordsjællands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/DFMABH.jpg</data>
+<data key="size">100.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">310.59512</data>
+<data key="y">-627.5122</data>
+<data key="z">48.0</data>
+</node>
+<node id="64">
+<data key="label">Per Clausen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELPECL.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Nordjyllands_Amtskreds</data>
+<data key="att4">21.0</data>
+<data key="att5">photos/ELPECL.jpg</data>
+<data key="size">100.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-721.4049</data>
+<data key="y">-147.51219</data>
+<data key="z">48.0</data>
+</node>
+<node id="67">
+<data key="label">Peter Skaarup</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFPESK.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Østre_Storkreds</data>
+<data key="att4">13.0</data>
+<data key="att5">photos/DFPESK.jpg</data>
+<data key="size">100.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">473.7951</data>
+<data key="y">-766.7122</data>
+<data key="z">48.0</data>
+</node>
+<node id="69">
+<data key="label">Pia Kjærsgaard</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFPIKJ.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Københavns_Amtskreds</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/DFPIKJ.jpg</data>
+<data key="size">100.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">372.99512</data>
+<data key="y">-766.7122</data>
+<data key="z">48.0</data>
+</node>
+<node id="70">
+<data key="label">Pia Olsen Dyhr</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFPIOD.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Frederiksborg_Amtskreds</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/SFPIOD.jpg</data>
+<data key="size">100.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-385.40488</data>
+<data key="y">34.887802</data>
+<data key="z">48.0</data>
+</node>
+<node id="73">
+<data key="label">René Christensen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFRECH.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Sjællands_Storkreds</data>
+<data key="att4">11.0</data>
+<data key="att5">photos/DFRECH.jpg</data>
+<data key="size">100.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">560.1951</data>
+<data key="y">-507.51224</data>
+<data key="z">48.0</data>
+</node>
+<node id="75">
+<data key="label">Rune Lund</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/rune-lund.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Fyns_Amtskreds</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/rune-lund.jpg</data>
+<data key="size">100.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-1062.2048</data>
+<data key="y">-75.51219</data>
+<data key="z">48.0</data>
+</node>
+<node id="82">
+<data key="label">Thomas Danielsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/VTHDA.aspx</data>
+<data key="att2">Venstre</data>
+<data key="att3">Vestjyllands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/VTHDA.jpg</data>
+<data key="size">100.0</data>
+<data key="r">1</data>
+<data key="g">102</data>
+<data key="b">94</data>
+<data key="x">886.5951</data>
+<data key="y">-728.3122</data>
+<data key="z">48.0</data>
+</node>
+<node id="7">
+<data key="label">Birgitte Josefsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/VBIJO.aspx</data>
+<data key="att2">Venstre</data>
+<data key="att3">Nordjyllands_Amtskreds</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/VBIJO.jpg</data>
+<data key="size">52.0</data>
+<data key="r">1</data>
+<data key="g">102</data>
+<data key="b">94</data>
+<data key="x">881.7951</data>
+<data key="y">505.28778</data>
+<data key="z">48.0</data>
+</node>
+<node id="30">
+<data key="label">Jørn Dohrmann</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFJDOH.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Vejle_Amtskreds</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/DFJDOH.jpg</data>
+<data key="size">52.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">152.19511</data>
+<data key="y">-272.3122</data>
+<data key="z">48.0</data>
+</node>
+<node id="32">
+<data key="label">Julie Skovsby</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SJULS.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Fyns_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SJULS.jpg</data>
+<data key="size">52.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-803.0049</data>
+<data key="y">630.08777</data>
+<data key="z">48.0</data>
+</node>
+<node id="34">
+<data key="label">Karina Lorentzen Dehnhardt</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFKALO.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Sydjyllands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/SFKALO.jpg</data>
+<data key="size">52.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">608.1951</data>
+<data key="y">990.08777</data>
+<data key="z">48.0</data>
+</node>
+<node id="41">
+<data key="label">Lars Dohn</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELLADO.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Vestjyllands_Storkreds</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/ELLADO.jpg</data>
+<data key="size">52.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-740.60486</data>
+<data key="y">-589.11224</data>
+<data key="z">48.0</data>
+</node>
+<node id="52">
+<data key="label">Mette Bock</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/LAMEBO.aspx</data>
+<data key="att2">Liberal Alliance</data>
+<data key="att3">Sydjyllands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/LAMEBO.jpg</data>
+<data key="size">52.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">747.39514</data>
+<data key="y">-1040.3123</data>
+<data key="z">48.0</data>
+</node>
+<node id="53">
+<data key="label">Mette Gjerskov</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SMEGJ.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Roskilde_Amtskreds</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/SMEGJ.jpg</data>
+<data key="size">52.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-683.0049</data>
+<data key="y">198.0878</data>
+<data key="z">48.0</data>
+</node>
+<node id="61">
+<data key="label">Ole Sohn</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SOLES.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Vestsjællands_Amtskreds</data>
+<data key="att4">8.0</data>
+<data key="att5">photos/SOLES.jpg</data>
+<data key="size">52.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-582.2049</data>
+<data key="y">87.687805</data>
+<data key="z">48.0</data>
+</node>
+<node id="1">
+<data key="label">Alex Ahrendtsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFALAH.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Fyns_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/DFALAH.jpg</data>
+<data key="size">4.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">-20.604883</data>
+<data key="y">-1059.5122</data>
+<data key="z">48.0</data>
+</node>
+<node id="2">
+<data key="label">Anders Samuelsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/LAANSA.aspx</data>
+<data key="att2">Liberal Alliance</data>
+<data key="att3">Vejle_Amtskreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/LAANSA.jpg</data>
+<data key="size">4.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">512.1951</data>
+<data key="y">-1184.3123</data>
+<data key="z">48.0</data>
+</node>
+<node id="3">
+<data key="label">Anne Grete Holmsgaard</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFANGH.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Fyns_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SFANGH.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-73.40488</data>
+<data key="y">130.8878</data>
+<data key="z">48.0</data>
+</node>
+<node id="5">
+<data key="label">Bent Bøgsted</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFBENB.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Nordjyllands_Amtskreds</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/DFBENB.jpg</data>
+<data key="size">4.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">646.5951</data>
+<data key="y">-286.7122</data>
+<data key="z">48.0</data>
+</node>
+<node id="9">
+<data key="label">Brian Mikkelsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/KFBRMI.aspx</data>
+<data key="att2">Det Konservative Folkeparti</data>
+<data key="att3">Vestsjællands_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/KFBRMI.jpg</data>
+<data key="size">4.0</data>
+<data key="r">179</data>
+<data key="g">222</data>
+<data key="b">105</data>
+<data key="x">1208.1952</data>
+<data key="y">-209.9122</data>
+<data key="z">48.0</data>
+</node>
+<node id="10">
+<data key="label">Charlotte Dyremose</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/KFCHDY.aspx</data>
+<data key="att2">Det Konservative Folkeparti</data>
+<data key="att3">Københavns_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/KFCHDY.jpg</data>
+<data key="size">4.0</data>
+<data key="r">179</data>
+<data key="g">222</data>
+<data key="b">105</data>
+<data key="x">1016.19507</data>
+<data key="y">822.08777</data>
+<data key="z">48.0</data>
+</node>
+<node id="11">
+<data key="label">Christian H. Hansen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/LGCHHH.aspx</data>
+<data key="att2">Independent</data>
+<data key="att3">Ringkøbing_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/LGCHHH.jpg</data>
+<data key="size">4.0</data>
+<data key="r">170</data>
+<data key="g">170</data>
+<data key="b">170</data>
+<data key="x">-956.60486</data>
+<data key="y">82.8878</data>
+<data key="z">48.0</data>
+</node>
+<node id="12">
+<data key="label">Christian Juhl</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELCHJU.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Sjællands_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/ELCHJU.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-1004.60486</data>
+<data key="y">-320.3122</data>
+<data key="z">48.0</data>
+</node>
+<node id="13">
+<data key="label">Daniel Rugholm</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/KFDARU.aspx</data>
+<data key="att2">Det Konservative Folkeparti</data>
+<data key="att3">Nordjyllands_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/KFDARU.jpg</data>
+<data key="size">4.0</data>
+<data key="r">179</data>
+<data key="g">222</data>
+<data key="b">105</data>
+<data key="x">1126.5951</data>
+<data key="y">-128.3122</data>
+<data key="z">48.0</data>
+</node>
+<node id="15">
+<data key="label">Eigil Andersen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFEIAN.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Århus_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SFEIAN.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-217.40488</data>
+<data key="y">1302.0878</data>
+<data key="z">48.0</data>
+</node>
+<node id="16">
+<data key="label">Elisabeth Arnold</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/RVELAR.aspx</data>
+<data key="att2">Radikale Venstre</data>
+<data key="att3">Århus_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/RVELAR.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">315.3951</data>
+<data key="y">783.68787</data>
+<data key="z">48.0</data>
+</node>
+<node id="18">
+<data key="label">Esben Lunde Larsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/VESLL.aspx</data>
+<data key="att2">Venstre</data>
+<data key="att3">Vestjyllands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/VESLL.jpg</data>
+<data key="size">4.0</data>
+<data key="r">1</data>
+<data key="g">102</data>
+<data key="b">94</data>
+<data key="x">1203.3951</data>
+<data key="y">270.0878</data>
+<data key="z">48.0</data>
+</node>
+<node id="20">
+<data key="label">Finn Sørensen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELFINS.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Københavns_Storkreds</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/ELFINS.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-875.0049</data>
+<data key="y">-517.11224</data>
+<data key="z">48.0</data>
+</node>
+<node id="22">
+<data key="label">Henning Hyllested</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELHEHY.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Sydjyllands_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/ELHEHY.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-822.2049</data>
+<data key="y">-483.51224</data>
+<data key="z">48.0</data>
+</node>
+<node id="23">
+<data key="label">Henrik Høegh</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/VHENH.aspx</data>
+<data key="att2">Venstre</data>
+<data key="att3">Sjællands_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/VHENH.jpg</data>
+<data key="size">4.0</data>
+<data key="r">1</data>
+<data key="g">102</data>
+<data key="b">94</data>
+<data key="x">1064.1951</data>
+<data key="y">-51.5122</data>
+<data key="z">48.0</data>
+</node>
+<node id="24">
+<data key="label">Holger K. Nielsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFHONI.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Københavns_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SFHONI.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-390.2049</data>
+<data key="y">1249.2878</data>
+<data key="z">48.0</data>
+</node>
+<node id="25">
+<data key="label">Jens Peter Vernersen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SJEPV.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Ringkøbing_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SJEPV.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-505.40488</data>
+<data key="y">730.88776</data>
+<data key="z">48.0</data>
+</node>
+<node id="26">
+<data key="label">Johanne Schmidt-Nielsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELJOSN.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Københavns_Storkreds</data>
+<data key="att4">9.0</data>
+<data key="att5">photos/ELJOSN.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-639.8048</data>
+<data key="y">-526.7122</data>
+<data key="z">48.0</data>
+</node>
+<node id="27">
+<data key="label">Johs. Poulsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/RVJOPO.aspx</data>
+<data key="att2">Radikale Venstre</data>
+<data key="att3">Ringkøbing_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/RVJOPO.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">-524.60486</data>
+<data key="y">-473.9122</data>
+<data key="z">48.0</data>
+</node>
+<node id="28">
+<data key="label">Jonas Dahl</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFJODA.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Østjyllands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/SFJODA.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">603.3951</data>
+<data key="y">798.08777</data>
+<data key="z">48.0</data>
+</node>
+<node id="31">
+<data key="label">Julie Rademacher</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SJURA.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Sydjyllands_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SJURA.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-836.60486</data>
+<data key="y">903.68774</data>
+<data key="z">48.0</data>
+</node>
+<node id="35">
+<data key="label">Karl H. Bornhøft</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFKABO.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Nordjyllands_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SFKABO.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">516.9951</data>
+<data key="y">1172.4878</data>
+<data key="z">48.0</data>
+</node>
+<node id="36">
+<data key="label">Karsten Hønge</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFKARH.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Fyns_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SFKARH.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">785.7951</data>
+<data key="y">1057.2878</data>
+<data key="z">48.0</data>
+</node>
+<node id="37">
+<data key="label">Kim Christiansen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFKICH.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Århus_Amtskreds</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/DFKICH.jpg</data>
+<data key="size">4.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">118.59512</data>
+<data key="y">-598.7122</data>
+<data key="z">48.0</data>
+</node>
+<node id="38">
+<data key="label">Kirsten Brosbøl</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SKIBR.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Århus_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SKIBR.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-1148.6049</data>
+<data key="y">447.6878</data>
+<data key="z">48.0</data>
+</node>
+<node id="42">
+<data key="label">Leif Mikkelsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/LALEMI.aspx</data>
+<data key="att2">Liberal Alliance</data>
+<data key="att3">Århus_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/LALEMI.jpg</data>
+<data key="size">4.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">1121.7952</data>
+<data key="y">-713.91223</data>
+<data key="z">48.0</data>
+</node>
+<node id="43">
+<data key="label">Lene Espersen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/KFLEES.aspx</data>
+<data key="att2">Det Konservative Folkeparti</data>
+<data key="att3">Nordjyllands_Amtskreds</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/KFLEES.jpg</data>
+<data key="size">4.0</data>
+<data key="r">179</data>
+<data key="g">222</data>
+<data key="b">105</data>
+<data key="x">1083.3951</data>
+<data key="y">-507.51224</data>
+<data key="z">48.0</data>
+</node>
+<node id="44">
+<data key="label">Lene Hansen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SLEHA.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Nordjyllands_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SLEHA.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-639.8048</data>
+<data key="y">730.88776</data>
+<data key="z">48.0</data>
+</node>
+<node id="47">
+<data key="label">Louise Schack Elholm</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/VLOSE.aspx</data>
+<data key="att2">Venstre</data>
+<data key="att3">Sjællands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/VLOSE.jpg</data>
+<data key="size">4.0</data>
+<data key="r">1</data>
+<data key="g">102</data>
+<data key="b">94</data>
+<data key="x">910.5951</data>
+<data key="y">697.2878</data>
+<data key="z">48.0</data>
+</node>
+<node id="48">
+<data key="label">Mai Mercado</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/KFMAHE.aspx</data>
+<data key="att2">Det Konservative Folkeparti</data>
+<data key="att3">Fyns_Storkreds</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/KFMAHE.jpg</data>
+<data key="size">4.0</data>
+<data key="r">179</data>
+<data key="g">222</data>
+<data key="b">105</data>
+<data key="x">843.39514</data>
+<data key="y">361.2878</data>
+<data key="z">48.0</data>
+</node>
+<node id="49">
+<data key="label">Margrethe Vestager</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/RVMAVE.aspx</data>
+<data key="att2">Radikale Venstre</data>
+<data key="att3">Frederiksborg_Amtskreds</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/RVMAVE.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">-409.40488</data>
+<data key="y">-214.71219</data>
+<data key="z">48.0</data>
+</node>
+<node id="50">
+<data key="label">Marianne Jelved</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/RVMAJE.aspx</data>
+<data key="att2">Radikale Venstre</data>
+<data key="att3">Roskilde_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/RVMAJE.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">36.99513</data>
+<data key="y">1047.6877</data>
+<data key="z">48.0</data>
+</node>
+<node id="54">
+<data key="label">Mette Hjermind Dencker</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFMEHD.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Østjyllands_Storkreds</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/DFMEHD.jpg</data>
+<data key="size">4.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">118.59512</data>
+<data key="y">-723.5122</data>
+<data key="z">48.0</data>
+</node>
+<node id="55">
+<data key="label">Mikkel Dencker</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFMIKD.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Københavns_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/DFMIKD.jpg</data>
+<data key="size">4.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">713.7951</data>
+<data key="y">-699.5122</data>
+<data key="z">48.0</data>
+</node>
+<node id="56">
+<data key="label">Morten Marinus</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFMOMJ.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Nordjyllands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/DFMOMJ.jpg</data>
+<data key="size">4.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">497.7951</data>
+<data key="y">-147.51219</data>
+<data key="z">48.0</data>
+</node>
+<node id="57">
+<data key="label">Niels Christian Nielsen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SNIEN.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Fyns_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SNIEN.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-1100.6049</data>
+<data key="y">543.6878</data>
+<data key="z">48.0</data>
+</node>
+<node id="58">
+<data key="label">Niels Helveg Petersen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/RVNIHE.aspx</data>
+<data key="att2">Radikale Venstre</data>
+<data key="att3">Frederiksborg_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/RVNIHE.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">233.79514</data>
+<data key="y">1042.8878</data>
+<data key="z">48.0</data>
+</node>
+<node id="59">
+<data key="label">Ole Birk Olesen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/LAOLBO.aspx</data>
+<data key="att2">Liberal Alliance</data>
+<data key="att3">Østjyllands_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/LAOLBO.jpg</data>
+<data key="size">4.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">348.99512</data>
+<data key="y">-1299.5122</data>
+<data key="z">48.0</data>
+</node>
+<node id="60">
+<data key="label">Ole Glahn</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/RVOSEG.aspx</data>
+<data key="att2">Radikale Venstre</data>
+<data key="att3">Vestsjællands_Amtskreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/RVOSEG.jpg</data>
+<data key="size">4.0</data>
+<data key="r">197</data>
+<data key="g">27</data>
+<data key="b">125</data>
+<data key="x">-126.204895</data>
+<data key="y">582.08777</data>
+<data key="z">48.0</data>
+</node>
+<node id="62">
+<data key="label">Ole Vagn Christensen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SOLVC.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Viborg_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SOLVC.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-1043.0049</data>
+<data key="y">610.88776</data>
+<data key="z">48.0</data>
+</node>
+<node id="63">
+<data key="label">Özlem Sara Cekic</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFOZSC.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Københavns_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SFOZSC.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-25.40488</data>
+<data key="y">1330.8878</data>
+<data key="z">48.0</data>
+</node>
+<node id="65">
+<data key="label">Pernille Rosenkrantz-Theil</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SPERT.aspx</data>
+<data key="att2">Socialdemokratiet</data>
+<data key="att3">Østre_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/SPERT.jpg</data>
+<data key="size">4.0</data>
+<data key="r">247</data>
+<data key="g">129</data>
+<data key="b">191</data>
+<data key="x">-1345.4049</data>
+<data key="y">-113.9122</data>
+<data key="z">48.0</data>
+</node>
+<node id="66">
+<data key="label">Pernille Skipper</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELPESK.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Fyns_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/ELPESK.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-481.40488</data>
+<data key="y">-392.3122</data>
+<data key="z">48.0</data>
+</node>
+<node id="68">
+<data key="label">Pia Adelsteen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFPIAD.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Nordsjællands_Storkreds</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/DFPIAD.jpg</data>
+<data key="size">4.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">756.9951</data>
+<data key="y">-320.3122</data>
+<data key="z">48.0</data>
+</node>
+<node id="71">
+<data key="label">Poul Henrik Hedeboe</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFPOHH.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Frederiksborg_Amtskreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/SFPOHH.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-299.00488</data>
+<data key="y">591.6878</data>
+<data key="z">48.0</data>
+</node>
+<node id="72">
+<data key="label">Preben Bang Henriksen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/VPRBH.aspx</data>
+<data key="att2">Venstre</data>
+<data key="att3">Nordjyllands_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/VPRBH.jpg</data>
+<data key="size">4.0</data>
+<data key="r">1</data>
+<data key="g">102</data>
+<data key="b">94</data>
+<data key="x">1203.3951</data>
+<data key="y">462.0878</data>
+<data key="z">48.0</data>
+</node>
+<node id="74">
+<data key="label">Rosa Lund</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELROLU.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Københavns_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/ELROLU.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-702.2049</data>
+<data key="y">-905.91223</data>
+<data key="z">48.0</data>
+</node>
+<node id="76">
+<data key="label">Simon Emil Ammitzbøll</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/LASIEA.aspx</data>
+<data key="att2">Liberal Alliance</data>
+<data key="att3">Storstrøms_Amtskreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/LASIEA.jpg</data>
+<data key="size">4.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">588.9951</data>
+<data key="y">-1261.1122</data>
+<data key="z">48.0</data>
+</node>
+<node id="77">
+<data key="label">Søren Espersen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/DFSESP.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Københavns_Amtskreds</data>
+<data key="att4">7.0</data>
+<data key="att5">photos/DFSESP.jpg</data>
+<data key="size">4.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">752.1951</data>
+<data key="y">-545.91223</data>
+<data key="z">48.0</data>
+</node>
+<node id="78">
+<data key="label">Søren Søndergaard</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/soren-sondergaard.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Bornholms_Amtskreds</data>
+<data key="att4">1.0</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-1297.4049</data>
+<data key="y">-382.7122</data>
+<data key="z">48.0</data>
+</node>
+<node id="79">
+<data key="label">Steen Gade</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/SFSTGA.aspx</data>
+<data key="att2">Socialistisk Folkeparti</data>
+<data key="att3">Ringkøbing_Amtskreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/SFSTGA.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-107.00487</data>
+<data key="y">418.88776</data>
+<data key="z">48.0</data>
+</node>
+<node id="80">
+<data key="label">Stine Brix</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/ELSTMB.aspx</data>
+<data key="att2">Enhedslisten</data>
+<data key="att3">Nordjyllands_Storkreds</data>
+<data key="att4">2.0</data>
+<data key="att5">photos/ELSTMB.jpg</data>
+<data key="size">4.0</data>
+<data key="r">77</data>
+<data key="g">175</data>
+<data key="b">74</data>
+<data key="x">-971.0049</data>
+<data key="y">-435.51224</data>
+<data key="z">48.0</data>
+</node>
+<node id="81">
+<data key="label">Susanne Eilersen</data>
+<data key="att1">http://www.ft.dk/folketinget/findmedlem/susanne-eilersen.aspx</data>
+<data key="att2">Dansk Folkeparti</data>
+<data key="att3">Sydjyllands_Storkreds</data>
+<data key="att4">1.0</data>
+<data key="att5">photos/susanne-eilersen.jpg</data>
+<data key="size">4.0</data>
+<data key="r">255</data>
+<data key="g">255</data>
+<data key="b">51</data>
+<data key="x">406.59512</data>
+<data key="y">-157.1122</data>
+<data key="z">48.0</data>
+</node>
+<edge id="0" source="62" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="1" source="57" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="2" source="8" target="4">
+<data key="weight">2.0</data>
+</edge>
+<edge id="3" source="38" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="4" source="49" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="5" source="70" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="6" source="64" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="7" source="8" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="8" source="30" target="6">
+<data key="weight">1.0</data>
+</edge>
+<edge id="9" source="48" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10" source="47" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge id="11" source="25" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="12" source="53" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="13" source="44" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="14" source="5" target="14">
+<data key="weight">2.0</data>
+</edge>
+<edge id="15" source="40" target="14">
+<data key="weight">8.0</data>
+</edge>
+<edge id="16" source="55" target="14">
+<data key="weight">1.0</data>
+</edge>
+<edge id="17" source="37" target="14">
+<data key="weight">2.0</data>
+</edge>
+<edge id="18" source="68" target="14">
+<data key="weight">3.0</data>
+</edge>
+<edge id="19" source="33" target="14">
+<data key="weight">1.0</data>
+</edge>
+<edge id="20" source="30" target="14">
+<data key="weight">2.0</data>
+</edge>
+<edge id="21" source="56" target="14">
+<data key="weight">2.0</data>
+</edge>
+<edge id="22" source="77" target="14">
+<data key="weight">6.0</data>
+</edge>
+<edge id="23" source="67" target="14">
+<data key="weight">8.0</data>
+</edge>
+<edge id="24" source="81" target="14">
+<data key="weight">1.0</data>
+</edge>
+<edge id="25" source="69" target="14">
+<data key="weight">2.0</data>
+</edge>
+<edge id="26" source="54" target="14">
+<data key="weight">4.0</data>
+</edge>
+<edge id="27" source="73" target="14">
+<data key="weight">3.0</data>
+</edge>
+<edge id="28" source="24" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="29" source="63" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="30" source="68" target="17">
+<data key="weight">1.0</data>
+</edge>
+<edge id="31" source="13" target="17">
+<data key="weight">1.0</data>
+</edge>
+<edge id="32" source="9" target="17">
+<data key="weight">1.0</data>
+</edge>
+<edge id="33" source="23" target="17">
+<data key="weight">1.0</data>
+</edge>
+<edge id="34" source="73" target="17">
+<data key="weight">2.0</data>
+</edge>
+<edge id="35" source="43" target="17">
+<data key="weight">1.0</data>
+</edge>
+<edge id="36" source="18" target="19">
+<data key="weight">2.0</data>
+</edge>
+<edge id="37" source="7" target="19">
+<data key="weight">2.0</data>
+</edge>
+<edge id="38" source="72" target="19">
+<data key="weight">1.0</data>
+</edge>
+<edge id="39" source="48" target="19">
+<data key="weight">2.0</data>
+</edge>
+<edge id="40" source="64" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="41" source="29" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="42" source="45" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="43" source="75" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="44" source="21" target="29">
+<data key="weight">1.0</data>
+</edge>
+<edge id="45" source="75" target="29">
+<data key="weight">1.0</data>
+</edge>
+<edge id="46" source="45" target="29">
+<data key="weight">1.0</data>
+</edge>
+<edge id="47" source="64" target="29">
+<data key="weight">1.0</data>
+</edge>
+<edge id="48" source="4" target="32">
+<data key="weight">1.0</data>
+</edge>
+<edge id="49" source="8" target="32">
+<data key="weight">1.0</data>
+</edge>
+<edge id="50" source="31" target="32">
+<data key="weight">1.0</data>
+</edge>
+<edge id="51" source="1" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="52" source="67" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="53" source="14" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="54" source="69" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="55" source="54" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="56" source="40" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="57" source="28" target="34">
+<data key="weight">2.0</data>
+</edge>
+<edge id="58" source="35" target="34">
+<data key="weight">1.0</data>
+</edge>
+<edge id="59" source="36" target="34">
+<data key="weight">1.0</data>
+</edge>
+<edge id="60" source="61" target="39">
+<data key="weight">4.0</data>
+</edge>
+<edge id="61" source="79" target="39">
+<data key="weight">2.0</data>
+</edge>
+<edge id="62" source="64" target="39">
+<data key="weight">2.0</data>
+</edge>
+<edge id="63" source="71" target="39">
+<data key="weight">2.0</data>
+</edge>
+<edge id="64" source="70" target="39">
+<data key="weight">1.0</data>
+</edge>
+<edge id="65" source="53" target="39">
+<data key="weight">1.0</data>
+</edge>
+<edge id="66" source="8" target="39">
+<data key="weight">1.0</data>
+</edge>
+<edge id="67" source="60" target="39">
+<data key="weight">1.0</data>
+</edge>
+<edge id="68" source="74" target="41">
+<data key="weight">2.0</data>
+</edge>
+<edge id="69" source="20" target="41">
+<data key="weight">2.0</data>
+</edge>
+<edge id="70" source="78" target="45">
+<data key="weight">1.0</data>
+</edge>
+<edge id="71" source="65" target="45">
+<data key="weight">1.0</data>
+</edge>
+<edge id="72" source="58" target="46">
+<data key="weight">1.0</data>
+</edge>
+<edge id="73" source="16" target="46">
+<data key="weight">1.0</data>
+</edge>
+<edge id="74" source="50" target="46">
+<data key="weight">1.0</data>
+</edge>
+<edge id="75" source="60" target="46">
+<data key="weight">1.0</data>
+</edge>
+<edge id="76" source="10" target="47">
+<data key="weight">1.0</data>
+</edge>
+<edge id="77" source="14" target="51">
+<data key="weight">1.0</data>
+</edge>
+<edge id="78" source="69" target="51">
+<data key="weight">2.0</data>
+</edge>
+<edge id="79" source="37" target="51">
+<data key="weight">2.0</data>
+</edge>
+<edge id="80" source="67" target="51">
+<data key="weight">2.0</data>
+</edge>
+<edge id="81" source="40" target="51">
+<data key="weight">2.0</data>
+</edge>
+<edge id="82" source="73" target="51">
+<data key="weight">2.0</data>
+</edge>
+<edge id="83" source="76" target="52">
+<data key="weight">1.0</data>
+</edge>
+<edge id="84" source="2" target="52">
+<data key="weight">1.0</data>
+</edge>
+<edge id="85" source="2" target="59">
+<data key="weight">1.0</data>
+</edge>
+<edge id="86" source="76" target="59">
+<data key="weight">1.0</data>
+</edge>
+<edge id="87" source="4" target="64">
+<data key="weight">1.0</data>
+</edge>
+<edge id="88" source="80" target="64">
+<data key="weight">2.0</data>
+</edge>
+<edge id="89" source="66" target="64">
+<data key="weight">1.0</data>
+</edge>
+<edge id="90" source="53" target="64">
+<data key="weight">1.0</data>
+</edge>
+<edge id="91" source="26" target="64">
+<data key="weight">9.0</data>
+</edge>
+<edge id="92" source="6" target="64">
+<data key="weight">2.0</data>
+</edge>
+<edge id="93" source="70" target="64">
+<data key="weight">2.0</data>
+</edge>
+<edge id="94" source="21" target="64">
+<data key="weight">8.0</data>
+</edge>
+<edge id="95" source="29" target="64">
+<data key="weight">1.0</data>
+</edge>
+<edge id="96" source="20" target="64">
+<data key="weight">2.0</data>
+</edge>
+<edge id="97" source="12" target="64">
+<data key="weight">1.0</data>
+</edge>
+<edge id="98" source="27" target="64">
+<data key="weight">1.0</data>
+</edge>
+<edge id="99" source="41" target="64">
+<data key="weight">1.0</data>
+</edge>
+<edge id="100" source="11" target="64">
+<data key="weight">1.0</data>
+</edge>
+<edge id="101" source="45" target="64">
+<data key="weight">8.0</data>
+</edge>
+<edge id="102" source="61" target="64">
+<data key="weight">2.0</data>
+</edge>
+<edge id="103" source="49" target="64">
+<data key="weight">2.0</data>
+</edge>
+<edge id="104" source="22" target="64">
+<data key="weight">1.0</data>
+</edge>
+<edge id="105" source="61" target="70">
+<data key="weight">2.0</data>
+</edge>
+<edge id="106" source="3" target="70">
+<data key="weight">1.0</data>
+</edge>
+<edge id="107" source="39" target="70">
+<data key="weight">2.0</data>
+</edge>
+<edge id="108" source="40" target="73">
+<data key="weight">2.0</data>
+</edge>
+<edge id="109" source="69" target="73">
+<data key="weight">1.0</data>
+</edge>
+<edge id="110" source="14" target="73">
+<data key="weight">2.0</data>
+</edge>
+<edge id="111" source="77" target="73">
+<data key="weight">1.0</data>
+</edge>
+<edge id="112" source="67" target="73">
+<data key="weight">2.0</data>
+</edge>
+<edge id="113" source="30" target="73">
+<data key="weight">2.0</data>
+</edge>
+<edge id="114" source="5" target="73">
+<data key="weight">2.0</data>
+</edge>
+<edge id="115" source="64" target="75">
+<data key="weight">1.0</data>
+</edge>
+<edge id="116" source="21" target="75">
+<data key="weight">1.0</data>
+</edge>
+<edge id="117" source="45" target="75">
+<data key="weight">1.0</data>
+</edge>
+<edge id="118" source="29" target="75">
+<data key="weight">1.0</data>
+</edge>
+<edge id="119" source="73" target="82">
+<data key="weight">2.0</data>
+</edge>
+<edge id="120" source="42" target="82">
+<data key="weight">1.0</data>
+</edge>
+<edge id="121" source="43" target="82">
+<data key="weight">2.0</data>
+</edge>
+<edge id="122" source="52" target="82">
+<data key="weight">1.0</data>
+</edge>
+</graph>
+</graphml>

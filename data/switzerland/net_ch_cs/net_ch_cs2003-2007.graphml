@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="z" attr.type="float" for="node" id="z"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="url" attr.type="string" for="node" id="att1"/>
+<key attr.name="party" attr.type="string" for="node" id="att2"/>
+<key attr.name="constituency" attr.type="string" for="node" id="att3"/>
+<key attr.name="n_bills" attr.type="float" for="node" id="att4"/>
+<key attr.name="photo" attr.type="string" for="node" id="att5"/>
+<graph edgedefault="directed">
+<node id="1">
+<data key="label">Alain Berset</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=1161</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_de_Fribourg</data>
+<data key="att4">9.0</data>
+<data key="att5">photos/1161.jpg</data>
+<data key="size">100.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-144.88512</data>
+<data key="y">11.778726</data>
+<data key="z">32.0</data>
+</node>
+<node id="4">
+<data key="label">Bruno Frick</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=85</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_de_Schwytz</data>
+<data key="att4">9.0</data>
+<data key="att5">photos/85.jpg</data>
+<data key="size">100.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">104.7149</data>
+<data key="y">130.17873</data>
+<data key="z">32.0</data>
+</node>
+<node id="15">
+<data key="label">Franz Wicki</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=379</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_de_Lucerne</data>
+<data key="att4">11.0</data>
+<data key="att5">photos/379.jpg</data>
+<data key="size">100.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">95.11489</data>
+<data key="y">30.978722</data>
+<data key="z">32.0</data>
+</node>
+<node id="21">
+<data key="label">Hans Hess</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=409</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_d'Obwald</data>
+<data key="att4">15.0</data>
+<data key="att5">photos/409.jpg</data>
+<data key="size">100.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">63.114895</data>
+<data key="y">-49.02128</data>
+<data key="z">32.0</data>
+</node>
+<node id="23">
+<data key="label">Hans Lauri</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=805</data>
+<data key="att2">Swiss People's Party</data>
+<data key="att3">Canton_de_Berne</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/805.jpg</data>
+<data key="size">100.0</data>
+<data key="r">0</data>
+<data key="g">68</data>
+<data key="b">27</data>
+<data key="x">95.11489</data>
+<data key="y">-77.821266</data>
+<data key="z">32.0</data>
+</node>
+<node id="26">
+<data key="label">Helen Leumann</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=373</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Lucerne</data>
+<data key="att4">7.0</data>
+<data key="att5">photos/373.jpg</data>
+<data key="size">100.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">56.714893</data>
+<data key="y">-141.82126</data>
+<data key="z">32.0</data>
+</node>
+<node id="31">
+<data key="label">Maximilian Reimann</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=173</data>
+<data key="att2">Swiss People's Party</data>
+<data key="att3">Canton_d'Argovie</data>
+<data key="att4">7.0</data>
+<data key="att5">photos/173.jpg</data>
+<data key="size">100.0</data>
+<data key="r">0</data>
+<data key="g">68</data>
+<data key="b">27</data>
+<data key="x">130.3149</data>
+<data key="y">-52.22129</data>
+<data key="z">32.0</data>
+</node>
+<node id="33">
+<data key="label">Peter Bieri</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=277</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_de_Zoug</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/277.jpg</data>
+<data key="size">100.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">85.51489</data>
+<data key="y">11.778726</data>
+<data key="z">32.0</data>
+</node>
+<node id="35">
+<data key="label">Philipp Stähelin</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=532</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_de_Thurgovie</data>
+<data key="att4">9.0</data>
+<data key="att5">photos/532.jpg</data>
+<data key="size">100.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">111.11489</data>
+<data key="y">107.778725</data>
+<data key="z">32.0</data>
+</node>
+<node id="37">
+<data key="label">Pierre-Alain Gentil</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=371</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_du_Jura</data>
+<data key="att4">8.0</data>
+<data key="att5">photos/371.jpg</data>
+<data key="size">100.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-128.88512</data>
+<data key="y">78.97872</data>
+<data key="z">32.0</data>
+</node>
+<node id="42">
+<data key="label">Simonetta Sommaruga</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=512</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_de_Berne</data>
+<data key="att4">9.0</data>
+<data key="att5">photos/512.jpg</data>
+<data key="size">100.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-96.88511</data>
+<data key="y">-39.421272</data>
+<data key="z">32.0</data>
+</node>
+<node id="43">
+<data key="label">Theo Maissen</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=275</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_des_Grisons</data>
+<data key="att4">8.0</data>
+<data key="att5">photos/275.jpg</data>
+<data key="size">100.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">-7.285106</data>
+<data key="y">69.378716</data>
+<data key="z">32.0</data>
+</node>
+<node id="8">
+<data key="label">Christoffel Brändli</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=276</data>
+<data key="att2">Swiss People's Party</data>
+<data key="att3">Canton_des_Grisons</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/276.jpg</data>
+<data key="size">68.0</data>
+<data key="r">0</data>
+<data key="g">68</data>
+<data key="b">27</data>
+<data key="x">159.1149</data>
+<data key="y">50.17872</data>
+<data key="z">32.0</data>
+</node>
+<node id="12">
+<data key="label">Eugen David</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=57</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_de_Saint-Gall</data>
+<data key="att4">10.0</data>
+<data key="att5">photos/57.jpg</data>
+<data key="size">68.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">-32.885113</data>
+<data key="y">72.57873</data>
+<data key="z">32.0</data>
+</node>
+<node id="18">
+<data key="label">Hannes Germann</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=825</data>
+<data key="att2">Swiss People's Party</data>
+<data key="att3">Canton_de_Schaffhouse</data>
+<data key="att4">12.0</data>
+<data key="att5">photos/825.jpg</data>
+<data key="size">68.0</data>
+<data key="r">0</data>
+<data key="g">68</data>
+<data key="b">27</data>
+<data key="x">181.5149</data>
+<data key="y">-71.42127</data>
+<data key="z">32.0</data>
+</node>
+<node id="22">
+<data key="label">Hans Hofmann</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=403</data>
+<data key="att2">Swiss People's Party</data>
+<data key="att3">Canton_de_Zurich</data>
+<data key="att4">11.0</data>
+<data key="att5">photos/403.jpg</data>
+<data key="size">68.0</data>
+<data key="r">0</data>
+<data key="g">68</data>
+<data key="b">27</data>
+<data key="x">200.71489</data>
+<data key="y">-39.421272</data>
+<data key="z">32.0</data>
+</node>
+<node id="24">
+<data key="label">Hansheiri Inderkum</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=372</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_d'Uri</data>
+<data key="att4">12.0</data>
+<data key="att5">photos/372.jpg</data>
+<data key="size">68.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">5.514897</data>
+<data key="y">14.978723</data>
+<data key="z">32.0</data>
+</node>
+<node id="27">
+<data key="label">Hermann Bürgi</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=538</data>
+<data key="att2">Swiss People's Party</data>
+<data key="att3">Canton_de_Thurgovie</data>
+<data key="att4">11.0</data>
+<data key="att5">photos/538.jpg</data>
+<data key="size">68.0</data>
+<data key="r">0</data>
+<data key="g">68</data>
+<data key="b">27</data>
+<data key="x">63.114895</data>
+<data key="y">-109.821266</data>
+<data key="z">32.0</data>
+</node>
+<node id="30">
+<data key="label">Marianne Slongo</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=530</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_de_Nidwald</data>
+<data key="att4">10.0</data>
+<data key="att5">photos/530.jpg</data>
+<data key="size">68.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">194.3149</data>
+<data key="y">30.978722</data>
+<data key="z">32.0</data>
+</node>
+<node id="36">
+<data key="label">Pierre Bonhôte</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=1314</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_de_Neuchâtel</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/1314.jpg</data>
+<data key="size">68.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-119.2851</data>
+<data key="y">46.97872</data>
+<data key="z">32.0</data>
+</node>
+<node id="41">
+<data key="label">Simon Epiney</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=72</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_du_Valais</data>
+<data key="att4">11.0</data>
+<data key="att5">photos/72.jpg</data>
+<data key="size">68.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">-4.085109</data>
+<data key="y">139.77873</data>
+<data key="z">32.0</data>
+</node>
+<node id="44">
+<data key="label">This Jenny</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=408</data>
+<data key="att2">Swiss People's Party</data>
+<data key="att3">Canton_de_Glaris</data>
+<data key="att4">11.0</data>
+<data key="att5">photos/408.jpg</data>
+<data key="size">68.0</data>
+<data key="r">0</data>
+<data key="g">68</data>
+<data key="b">27</data>
+<data key="x">136.71489</data>
+<data key="y">-132.22128</data>
+<data key="z">32.0</data>
+</node>
+<node id="47">
+<data key="label">Urs Schwaller</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=1149</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_de_Fribourg</data>
+<data key="att4">7.0</data>
+<data key="att5">photos/1149.jpg</data>
+<data key="size">68.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">136.71489</data>
+<data key="y">184.57872</data>
+<data key="z">32.0</data>
+</node>
+<node id="2">
+<data key="label">Alex Kuprecht</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=1162</data>
+<data key="att2">Swiss People's Party</data>
+<data key="att3">Canton_de_Schwytz</data>
+<data key="att4">9.0</data>
+<data key="att5">photos/1162.jpg</data>
+<data key="size">36.0</data>
+<data key="r">0</data>
+<data key="g">68</data>
+<data key="b">27</data>
+<data key="x">210.3149</data>
+<data key="y">-157.82126</data>
+<data key="z">32.0</data>
+</node>
+<node id="3">
+<data key="label">Anita Fetz</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=466</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_de_Bâle-Ville</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/466.jpg</data>
+<data key="size">36.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-199.28511</data>
+<data key="y">-77.821266</data>
+<data key="z">32.0</data>
+</node>
+<node id="5">
+<data key="label">Carlo Schmid-Sutter</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=195</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_d'Appenzell_Rhodes-Intérieures</data>
+<data key="att4">9.0</data>
+<data key="att5">photos/195.jpg</data>
+<data key="size">36.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">207.1149</data>
+<data key="y">59.778725</data>
+<data key="z">32.0</data>
+</node>
+<node id="13">
+<data key="label">Filippo Lombardi</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=540</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_du_Tessin</data>
+<data key="att4">9.0</data>
+<data key="att5">photos/540.jpg</data>
+<data key="size">36.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">37.514896</data>
+<data key="y">149.37872</data>
+<data key="z">32.0</data>
+</node>
+<node id="25">
+<data key="label">Hansruedi Stadler</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=531</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_d'Uri</data>
+<data key="att4">8.0</data>
+<data key="att5">photos/531.jpg</data>
+<data key="size">36.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">-42.485104</data>
+<data key="y">178.17873</data>
+<data key="z">32.0</data>
+</node>
+<node id="29">
+<data key="label">Madeleine Amgwerd</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=1107</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_du_Jura</data>
+<data key="att4">8.0</data>
+<data key="att5">photos/1107.jpg</data>
+<data key="size">36.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">15.114896</data>
+<data key="y">197.37872</data>
+<data key="z">32.0</data>
+</node>
+<node id="38">
+<data key="label">Rolf Büttiker</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=37</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Soleure</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/37.jpg</data>
+<data key="size">36.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">63.114895</data>
+<data key="y">-196.22128</data>
+<data key="z">32.0</data>
+</node>
+<node id="39">
+<data key="label">Rolf Escher</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=537</data>
+<data key="att2">Christian Democratic People's Party</data>
+<data key="att3">Canton_du_Valais</data>
+<data key="att4">8.0</data>
+<data key="att5">photos/537.jpg</data>
+<data key="size">36.0</data>
+<data key="r">253</data>
+<data key="g">180</data>
+<data key="b">98</data>
+<data key="x">194.3149</data>
+<data key="y">123.778725</data>
+<data key="z">32.0</data>
+</node>
+<node id="40">
+<data key="label">Rolf Schweiger</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=425</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Zoug</data>
+<data key="att4">7.0</data>
+<data key="att5">photos/425.jpg</data>
+<data key="size">36.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-7.285106</data>
+<data key="y">-135.42126</data>
+<data key="z">32.0</data>
+</node>
+<node id="6">
+<data key="label">Christiane Brunner</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=30</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_de_Genève</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/30.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-244.0851</data>
+<data key="y">14.978723</data>
+<data key="z">32.0</data>
+</node>
+<node id="7">
+<data key="label">Christiane Langenberger</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=280</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Vaud</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/280.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-180.0851</data>
+<data key="y">-164.22128</data>
+<data key="z">32.0</data>
+</node>
+<node id="9">
+<data key="label">Dick Marty</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=374</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_du_Tessin</data>
+<data key="att4">7.0</data>
+<data key="att5">photos/374.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-164.0851</data>
+<data key="y">-39.421272</data>
+<data key="z">32.0</data>
+</node>
+<node id="10">
+<data key="label">Erika Forster-Vannini</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=370</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Saint-Gall</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/370.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-68.085106</data>
+<data key="y">-97.02128</data>
+<data key="z">32.0</data>
+</node>
+<node id="11">
+<data key="label">Ernst Leuenberger</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=133</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_de_Soleure</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/133.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-240.88512</data>
+<data key="y">66.17872</data>
+<data key="z">32.0</data>
+</node>
+<node id="14">
+<data key="label">Françoise Saudan</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=378</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Genève</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/378.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-202.48512</data>
+<data key="y">197.37872</data>
+<data key="z">32.0</data>
+</node>
+<node id="16">
+<data key="label">Fritz Schiesser</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=194</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Glaris</data>
+<data key="att4">5.0</data>
+<data key="att5">photos/194.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-125.6851</data>
+<data key="y">-132.22128</data>
+<data key="z">32.0</data>
+</node>
+<node id="17">
+<data key="label">Gisèle Ory</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=1163</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_de_Neuchâtel</data>
+<data key="att4">6.0</data>
+<data key="att5">photos/1163.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-202.48512</data>
+<data key="y">133.37872</data>
+<data key="z">32.0</data>
+</node>
+<node id="19">
+<data key="label">Hans Altherr</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=1256</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_d'Appenzell_Rhodes-Extérieures</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/1256.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">271.1149</data>
+<data key="y">-81.02128</data>
+<data key="z">32.0</data>
+</node>
+<node id="20">
+<data key="label">Hans Fünfschilling</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=539</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Bâle-Campagne</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/539.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">162.3149</data>
+<data key="y">-253.82126</data>
+<data key="z">32.0</data>
+</node>
+<node id="28">
+<data key="label">Jean Studer</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=536</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_de_Neuchâtel</data>
+<data key="att4">3.0</data>
+<data key="att5">photos/536.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-304.8851</data>
+<data key="y">-13.8212805</data>
+<data key="z">32.0</data>
+</node>
+<node id="32">
+<data key="label">Michel Béguelin</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=246</data>
+<data key="att2">Socialist Party</data>
+<data key="att3">Canton_de_Vaud</data>
+<data key="att4">7.0</data>
+<data key="att5">photos/246.jpg</data>
+<data key="size">4.0</data>
+<data key="r">228</data>
+<data key="g">26</data>
+<data key="b">28</data>
+<data key="x">-231.28511</data>
+<data key="y">104.57872</data>
+<data key="z">32.0</data>
+</node>
+<node id="34">
+<data key="label">Peter Briner</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=528</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Schaffhouse</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/528.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-26.485104</data>
+<data key="y">-180.22128</data>
+<data key="z">32.0</data>
+</node>
+<node id="45">
+<data key="label">Thomas Pfisterer</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=541</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_d'Argovie</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/541.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-144.88512</data>
+<data key="y">242.17873</data>
+<data key="z">32.0</data>
+</node>
+<node id="46">
+<data key="label">Trix Heberlein</data>
+<data key="att1">http://www.parlament.ch/f/suche/pages/biografie.aspx?biografie_id=107</data>
+<data key="att2">Free Democratic Party</data>
+<data key="att3">Canton_de_Zurich</data>
+<data key="att4">4.0</data>
+<data key="att5">photos/107.jpg</data>
+<data key="size">4.0</data>
+<data key="r">55</data>
+<data key="g">126</data>
+<data key="b">184</data>
+<data key="x">-61.6851</data>
+<data key="y">-205.82126</data>
+<data key="z">32.0</data>
+</node>
+<edge id="0" source="41" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="1" source="25" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="2" source="42" target="1">
+<data key="weight">2.0</data>
+</edge>
+<edge id="3" source="21" target="1">
+<data key="weight">2.0</data>
+</edge>
+<edge id="4" source="32" target="1">
+<data key="weight">2.0</data>
+</edge>
+<edge id="5" source="17" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="6" source="46" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="7" source="36" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="8" source="37" target="1">
+<data key="weight">2.0</data>
+</edge>
+<edge id="9" source="14" target="1">
+<data key="weight">2.0</data>
+</edge>
+<edge id="10" source="6" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="11" source="3" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="12" source="7" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="13" source="9" target="1">
+<data key="weight">2.0</data>
+</edge>
+<edge id="14" source="24" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="15" source="11" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="16" source="28" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="17" source="16" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="18" source="44" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="19" source="42" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="20" source="6" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="21" source="40" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="22" source="12" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="23" source="10" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="24" source="15" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="25" source="29" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="26" source="24" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="27" source="30" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="28" source="41" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="29" source="12" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="30" source="47" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="31" source="5" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="32" source="33" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="33" source="39" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="34" source="35" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="35" source="25" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="36" source="13" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="37" source="18" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="38" source="21" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="39" source="39" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="40" source="41" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="41" source="13" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="42" source="44" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="43" source="43" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge id="44" source="27" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="45" source="47" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="46" source="23" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="47" source="10" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="48" source="19" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="49" source="18" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="50" source="26" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="51" source="25" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="52" source="43" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="53" source="5" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="54" source="22" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="55" source="40" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="56" source="35" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="57" source="4" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="58" source="24" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="59" source="21" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="60" source="41" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="61" source="30" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="62" source="29" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="63" source="39" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge id="64" source="2" target="18">
+<data key="weight">1.0</data>
+</edge>
+<edge id="65" source="22" target="18">
+<data key="weight">1.0</data>
+</edge>
+<edge id="66" source="27" target="18">
+<data key="weight">1.0</data>
+</edge>
+<edge id="67" source="21" target="18">
+<data key="weight">1.0</data>
+</edge>
+<edge id="68" source="44" target="18">
+<data key="weight">1.0</data>
+</edge>
+<edge id="69" source="31" target="18">
+<data key="weight">1.0</data>
+</edge>
+<edge id="70" source="31" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="71" source="2" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="72" source="13" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="73" source="5" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="74" source="18" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="75" source="40" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="76" source="9" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="77" source="20" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="78" source="16" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="79" source="19" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="80" source="44" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="81" source="24" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="82" source="39" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="83" source="26" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="84" source="46" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="85" source="4" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="86" source="38" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="87" source="22" target="21">
+<data key="weight">1.0</data>
+</edge>
+<edge id="88" source="15" target="22">
+<data key="weight">1.0</data>
+</edge>
+<edge id="89" source="26" target="22">
+<data key="weight">1.0</data>
+</edge>
+<edge id="90" source="2" target="23">
+<data key="weight">2.0</data>
+</edge>
+<edge id="91" source="21" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="92" source="30" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="93" source="20" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="94" source="35" target="23">
+<data key="weight">2.0</data>
+</edge>
+<edge id="95" source="10" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="96" source="40" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="97" source="15" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="98" source="19" target="23">
+<data key="weight">2.0</data>
+</edge>
+<edge id="99" source="34" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="100" source="5" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="101" source="22" target="23">
+<data key="weight">2.0</data>
+</edge>
+<edge id="102" source="26" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="103" source="18" target="23">
+<data key="weight">2.0</data>
+</edge>
+<edge id="104" source="24" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="105" source="8" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="106" source="44" target="23">
+<data key="weight">2.0</data>
+</edge>
+<edge id="107" source="27" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="108" source="12" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="109" source="38" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="110" source="46" target="23">
+<data key="weight">1.0</data>
+</edge>
+<edge id="111" source="31" target="23">
+<data key="weight">2.0</data>
+</edge>
+<edge id="112" source="10" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="113" source="21" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="114" source="34" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="115" source="24" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="116" source="16" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="117" source="7" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="118" source="30" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="119" source="44" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="120" source="40" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="121" source="2" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="122" source="27" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="123" source="15" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="124" source="18" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="125" source="38" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="126" source="20" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="127" source="46" target="26">
+<data key="weight">1.0</data>
+</edge>
+<edge id="128" source="18" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="129" source="21" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="130" source="22" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="131" source="30" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="132" source="27" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="133" source="35" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="134" source="23" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="135" source="43" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="136" source="44" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="137" source="34" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="138" source="2" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="139" source="26" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="140" source="4" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="141" source="40" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="142" source="5" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="143" source="15" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="144" source="38" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="145" source="8" target="31">
+<data key="weight">1.0</data>
+</edge>
+<edge id="146" source="43" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="147" source="29" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="148" source="2" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="149" source="26" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="150" source="21" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="151" source="40" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="152" source="27" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="153" source="44" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="154" source="12" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="155" source="23" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="156" source="31" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="157" source="39" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="158" source="35" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="159" source="13" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="160" source="18" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="161" source="30" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="162" source="38" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="163" source="47" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="164" source="15" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="165" source="5" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="166" source="24" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="167" source="4" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="168" source="22" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="169" source="41" target="33">
+<data key="weight">1.0</data>
+</edge>
+<edge id="170" source="39" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="171" source="30" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="172" source="13" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="173" source="5" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="174" source="33" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="175" source="29" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="176" source="24" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="177" source="41" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="178" source="15" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="179" source="47" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="180" source="4" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="181" source="43" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="182" source="12" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="183" source="25" target="35">
+<data key="weight">1.0</data>
+</edge>
+<edge id="184" source="1" target="36">
+<data key="weight">2.0</data>
+</edge>
+<edge id="185" source="34" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="186" source="9" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="187" source="13" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="188" source="32" target="36">
+<data key="weight">2.0</data>
+</edge>
+<edge id="189" source="42" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="190" source="17" target="36">
+<data key="weight">2.0</data>
+</edge>
+<edge id="191" source="12" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="192" source="24" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="193" source="45" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="194" source="25" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="195" source="11" target="36">
+<data key="weight">2.0</data>
+</edge>
+<edge id="196" source="3" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="197" source="29" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="198" source="7" target="36">
+<data key="weight">1.0</data>
+</edge>
+<edge id="199" source="37" target="36">
+<data key="weight">2.0</data>
+</edge>
+<edge id="200" source="41" target="36">
+<data key="weight">2.0</data>
+</edge>
+<edge id="201" source="28" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="202" source="9" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="203" source="6" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="204" source="16" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="205" source="41" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="206" source="10" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="207" source="25" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="208" source="33" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="209" source="14" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="210" source="29" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="211" source="32" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="212" source="1" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="213" source="43" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="214" source="42" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="215" source="13" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="216" source="45" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="217" source="17" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="218" source="11" target="37">
+<data key="weight">1.0</data>
+</edge>
+<edge id="219" source="27" target="42">
+<data key="weight">2.0</data>
+</edge>
+<edge id="220" source="37" target="42">
+<data key="weight">2.0</data>
+</edge>
+<edge id="221" source="16" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="222" source="12" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="223" source="24" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="224" source="38" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="225" source="21" target="42">
+<data key="weight">2.0</data>
+</edge>
+<edge id="226" source="1" target="42">
+<data key="weight">2.0</data>
+</edge>
+<edge id="227" source="28" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="228" source="6" target="42">
+<data key="weight">2.0</data>
+</edge>
+<edge id="229" source="11" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="230" source="17" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="231" source="36" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="232" source="44" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="233" source="32" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="234" source="3" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="235" source="23" target="42">
+<data key="weight">1.0</data>
+</edge>
+<edge id="236" source="27" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="237" source="35" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="238" source="39" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="239" source="9" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="240" source="1" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="241" source="15" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="242" source="21" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="243" source="33" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="244" source="14" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="245" source="32" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="246" source="45" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="247" source="24" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="248" source="30" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="249" source="8" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="250" source="41" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="251" source="29" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="252" source="5" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="253" source="25" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="254" source="37" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="255" source="12" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="256" source="4" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="257" source="6" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="258" source="22" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="259" source="11" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="260" source="18" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="261" source="17" target="43">
+<data key="weight">1.0</data>
+</edge>
+<edge id="262" source="47" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="263" source="13" target="43">
+<data key="weight">2.0</data>
+</edge>
+<edge id="264" source="18" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="265" source="22" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="266" source="27" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="267" source="2" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="268" source="21" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="269" source="31" target="44">
+<data key="weight">1.0</data>
+</edge>
+<edge id="270" source="12" target="47">
+<data key="weight">1.0</data>
+</edge>
+<edge id="271" source="15" target="47">
+<data key="weight">1.0</data>
+</edge>
+<edge id="272" source="4" target="47">
+<data key="weight">1.0</data>
+</edge>
+<edge id="273" source="30" target="47">
+<data key="weight">1.0</data>
+</edge>
+</graph>
+</graphml>
