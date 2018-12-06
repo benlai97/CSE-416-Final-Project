@@ -1,7 +1,8 @@
 import numpy as np
 import graph_tool.all as gt
 
-from scipy.linalg import eigh, eigs
+from scipy.linalg import eigh
+from scipy.sparse.linalg import eigs
 
 
 def coefficient(g: gt.Graph) -> np.float64:
