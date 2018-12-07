@@ -1,7 +1,8 @@
 import numpy as np
 import graph_tool.all as gt
 
-from scipy import lstsq, sparse
+from scipy import sparse
+from scipy.linalg import lstsq
 from dist import degree
 
 def fit_power(g: gt.Graph, method='ccdf', k_min=1):
