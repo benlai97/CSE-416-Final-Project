@@ -45,7 +45,15 @@ def stats(g: gt.Graph):
     labeled = gt.label_components(g)
     num_cc = max(np.unique(labeled[0].a))
     
-    return num_edges, num_vertices, clustering_coefficient, avg_degree, excess_degree, avg_path, lcc, num_cc
+    return("num_edges: %s" % num_edges, 
+          "num+vertices: %s" % num_vertices, 
+          "clustering_coefficient: %s" % clustering_coefficient,
+          "avg_degree: %s" % avg_degree,
+          "excess_degree: %s" % excess_degree,
+          "avg_path: %s" % avg_path,
+          "lcc: %s" % lcc,
+          "num_cc: %s" % num_cc)
+    
 
 if __name__ == "__main__":
     pass

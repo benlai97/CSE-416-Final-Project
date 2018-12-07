@@ -1,0 +1,119 @@
+net_se2014-2018.graphml ('num_edges: 2748', 'num+vertices: 368', 'clustering_coefficient: 0.49279637824049866', 'avg_degree: 0.015873015873015872', 'excess_degree: 0.016129032258064516', 'avg_path: 1098511212.7242513', 'lcc: 152', 'num_cc: 54')
+
+net_se2010-2014.graphml ('num_edges: 4691', 'num+vertices: 387', 'clustering_coefficient: 0.5106689925251265', 'avg_degree: 0.0101010101010101', 'excess_degree: 0.01020408163265306', 'avg_path: 450491368.50577223', 'lcc: 324', 'num_cc: 42')
+
+net_se.graphml ('num_edges: 210504', 'num+vertices: 21504', 'clustering_coefficient: 0.39442548662317556', 'avg_degree: 0.013333333333333334', 'excess_degree: 0.013513513513513514', 'avg_path: 2110729198.813737', 'lcc: 398', 'num_cc: 69')
+
+net_se2006-2010.graphml ('num_edges: 5363', 'num+vertices: 390', 'clustering_coefficient: 0.42150230876101563', 'avg_degree: 0.010101010101010102', 'excess_degree: 0.01020408163265306', 'avg_path: 190477990.44046023', 'lcc: 355', 'num_cc: 35')
+
+net_se1998-2002.graphml ('num_edges: 5825', 'num+vertices: 380', 'clustering_coefficient: 0.4592920766650589', 'avg_degree: 0.010101010101010102', 'excess_degree: 0.01020408163265306', 'avg_path: 84337812.92622577', 'lcc: 365', 'num_cc: 15')
+
+net_se2002-2006.graphml ('num_edges: 6094', 'num+vertices: 395', 'clustering_coefficient: 0.4892002291260111', 'avg_degree: 0.010526315789473684', 'excess_degree: 0.010638297872340424', 'avg_path: 129282578.73161994', 'lcc: 371', 'num_cc: 24')
+
+net_se1988-1991.graphml ('num_edges: 5418', 'num+vertices: 379', 'clustering_coefficient: 0.4301847262451623', 'avg_degree: 0.012195121951219513', 'excess_degree: 0.012345679012345678', 'avg_path: 134971789.20428708', 'lcc: 355', 'num_cc: 24')
+
+net_se1994-1998.graphml ('num_edges: 4922', 'num+vertices: 398', 'clustering_coefficient: 0.4518301932176868', 'avg_degree: 0.010638297872340425', 'excess_degree: 0.01075268817204301', 'avg_path: 122975585.43330976', 'lcc: 375', 'num_cc: 23')
+
+net_se1991-1994.graphml ('num_edges: 5023', 'num+vertices: 375', 'clustering_coefficient: 0.37819881625145435', 'avg_degree: 0.010752688172043013', 'excess_degree: 0.010869565217391304', 'avg_path: 181419421.3714702', 'lcc: 343', 'num_cc: 32')
+
+net_fr_an2007-2012.graphml ('num_edges: 18618', 'num+vertices: 599', 'clustering_coefficient: 0.7719652725578561', 'avg_degree: 0.0025773195876288655', 'excess_degree: 0.002583979328165375', 'avg_path: 1159266858.2843416', 'lcc: 275', 'num_cc: 324')
+
+net_fr_an2002-2007.graphml ('num_edges: 33299', 'num+vertices: 594', 'clustering_coefficient: 0.9786790854420783', 'avg_degree: 0.001984126984126984', 'excess_degree: 0.0019880715705765406', 'avg_path: 1165627461.57987', 'lcc: 271', 'num_cc: 321')
+
+net_fr_an1988-1993.graphml ('num_edges: 7098', 'num+vertices: 306', 'clustering_coefficient: 0.6739119889165925', 'avg_degree: 0.004545454545454545', 'excess_degree: 0.0045662100456621', 'avg_path: 1431839240.372944', 'lcc: 115', 'num_cc: 191')
+
+net_fr_an1986-1988.graphml ('num_edges: 4185', 'num+vertices: 325', 'clustering_coefficient: 0.8229607981940944', 'avg_degree: 0.0048543689320388345', 'excess_degree: 0.004878048780487804', 'avg_path: 1672099385.854239', 'lcc: 79', 'num_cc: 245')
+
+net_fr_an2012-2017.graphml ('num_edges: 13705', 'num+vertices: 576', 'clustering_coefficient: 0.6688270726882454', 'avg_degree: 0.003154574132492113', 'excess_degree: 0.0031645569620253164', 'avg_path: 1421286514.2772412', 'lcc: 194', 'num_cc: 381')
+
+net_fr_an1997-2002.graphml ('num_edges: 10147', 'num+vertices: 561', 'clustering_coefficient: 0.6691705917815616', 'avg_degree: 0.004048582995951416', 'excess_degree: 0.0040650406504065045', 'avg_path: 1522585087.3627245', 'lcc: 161', 'num_cc: 399')
+
+net_fr_an.graphml ('num_edges: 602112', 'num+vertices: 23688', 'clustering_coefficient: 0.5789211050346014', 'avg_degree: 0.0028571428571428567', 'excess_degree: 0.0028653295128939827', 'avg_path: 2099951350.515516', 'lcc: 599', 'num_cc: 79')
+
+net_fr_se1997-2002.graphml ('num_edges: 5554', 'num+vertices: 429', 'clustering_coefficient: 0.9138037226558707', 'avg_degree: 0.003861003861003861', 'excess_degree: 0.0038759689922480615', 'avg_path: 1532249961.9307003', 'lcc: 118', 'num_cc: 296')
+
+net_fr_se2012-2017.graphml ('num_edges: 6336', 'num+vertices: 451', 'clustering_coefficient: 0.7195268979770959', 'avg_degree: 0.005434782608695652', 'excess_degree: 0.00546448087431694', 'avg_path: 1385785290.0326252', 'lcc: 157', 'num_cc: 289')
+
+net_fr_se1986-1988.graphml ('num_edges: 708', 'num+vertices: 257', 'clustering_coefficient: 0.409258021458551', 'avg_degree: 0.018518518518518517', 'excess_degree: 0.018867924528301886', 'avg_path: 2014535977.5361474', 'lcc: 12', 'num_cc: 227')
+
+net_fr_se1988-1993.graphml ('num_edges: 2411', 'num+vertices: 375', 'clustering_coefficient: 0.8205400675073706', 'avg_degree: 0.008', 'excess_degree: 0.008064516129032258', 'avg_path: 1689567596.8914135', 'lcc: 77', 'num_cc: 286')
+
+net_fr_se1993-1997.graphml ('num_edges: 2768', 'num+vertices: 393', 'clustering_coefficient: 0.7757718406881662', 'avg_degree: 0.00495049504950495', 'excess_degree: 0.004975124378109453', 'avg_path: 1769749325.9901326', 'lcc: 69', 'num_cc: 307')
+
+net_fr_se2002-2007.graphml ('num_edges: 3690', 'num+vertices: 404', 'clustering_coefficient: 0.798792344372803', 'avg_degree: 0.007042253521126761', 'excess_degree: 0.0070921985815602835', 'avg_path: 1593060883.3612146', 'lcc: 103', 'num_cc: 301')
+
+net_fr_se.graphml ('num_edges: 186725', 'num+vertices: 19635', 'clustering_coefficient: 0.5681985018553977', 'avg_degree: 0.00423728813559322', 'excess_degree: 0.00425531914893617', 'avg_path: 2102339805.3875003', 'lcc: 496', 'num_cc: 48')
+
+net_fr_se2007-2012.graphml ('num_edges: 7868', 'num+vertices: 496', 'clustering_coefficient: 0.8980355862922137', 'avg_degree: 0.0046511627906976735', 'excess_degree: 0.004672897196261681', 'avg_path: 1326491194.6072574', 'lcc: 189', 'num_cc: 307')
+
+net_ch_cs1995-1999.graphml ('num_edges: 150', 'num+vertices: 51', 'clustering_coefficient: 0.7076449210249525', 'avg_degree: 0.021739130434782608', 'excess_degree: 0.022222222222222223', 'avg_path: 1818054206.5866973', 'lcc: 6', 'num_cc: 44')
+
+net_ch_cs2003-2007.graphml ('num_edges: 274', 'num+vertices: 47', 'clustering_coefficient: 0.838039798551667', 'avg_degree: 0.029411764705882353', 'excess_degree: 0.030303030303030304', 'avg_path: 1207412716.8207333', 'lcc: 20', 'num_cc: 27')
+
+net_ch_cs.graphml ('num_edges: 6496', 'num+vertices: 1680', 'clustering_coefficient: 0.5500317067629895', 'avg_degree: 0.022222222222222223', 'excess_degree: 0.022727272727272728', 'avg_path: 2085967188.4179068', 'lcc: 51', 'num_cc: 34')
+
+net_ch_cs2011-2015.graphml ('num_edges: 114', 'num+vertices: 44', 'clustering_coefficient: 0.5779349490378902', 'avg_degree: 0.037037037037037035', 'excess_degree: 0.038461538461538464', 'avg_path: 1820258608.033058', 'lcc: 4', 'num_cc: 39')
+
+net_ch_cs1999-2003.graphml ('num_edges: 297', 'num+vertices: 48', 'clustering_coefficient: 0.8244777227659065', 'avg_degree: 0.024999999999999998', 'excess_degree: 0.02564102564102564', 'avg_path: 1515541845.0963542', 'lcc: 13', 'num_cc: 34')
+
+net_ch_cs2007-2011.graphml ('num_edges: 167', 'num+vertices: 50', 'clustering_coefficient: 0.7446595589736007', 'avg_degree: 0.02857142857142857', 'excess_degree: 0.029411764705882353', 'avg_path: 1699089061.8784', 'lcc: 6', 'num_cc: 40')
+
+net_ch_cn2003-2007.graphml ('num_edges: 3807', 'num+vertices: 224', 'clustering_coefficient: 0.820445619588057', 'avg_degree: 0.006802721088435373', 'excess_degree: 0.00684931506849315', 'avg_path: 1221526841.7949817', 'lcc: 96', 'num_cc: 128')
+
+net_ch_cn1999-2003.graphml ('num_edges: 3694', 'num+vertices: 211', 'clustering_coefficient: 0.830951918539283', 'avg_degree: 0.005681818181818182', 'excess_degree: 0.005714285714285714', 'avg_path: 1215529479.2131803', 'lcc: 91', 'num_cc: 120')
+
+net_ch_cn2007-2011.graphml ('num_edges: 4807', 'num+vertices: 220', 'clustering_coefficient: 0.68671711508554', 'avg_degree: 0.006535947712418301', 'excess_degree: 0.006578947368421052', 'avg_path: 1000709632.7797108', 'lcc: 117', 'num_cc: 103')
+
+net_ch_cn2011-2015.graphml ('num_edges: 3889', 'num+vertices: 226', 'clustering_coefficient: 0.5872481123716499', 'avg_degree: 0.006711409395973154', 'excess_degree: 0.006756756756756757', 'avg_path: 1031150373.9230362', 'lcc: 117', 'num_cc: 109')
+
+net_ch_cn1995-1999.graphml ('num_edges: 2084', 'num+vertices: 219', 'clustering_coefficient: 0.8310307700513097', 'avg_degree: 0.008620689655172414', 'excess_degree: 0.008695652173913044', 'avg_path: 1528192008.231167', 'lcc: 62', 'num_cc: 157')
+
+net_ch_cn.graphml ('num_edges: 112476', 'num+vertices: 7700', 'clustering_coefficient: 0.5622119130156087', 'avg_degree: 0.006289308176100629', 'excess_degree: 0.006329113924050633', 'avg_path: 2086092997.0711963', 'lcc: 226', 'num_cc: 34')
+
+uk.graphml ('num_edges: 663', 'num+vertices: 675', 'clustering_coefficient: 0.0', 'avg_degree: 0.0028985507246376816', 'excess_degree: 0.0029069767441860465', 'avg_path: 1401839619.2901049', 'lcc: 346', 'num_cc: 11')
+
+net_dkEconomy.graphml ('num_edges: 685', 'num+vertices: 196', 'clustering_coefficient: 0.3740429389680697', 'avg_degree: 0.027777777777777776', 'excess_degree: 0.02857142857142857', 'avg_path: 1178276249.0344648', 'lcc: 89', 'num_cc: 105')
+
+net_dkEnvironment.graphml ('num_edges: 357', 'num+vertices: 144', 'clustering_coefficient: 0.4264002507147382', 'avg_degree: 0.025', 'excess_degree: 0.02564102564102564', 'avg_path: 1817013917.6223476', 'lcc: 32', 'num_cc: 106')
+
+Denmark.graphml ('num_edges: 3154', 'num+vertices: 1418', 'clustering_coefficient: 0.2806131987546283', 'avg_degree: 0.02564102564102564', 'excess_degree: 0.02631578947368421', 'avg_path: 1970893754.2608404', 'lcc: 196', 'num_cc: 33')
+
+net_dk.graphml ('num_edges: 44156', 'num+vertices: 19852', 'clustering_coefficient: 0.2806131987546283', 'avg_degree: 0.02564102564102564', 'excess_degree: 0.02631578947368421', 'avg_path: 2134870083.2328656', 'lcc: 196', 'num_cc: 475')
+
+net_dkHousing.graphml ('num_edges: 51', 'num+vertices: 44', 'clustering_coefficient: 0.11549422799422798', 'avg_degree: 0.1', 'excess_degree: 0.1111111111111111', 'avg_path: 2026576768.1554751', 'lcc: 2', 'num_cc: 42')
+
+net_dkCulture.graphml ('num_edges: 97', 'num+vertices: 61', 'clustering_coefficient: 0.3071848461192724', 'avg_degree: 0.0625', 'excess_degree: 0.06666666666666667', 'avg_path: 1993391162.8812146', 'lcc: 4', 'num_cc: 53')
+
+net_dkJustice.graphml ('num_edges: 622', 'num+vertices: 181', 'clustering_coefficient: 0.43386939215027104', 'avg_degree: 0.01851851851851852', 'excess_degree: 0.018867924528301886', 'avg_path: 1244860107.790849', 'lcc: 70', 'num_cc: 110')
+
+net_dkImmigration.graphml ('num_edges: 236', 'num+vertices: 106', 'clustering_coefficient: 0.28171362241407727', 'avg_degree: 0.041666666666666664', 'excess_degree: 0.043478260869565216', 'avg_path: 1804987145.5984335', 'lcc: 21', 'num_cc: 81')
+
+net_dkInstitutional.graphml ('num_edges: 125', 'num+vertices: 73', 'clustering_coefficient: 0.2808821315670631', 'avg_degree: 0.047619047619047616', 'excess_degree: 0.05', 'avg_path: 1982261598.8508162', 'lcc: 5', 'num_cc: 65')
+
+net_dkWelfare.graphml ('num_edges: 376', 'num+vertices: 140', 'clustering_coefficient: 0.309940834440053', 'avg_degree: 0.03225806451612903', 'excess_degree: 0.03333333333333333', 'avg_path: 1542243869.1260715', 'lcc: 40', 'num_cc: 90')
+
+net_dkHealth.graphml ('num_edges: 297', 'num+vertices: 108', 'clustering_coefficient: 0.4969574043671799', 'avg_degree: 0.043478260869565216', 'excess_degree: 0.04545454545454545', 'avg_path: 1811294935.1905007', 'lcc: 17', 'num_cc: 79')
+
+net_dkAgriculture.graphml ('num_edges: 123', 'num+vertices: 82', 'clustering_coefficient: 0.2819750072978193', 'avg_degree: 0.043478260869565216', 'excess_degree: 0.045454545454545456', 'avg_path: 1998015719.2758775', 'lcc: 7', 'num_cc: 73')
+
+net_dkForeign_Affairs.graphml ('num_edges: 197', 'num+vertices: 100', 'clustering_coefficient: 0.4082274385744974', 'avg_degree: 0.038461538461538464', 'excess_degree: 0.04', 'avg_path: 1810972959.9923', 'lcc: 14', 'num_cc: 81')
+
+net_dkTechnology.graphml ('num_edges: 86', 'num+vertices: 57', 'clustering_coefficient: 0.3821289334447229', 'avg_degree: 0.0625', 'excess_degree: 0.06666666666666667', 'avg_path: 1889045325.946445', 'lcc: 6', 'num_cc: 47')
+
+net_dkEducation.graphml ('num_edges: 311', 'num+vertices: 126', 'clustering_coefficient: 0.4422311145331297', 'avg_degree: 0.027777777777777776', 'excess_degree: 0.028571428571428567', 'avg_path: 1870864596.031683', 'lcc: 24', 'num_cc: 92')
+
+net_at2008-2013.graphml ('num_edges: 103', 'num+vertices: 83', 'clustering_coefficient: 0.022948938611589212', 'avg_degree: 0.06666666666666667', 'excess_degree: 0.07142857142857142', 'avg_path: 2029339315.2411091', 'lcc: 3', 'num_cc: 75')
+
+net_at1995-1999.graphml ('num_edges: 59', 'num+vertices: 67', 'clustering_coefficient: 0.006965174129353234', 'avg_degree: 0.16666666666666666', 'excess_degree: 0.2', 'avg_path: 2068549630.1588328', 'lcc: 2', 'num_cc: 63')
+
+net_at2006-2008.graphml ('num_edges: 45', 'num+vertices: 51', 'clustering_coefficient: 0.0', 'avg_degree: 0.16666666666666666', 'excess_degree: 0.2', 'avg_path: 2064094239.7366397', 'lcc: 1', 'num_cc: 50')
+
+net_at1999-2002.graphml ('num_edges: 73', 'num+vertices: 63', 'clustering_coefficient: 0.053577727387251195', 'avg_degree: 0.1111111111111111', 'excess_degree: 0.125', 'avg_path: 2043058264.3653314', 'lcc: 2', 'num_cc: 56')
+
+net_at2013-2018.graphml ('num_edges: 59', 'num+vertices: 60', 'clustering_coefficient: 0.0', 'avg_degree: 0.125', 'excess_degree: 0.14285714285714285', 'avg_path: 2066953010.2638888', 'lcc: 2', 'num_cc: 56')
+
+net_at1994-1995.graphml ('num_edges: 37', 'num+vertices: 44', 'clustering_coefficient: 0.0', 'avg_degree: 0.08333333333333333', 'excess_degree: 0.09090909090909091', 'avg_path: 2027686005.5872934', 'lcc: 2', 'num_cc: 41')
+
+net_at.graphml ('num_edges: 3528', 'num+vertices: 3536', 'clustering_coefficient: 0.017038353803059684', 'avg_degree: 0.07692307692307693', 'excess_degree: 0.08333333333333333', 'avg_path: 2125018301.8320851', 'lcc: 75', 'num_cc: 391')
+
+net_at2002-2006.graphml ('num_edges: 93', 'num+vertices: 74', 'clustering_coefficient: 0.02972972972972973', 'avg_degree: 0.09090909090909091', 'excess_degree: 0.1', 'avg_path: 2043560497.6022644', 'lcc: 3', 'num_cc: 66')

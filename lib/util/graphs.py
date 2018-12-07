@@ -12,10 +12,6 @@ def combine_graphs(path):
     file_name = search(r'/(\w+)/?$', path).group(1)
     graph.save(path + f'{file_name}.graphml')
     
-def load_graphs(path):
-    data = os.listdir(path)
-    graphs = [gt.load_graph(path + x) for x in data]
-
 if __name__ == '__main__':
     from sys import argv
     _, path = argv
