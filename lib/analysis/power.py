@@ -12,8 +12,7 @@ def fit_power(g: gt.Graph, method='ccdf', k_min=1):
     if method == 'pdf':
         df = pdf
     elif method == 'ccdf':
-        df = sparse.triu(np.tile(pdf,(pdf.shape[0], 1))).sum(axis=1) - pdf
-        df = df.todense()
+        df = np.triu(np.tile(pdf,(pdf.shape[0], 1))).sum(axis=1) - pdf
     else:
         raise ValueError(f'METHOD must be either `pdf` or `ccdf` (given: {method}')
 

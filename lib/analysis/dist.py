@@ -10,7 +10,7 @@ def degree(g: gt.Graph, deg='total') -> np.array:
     '''
     degrees = g.degree_property_map(deg=deg).a
     counts = np.bincount(degrees)[1:]
-    return counts[counts > 0] / np.sum(counts)
+    return counts / np.sum(counts)
 
 def excess_degree(g: gt.Graph, deg='total') -> np.array:
     '''
