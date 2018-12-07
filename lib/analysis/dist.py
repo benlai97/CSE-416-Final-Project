@@ -1,8 +1,6 @@
 import numpy as np
 import graph_tool.all as gt
 
-from scipy.linalg import lstsq
-
 
 def degree(g: gt.Graph, deg='total') -> np.array:
     '''
