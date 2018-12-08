@@ -68,12 +68,12 @@ def summary(g: gt.Graph):
     
     # Clustering coefficient
     clustering_coefficient = clustering.coefficient(g)
-    
+
     # Average degree
-    avg_degree = np.mean(dist.degree(g))
+    _, avg_degree = dist.degree(g, report_avg=True)
     
     # Average excess degree
-    excess_degree = np.mean(dist.excess_degree(g))
+    _, avg_excess_degree = dist.excess_degree(g, report_avg=True)
     
     # Size of largest connected component
     l = gt.label_largest_component(g)
@@ -92,7 +92,7 @@ def summary(g: gt.Graph):
         'Number of Vertices': num_vertices,
         'Clustering Coefficient': clustering_coefficient,
         'Average Degree': avg_degree,
-        'Average Excess Degree': excess_degree,
+        'Average Excess Degree': avg_excess_degree,
         'Average Distance': avg_path,
         'Size of LCC': lcc,
         'Number of CC': num_cc
