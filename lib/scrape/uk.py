@@ -77,8 +77,11 @@ with open('../../data/uk/raw/bills.json', 'w') as f:
 # write cosponsorship edges
 with open('../../data/uk/raw/cosponsorships.csv', 'w+') as f:
     for number, bill in tqdm(bills.items(), desc='Writing Cosponsors'):
+        primary = bill['primary']
         sponsors = bill['sponsors']
-        primary, cosponsors = sponsors[0], sponsors[1:]
-        
-        for cosponsor in tqdm(cosponsors, desc=f'Bill {number}'):
-            f.write(f"{primary};{cosponsor}\n")
+
+        all_sponsors = [primary] + sponsors
+        all_pairs = [(a, b) for i, a in enumerate(all_sponsors) for b in all_sponsors[i:]]
+
+        for a, b in tqdm(all_pairs, desc=f'Bill {number}'):
+            f.write(f"{a};{b}\n")
