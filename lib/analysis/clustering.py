@@ -6,14 +6,16 @@ from scipy.sparse.linalg import eigs
 
 
 def coefficient(g: gt.Graph) -> np.float64:
+    '''returns the average clustering coefficient for a graph'''
     cs = gt.local_clustering(g)
     C, _ = gt.vertex_average(g, cs)
     return C
 
 def modularity(g: gt.Graph, partitioning: gt.PropertyMap) -> np.float64:
+    '''returns the modularity score for a given partitioning of graph G'''
     return gt.modularity(g, partitioning)
 
-def betweenness(g, k=2):
+def betweenness_based(g, k=2):
     '''
     1. The betweenness of all existing edges in the network is calculated first.
     2. The edge with the highest betweenness is removed.
@@ -40,7 +42,7 @@ def betweenness(g, k=2):
     # return the a Vertex PropertyMap of the partition assignments
     return g.new_vp('int', gt.label_components(h)[0].a)
 
-def modularity_maximization(g: gt.Graph) -> (gt.Graph, gt.Graph):
+def _modularity_maximization(g: gt.Graph) -> (gt.Graph, gt.Graph):
     '''
     returns the modularity maximizing partitioning given a graph G
     '''
@@ -53,7 +55,7 @@ def modularity_maximization(g: gt.Graph) -> (gt.Graph, gt.Graph):
     # divide nodes into two partitions and add to partition map
     return gt.GraphView(g, vfilt=u), gt.GraphView(g, vfilt=~u)    
 
-def spectral(g: gt.Graph, k=2) -> (gt.Graph, gt.Graph):
+def _spectral(g: gt.Graph, k=2) -> (gt.Graph, gt.Graph):
     '''
     returns a two-way spectral partitioning of a graph G
     
@@ -70,10 +72,14 @@ def spectral(g: gt.Graph, k=2) -> (gt.Graph, gt.Graph):
     # divide nodes into two partitions and add to partition map
     return gt.GraphView(g, vfilt=part), gt.GraphView(g, vfilt=~part)
 
-def cluster(g, method=modularity_maximization, k=2) -> gt.PropertyMap:
+def cluster(g, method='modularity', k=2) -> gt.PropertyMap:
     '''
     performs community detection using a 2-way splitting METHOD
     and returns K communities.
+
+    Has two methods:
+        (1) modularity
+        (2) spectral
     
     1. compute the necessary depth to find K clusterings and then compute the
        maximal partitionings at that level using METHOD.
@@ -102,6 +108,13 @@ def cluster(g, method=modularity_maximization, k=2) -> gt.PropertyMap:
         '''returns every combination of range [0, 2^d]'''
         mesh = np.meshgrid(*[np.arange(2 ** (d-1)) for _ in range(2 ** (d-1))])
         return np.array(mesh).T.reshape(-1, 2 ** (d-1))
+
+    if method == 'modularity':
+        partitioner = _modularity_maximization
+    elif method == 'spectral':
+        partitioner = _spectral
+    else:
+        raise ValueError(f'Not a valid method (given {method})')
     
     # compute the necessary depth: ceil(log2 k)
     d = np.int64(np.ceil(np.log2(k)))
@@ -112,7 +125,7 @@ def cluster(g, method=modularity_maximization, k=2) -> gt.PropertyMap:
     for level in range(1, d+1):
         for parent in partition_map[level-1]:
             # compute maximal child graphs
-            left, right = method(parent)
+            left, right = partitioner(parent)
             # divide nodes into two partitions and add to partition map
             partition_map[level] += [left, right]
 

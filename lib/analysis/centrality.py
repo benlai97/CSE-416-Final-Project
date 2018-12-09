@@ -1,9 +1,9 @@
 import graph_tool.all as gt
 
 
-def betweeness(g: gt.Graph) -> (gt.PropertyMap, gt.PropertyMap):
-    '''returns both vertex and edge betweeness'''
-    vertex, edge = gt.betweeness(g, norm=True)
+def betweenness(g: gt.Graph) -> (gt.PropertyMap, gt.PropertyMap):
+    '''returns both vertex and edge betweenness'''
+    vertex, edge = gt.betweenness(g, norm=True)
     return vertex, edge
 
 
