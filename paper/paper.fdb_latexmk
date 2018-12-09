@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1544389219 "/Users/catherinejiang/Repositories/CSE-416-Final-Project/paper/paper.tex" "paper.pdf" "paper" 1544389219
-  "/Users/catherinejiang/Repositories/CSE-416-Final-Project/paper/paper.tex" 1544389218 2675 7b47509eb1590d341457abbe03e57df2 ""
-  "/dev/null" 1544389219 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1544391198 "/Users/catherinejiang/Repositories/CSE-416-Final-Project/paper/paper.tex" "paper.pdf" "paper" 1544391199
+  "/Users/catherinejiang/Repositories/CSE-416-Final-Project/paper/paper.tex" 1544391198 3524 1116b3767e01b2d1085c4dc3c7d26cde ""
+  "/dev/null" 1544391198 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -110,10 +110,10 @@
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "paper.aex" 0 -1 0 ""
-  "paper.aux" 1544389219 832 40e63b34f5fd8f955f2bbeb637817104 ""
-  "paper.tex" 1544389218 2675 7b47509eb1590d341457abbe03e57df2 ""
+  "paper.aux" 1544391199 1226 072835e9f196d8d291d983515326c1c6 ""
+  "paper.tex" 1544391198 3524 1116b3767e01b2d1085c4dc3c7d26cde ""
   "paper.w18" 0 -1 0 ""
   (generated)
-  "paper.aux"
   "paper.pdf"
   "paper.log"
+  "paper.aux"
