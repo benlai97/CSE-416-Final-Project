@@ -1,4 +1,5 @@
 import graph_tool.all as gt
+import numpy as np
 
 def betweeness(g: gt.Graph) -> (gt.PropertyMap, gt.PropertyMap):
     '''returns both vertex and edge betweeness'''
@@ -10,7 +11,7 @@ def closeness(g: gt.Graph) -> gt.PropertyMap:
     vertex = gt.closeness(g, norm=True)
     return vertex
 
-def eigenvector(g: gt.Graph) -> (np.float6, gt.Propertymap):
+def eigenvector(g: gt.Graph) -> (np.float64, gt.PropertyMap):
     '''returns eigenvector and largest eigvenvalue'''
     value, vector = gt.eigenvector(g)
     return value, vector
