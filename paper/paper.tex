@@ -80,27 +80,34 @@
 \thispagestyle{empty}
 
 \begin{abstract}
-    Given the complex nature of today's political climate, we were interested in analyzing and quantifying various legislative bodies in select first-world countries. To do so, we performed complex network analysis on North Amerian and European countries to understand how a wide variety political parties interacted amongst each other with respect to cosponshorship. 
+    Given the complex nature of today's political climate, we were interested in analyzing and quantifying various legislative bodies in select first-world countries. To do so, we performed complex network analysis on North Amerian and European countries to understand how a wide variety political parties interacted amongst each other with respect to cosponshorship. We found summary statistics for each of the countries and plotted different centrality measures for comparison.
     % To-do: Finish abstract %
 \end{abstract}
 
-\section{Introduction}
+\section{Introduction} 
 
+In the United States, politics has increasingly become a point of conversation due to change of presidency and new bills being signed into laws. Cosponshorship provides a rich network between legislators that can be used to explain the political effects and efficiency of legislative processes. We propose to analyze the networks of different legislative bodies in select North American and European countries to determine how legislators interact amongst each other to cosponsor bills. We aim to answer questions such as which countries' legislators are most connected, how legislative parties and other attributes play into cosponsorship data, and what that means in terms of government performance and productivity. To perform our research, we will use cosponsorship data from different countries followed by analysis and comparison of statistics and centrality measures.
 
+According a study conducted by James Folwer from the Department of Political Science at the University of California, Davis, there are several trends that have been observed among legislators. In the United States, biennial elections cause members of the U.S. House and Senate to change every two years, but the trends remain stable. Firstly, party affiliation and similar values and ideals often lead to increased possibility of cosponsorship. Second, average number of cosponsors per legislator reflects the degree that the individual is integrated into their political network \cite{fowler1}. Because these studies were performed solely within U.S. Congression, we propose to analyze legislators from different first-world countries to determine if these trends would be observed in other political environments as well.
+ 
 \section{Methods}
-\subsection{Data Collection}
-Cosponsorship data was taken from the following resources: \underline{Bill cosponshorship network} \cite{briatte}, \underline{Cosponsorship Network} \cite{fowler}, \underline{UK Parliament} \cite{UK}, and \underline{United States Congress} \cite{US}.
 
-\section{Results}
+\subsection{Data Collection and Pre-Processing}
+We first obtained cosponsorship data for the countries: Austria, Denmark, France, Sweden, Switzerland, United Kingdom, and the United States. This was taken taken from the following resources: \underline{Bill cosponshorship} \cite{briatte}, \underline{Cosponsorship Network} \cite{fowler}, \underline{UK Parliament} \cite{UK}, and \underline{US Congress} \cite{US}. The raw data was parsed and saved as \texttt{graphml} files. Because the data from many databases were divided based on years, we also had to load and combine various \texttt{graphml} files to create a single network for each country we were analyzing. The data is stored in \texttt{CSE-416-Final-Project/data/} in our repository.
 
-\section{Discussion}
+\subsection{Data Analysis}
+We created a function 
+
+\section{Results and Discussion}
 
 \newpage
 \begin{thebibliography}{9}
 
-\bibitem{briatte} Briatte, Francois. 2016. ``Bill cosponsorship networks in European parliaments.'' \url{https://github.com/briatte/parlnet}.
+\bibitem{briatte} Briatte, Francois. ``Bill cosponsorship networks in European parliaments.'' 2016. \url{https://github.com/briatte/parlnet}.
 
-\bibitem{fowler} Fowler, J. H., Waugh, A.S., and Sohn, Y. 2010. ``Cosponsorship Network.'' \url{http://jhfowler.ucsd.edu/cosponsorship.htm}
+\bibitem{fowler1} Fowler, James H. ``Connecting the Congress: A Study of Cosponsorship Network.'' 2006. \url{http://fowler.ucsd.edu/best_connected_congressperson.pdf}
+
+\bibitem{fowler} Fowler, J. H., Waugh, A.S., and Sohn, Y. ``Cosponsorship Network.'' 2010. \url {http://jhfowler.ucsd.edu/cosponsorship.htm}
 
 \bibitem{UK} UK Parliament. \url{https://edm.parliament.uk/}
 
