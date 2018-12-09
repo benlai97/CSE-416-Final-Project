@@ -5,6 +5,11 @@ from .clustering import coefficient as clustering_coefficient
 from .dist import degree, excess_degree
 
 
+def assortativity(g: gt.Graph, attribute_map: gt.PropertyMap) -> np.float:
+    coeff, _ = gt.assortativity(g, attribute_map)
+    return coeff
+
+
 class Summary:
     def __init__(self, data: dict):
         self.data = data
