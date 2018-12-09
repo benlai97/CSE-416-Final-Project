@@ -1,10 +1,8 @@
 import graph_tool.all as gt
 import numpy as np
 from functools import reduce
-from lib.analysis import clustering
-from lib.analysis import dist
-from lib.analysis import model
-from lib.analysis import power
+from .clustering import coefficient as clustering_coefficient
+from .dist import degree, excess_degree
 
 
 class Summary:
@@ -67,13 +65,13 @@ def summary(g: gt.Graph):
     num_vertices = g.num_vertices()
     
     # Clustering coefficient
-    clustering_coefficient = clustering.coefficient(g)
+    clustering_coeff = clustering_coefficient(g)
 
     # Average degree
-    _, avg_degree = dist.degree(g, report_avg=True)
+    _, avg_degree = degree(g, report_avg=True)
     
     # Average excess degree
-    _, avg_excess_degree = dist.excess_degree(g, report_avg=True)
+    _, avg_excess_degree = excess_degree(g, report_avg=True)
     
     # Size of largest connected component
     l = gt.label_largest_component(g)
@@ -90,7 +88,7 @@ def summary(g: gt.Graph):
     data = {
         'Number of Edges': num_edges,
         'Number of Vertices': num_vertices,
-        'Clustering Coefficient': clustering_coefficient,
+        'Clustering Coefficient': clustering_coeff,
         'Average Degree': avg_degree,
         'Average Excess Degree': avg_excess_degree,
         'Average Distance': avg_path,
