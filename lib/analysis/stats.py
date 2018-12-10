@@ -55,16 +55,17 @@ def num_components(g: gt.Graph):
 
 
 def average_distance(g: gt.Graph):
-    _, components = num_components(g)
+    nc, components = num_components(g)
     sums, counts = [], []
 
     for component in components:
-        ds = np.array(list(gt.shortest_distance(component)))
-        count = ds[ds > 0].shape[0] / 2
-        sums.append(np.sum(ds) / 2)
-        counts.append(count)
+        if component.num_vertices() > 1:
+            ds = np.array(list(gt.shortest_distance(component)))
+            count = ds[ds > 0].shape[0] / 2
+            sums.append(np.sum(ds) / 2)
+            counts.append(count)
 
-    return sum(sums) / sum(counts)
+    return 0 if nc == g.num_vertices() else sum(sums) / sum(counts)
 
 
 def summary(g: gt.Graph):
