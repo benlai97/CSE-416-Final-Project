@@ -2,17 +2,17 @@ import numpy as np
 import graph_tool.all as gt
 
 
-def degree(g: gt.Graph, deg='total', report_avg=False):
+def degree(g: gt.Graph, deg='total'):
     '''
     Returns array of degree frequencies.
     '''
     degrees = g.degree_property_map(deg=deg).a
     counts = np.bincount(degrees)[1:]
-    pdf = counts / np.sum(counts)
-    k = np.arange(counts.shape[0]) + 1
-    return pdf, np.dot(k, pdf) if report_avg else pdf
+    pdf = counts / counts.sum()
+    k = np.arange(degrees.max()) + 1
+    return pdf, np.dot(k, pdf)
 
-def excess_degree(g: gt.Graph, deg='total', report_avg=False):
+def excess_degree(g: gt.Graph, deg='total'):
     '''
     Returns array of excess degree frequencies.
     '''
@@ -30,10 +30,11 @@ def excess_degree(g: gt.Graph, deg='total', report_avg=False):
     k = np.arange(1, degrees.max() + 1)
     counts = q(k)
     pdf = counts / np.sum(counts)
-    return pdf, np.dot(k, pdf) if report_avg else pdf
+    return pdf, np.dot(k, pdf)
 
 def power(g: gt.Graph, a_hat, k_min=1):
-    k = np.arange(1, degree(g).max())
+    degrees = g.degree_property_map('total')
+    k = np.arange(1, degrees.max())
     return (a_hat - 1) / k_min * np.power(k / k_min, -a_hat)
 
 

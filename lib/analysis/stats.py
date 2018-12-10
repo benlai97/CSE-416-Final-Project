@@ -93,10 +93,10 @@ def summary(g: gt.Graph):
     clustering_coeff = clustering_coefficient(g)
 
     # Average degree
-    _, avg_degree = degree(g, report_avg=True)
+    _, avg_degree = degree(g)
     
     # Average excess degree
-    _, avg_excess_degree = excess_degree(g, report_avg=True)
+    _, avg_excess_degree = excess_degree(g)
     
     # Size of largest connected component
     l = gt.label_largest_component(g)
