@@ -5,7 +5,7 @@ from scipy.linalg import lstsq
 from .dist import degree
 
 def fit_power(g: gt.Graph, method='ccdf', k_min=1):
-    pdf = degree(g)
+    pdf, _ = degree(g)
     k = np.arange(pdf.shape[0]) + 1
 
     if method == 'pdf':
