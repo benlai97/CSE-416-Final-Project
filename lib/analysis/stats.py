@@ -9,6 +9,13 @@ def assortativity(g: gt.Graph, attribute_map: gt.PropertyMap) -> np.float:
     coeff, _ = gt.assortativity(g, attribute_map)
     return coeff
 
+def assortativity_summary(g: gt.Graph, label: str):
+    '''Returns a summary of graph assortivity on given label'''
+    coeff = assortativity(g, g.vertex_properties[label])
+    data = {
+    'Assortivity on: ' + label: coeff,
+    }
+    return Summary(data)  
 
 class Summary:
     def __init__(self, data: dict):
@@ -25,6 +32,7 @@ class Summary:
 
     def get_headers(self):
         return ','.join(self.data.keys())
+    
 
 
 def num_components(g: gt.Graph):
