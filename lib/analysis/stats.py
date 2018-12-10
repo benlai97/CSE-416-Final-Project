@@ -26,8 +26,7 @@ def assortativity_summary(g: gt.Graph, label: str):
     data = {
     'Assortivity on: ' + label: coeff,
     }
-#     return Summary(data)  
-    return coeff
+    return Summary(data)  
 
 class Summary:
     def __init__(self, data: dict):
