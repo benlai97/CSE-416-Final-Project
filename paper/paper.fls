@@ -223,9 +223,9 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT ../plots/assortativity/all_countries.png
-INPUT ../plots/assortativity/all_countries.png
-INPUT ../plots/assortativity/all_countries.png
+INPUT ../plots/assortativity/all_countries.pdf
+INPUT ../plots/assortativity/all_countries.pdf
+INPUT ../plots/assortativity/all_countries.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT paper.aux
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb

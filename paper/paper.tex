@@ -147,7 +147,8 @@ Comparison of Average Degree and Average Excess Degree: US has an average degree
 
 Comparison of Number of Edges and Average Distance: US has a much larger average number of edges when compared to that of other countries, but has the second smallest average distance. This is expected since legislators are highly connected so the distances between any random two people is much less when compared to other countries.
 
-Comparison of LCC and Number of CC: US has the largest average size of LCC but has the smallest number of CC (US nodes are very highly connected with only a few connected components). In comparison, France has an average size of LCC that is slightly lower than the average of all countries, but it has the highest number of CC.
+Comparison of LCC and Number of CC: US has the largest average size of LCC but has the smallest number of CC (US nodes are very highly connected with only a few connected components). In comparison, France has an average size of LCC that is slightly lower than the average of all countries, but it has the highest number of CC. We also observe that the generated graphs reflect the underlying structure of governance. For example, f assortativity 
+%assortativity_net_fr_an2012-2017.pdf
 
 US graph is almost completely connected. Fully connected graphs have $n(n-1)/2$ edges. There are about 100,000 edges and 552 vertices. A complete graph would have 152,076. So this is about 67\%.
 %To-do check if this is really true because kind of unclear
@@ -155,14 +156,14 @@ US graph is almost completely connected. Fully connected graphs have $n(n-1)/2$ 
 Assortativity measures are most positive for Sweden (around 0.8) and most negative for Austria (around -0.45). Positive assortativity measures means that nodes tend to associate more with nodes with similar attributes, while negative assortativity means that nodes associate with nodes with different attributes. The US assortativity value is very close to 0, which indicates that there is no preference in either direction. 
 
 %To-do check US database
-\image[0.3]{../plots/assortativity/all_countries.png}{}{}{}   
+\image[0.3]{../plots/assortativity/all_countries.pdf}{}{}
  
 % ------------------------------------------------------------------------
 
 \section{Discussion}
 For our project, we use legislative cosponsorship networks across the US and selected European countries to try to infer social relationships in government that may influence legislative behavior. How well officials work together has a direct impact on the efficiency and productivity of government. The dynamic social relationships between legislators - of forging new relationships and maintaining older established relationships - matter. Moreover, our generated outputs hints at past and ongoing events that impact legislative cosponsorships. For example, the drop in number of cosponsorships across different parties in 2014-2018 in Sweden reflects the events that unfolded during the 2014 general elections, 
 We have uncovered some intriguing results. First, we notice that the average distance tends to increase as the world gets smaller. One interpretation of this result is that members tend to be more isolated and fewer are willing to cooporate outside of their local network. As the world gets larger, the friendship circles that define and maintain social relationships grow. As communication between legislators improves, links become increasingly more interconnected, and the relative distance between any two given legislators decreases. This underlying phenomenom is reflected in the comparison of clustering coefficients across countries. For example, small countries like Austria or Denmark have low clustering coefficients of 0 and 0.2 respectively, whereas a large country like the US has a clustering coefficient of nearly 1. 
-We also notice extreme partisanship in the US senate, which is expected given the party division between the Republicans and Democrats, and reflect
+We also notice extreme partisanship in the US senate, which is expected given the party division and clashes between the Republicans and Democrats. 
 
 Gordon Ramsay: "This SOUp, IS DRY!!!"
 
