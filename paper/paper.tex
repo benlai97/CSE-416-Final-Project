@@ -18,6 +18,8 @@
 \usepackage{lipsum}
 \usepackage[bookmarks=false]{hyperref} % for URL embedding
 \usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{multicol}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -48,7 +50,7 @@
   labelsep=period
 }
 
-\newcommand{\image}[5][0.6]{
+\newcommand{\image}[4][0.6]{
   % 1 - path to asset
   % 2 - label
   % 3 - title
@@ -56,8 +58,11 @@
   \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth,height=#1\textwidth,keepaspectratio]{#2}
-    \caption[(details)]{\textbf{#4}. #5}
-    \label{fig:#3}
+    \begin{center}
+      \caption[(details)]{\textbf{#4}}
+    \end{center}
+    \vspace{-2em}
+    \label{fig:#2}
   \end{figure}}
 
 
@@ -83,18 +88,19 @@
     Given the complex nature of today's political climate, we were interested in analyzing and quantifying various legislative bodies in select first-world countries. To do so, we performed complex network analysis on seven North Amerian and European countries (Austria, Denmark, France, Sweden, Switerland, UK, and US) to understand how a wide variety political parties interacted amongst each other with respect to cosponsorship. We found and plotted summary statistics and centrality measures to make comparisons possible.
 \end{abstract}
 
+\begin{multicols*}{2}
 \section{Introduction} 
 
-In the United States, politics has increasingly become a point of conversation due to change of presidency and new bills being signed into laws. Cosponsorship provides a rich network between legislators that can be used to explain the political effects and efficiency of legislative processes. We propose to analyze the networks of different legislative bodies in select North American and European countries to determine how legislators interact amongst each other to cosponsor bills. We aim to answer questions such as which countries' legislators are most connected, how legislative parties and other attributes play into cosponsorship data, and what that means in terms of government performance and productivity. To perform our research, we will use cosponsorship data from different countries followed by analysis and comparison of statistics and centrality measures.
+In the United States, politics has increasingly become a point of conversation due to change in presidency and new, controversial bills being signed into law. Cosponsorship provides a rich network between legislators that can be used to explain the political effects and efficiency of legislative processes. We propose to analyze the networks of different legislative bodies in select North American and European countries to determine how legislators interact amongst each other to cosponsor bills. We aim to answer questions such as which countries' legislators are most connected, how legislative parties and other attributes play into cosponsorship data, and what that means in terms of government performance and productivity. To perform our research, we will use cosponsorship data from different countries followed by analysis and comparison of statistics and centrality measures.
 
 According a study conducted by James Folwer from the Department of Political Science at the University of California, Davis, there are several trends that have been observed among legislators. In the United States, biennial elections cause members of the U.S. House and Senate to change every two years, but the trends remain stable. Firstly, party affiliation and similar values and ideals often lead to increased possibility of cosponsorship. Second, average number of cosponsors per legislator reflects the degree that the individual is integrated into their political network \cite{fowler1}. Because these studies were performed solely within U.S. Congression, we propose to analyze legislators from different first-world countries to determine if these trends would be observed in other political environments as well.
  
 \section{Materials and Methods}
 
 \subsection{Data Collection and Pre-Processing}
-We first obtained cosponsorship data for the countries: Austria, Denmark, France, Sweden, Switzerland, United Kingdom, and the United States. This was taken taken from the following resources: \underline{Bill cosponshorship} \cite{briatte}, \underline{Cosponsorship Network} \cite{fowler}, \underline{UK Parliament} \cite{UK}, and \underline{US Congress} \cite{US}. The raw data was parsed and saved as \texttt{graphml} files. Because the data from many databases were divided based on years, we also had to load and combine various \texttt{graphml} files to create a single network for each country we were analyzing. The data is stored in \texttt{CSE-416-Final-Project/data/} and the pre-processing was performed in the \texttt{Analysis} file in the root directory within our repository.
-
-%TODO: scraping
+We first obtained cosponsorship data for the countries: Austria, Denmark, France, Sweden, Switzerland, United Kingdom, and the United States. The European networks were produced by a French researcher's website \cite{briatte}. The United Kingdom Parliament was scraped from Early Day Motions \cite{UK}, a web portal listing bills discussed. The United States Congress data was scraped using a public domain tool \cite{US}. The raw data was parsed and saved as \texttt{graphml} files. 
+% Because the data from many databases were divided based on years, we also had to load and combine various \texttt{graphml} files to create a single network for each country we were analyzing.
+The data is stored in \texttt{CSE-416-Final-Project/data/} and the pre-processing was performed in the \texttt{Analysis} file in the root directory within our repository.
 
 \subsection{Data Analysis}
 
@@ -109,38 +115,53 @@ Betweenness, closeness, and eigenvector centrality measures were also performed 
 
 \section{Results}
 \subsection{Country-level Results}
-\begin{itemize}
-  \item Every country we look at has some sort of temporal data except for Denmark and the UK. Explain why we don't have the data because of how the database worked. But we still performed the same summary statistics and produced graphs.
-  \item Austria - the number of edges and vertices do not fluctuate between the years for most countries. Number of vertices around 63. Average degree has been relatively stable, which is expected given the lack of change in edges and vertices. Excess degree decreases from 1995 to 1999. The excess degree dropped to around 2, which is similar to the average degree for Austria. This happens to coincide with Austria joining the European Union in 1995. It is unclear whether there is a correlation between joining the EU and the sharp decrease in average excess degree. However, it can be noted that the drop in excess degrees leads to a similar value as the average degree, which means that the degree of individuals are roughly the same as the degree of their neighbors on average. This also means there is less or almost no hub behavior.
-  % To-do: clustering coefficient is 0 for years 94-95, 06-08, 13-18 but we don't know why -- show plots
-  \item France has had a steady increase of vertices. It started with a little less than 300 verticies in 1986-1988, and now it is around 500. Its number of edges peaked during 2002-2007 to 16,000 from 1986-1988 which had 2,000 edges. (During the same time, the clustering coefficient has increased by 1/3.) The average distance has not decreased by much, which is surprising given the amount of increase in vertices.
-  % To-do: figure out what clustering coefficient means
-  \item UK - Number of averages vertices (675) is greater than the average number of edges (663). This means that in general, a node has slightly less than one connection. The average excess degree is greater than 200, which is greater than 100 times the average degree, which is roughly 2.0. This can also be explained when observing a subset of the betweenness graph of UK. The majority of the UK betweenness graph has a single node that is connected to many other nodes that only has one edge. 
-  \image[0.2]{Images/uk-betweenness.png}{}{}{}
-  \item Denmark - there are 2 themes that have the most number of vertices, which are economy and justice. According to Forbes in December 2017, Denmark is known for its extremely efficient economy and equitable distribution of income. It is also currently undergoing an economic expansion. Denmark is also rated \#1 for least corruption \cite{denmark}. Given this information, it is expected that Denmark would have the most legislators responsible for Economy and Justice.
-  \item Switzerland - there exists few changes in Switzerland's graph statistics over the years. The country's clustering coefficient remains consistently around 0.5, and its number of vertices around 130 and its number of edges around 1750. 
-  \item Sweden - there is an interesting change in the number of cosponsorships across parties between the years 2014-2018. The number of vertices across years consistently hover around 350, whereas the number of edges dropped from 4000 in 1988-1991 to 2000 in 2014-2018. This result happens to coincide with an event during the 2014 Swedish general election, in which the Social Democrats declared that they would not work with the Sweden Democrats. This decrease in edges across parties is evidently seen when comparing the assortativity graphs from the years 1988-1991 and 2014-2018.
-  \image[0.3]{../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf}{}{}{}
-  \image[0.3]{../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf}{}{}{}
-  \item US - The US had extremely consistent number of edges (around 100,000), vertices (a little over 500), clustering coefficient (almost 1.0), average degree (around 350), and average excess degree (roughly 400). This shows that although members change every 2 years, the legislators and their interactions are relatively stable. 
-\end{itemize}
+We will now go through the summary results for each country observed. It is important to note that every country we collected data on had temporal data except for Denmark and the UK, which was a product of the resource from which we obtained the data. However, we still produced the same summary statistics and produced graphs whenever possible.
+
+For Austria, the number of vertices and edges did not fluctuate between the years, maintaining average values of 63.1 and 63.0, respectively. As expected from this result, average degree has also been relatively stable. Excess degree decreased dramatically from 1995 to 1999, dropping from 4.5 to 2, which is similar to the average degree. This happens to coincide with Austria joining the European Union in 1995. Although it is unclear whether there is a correlation between these two events, it can be noted that the drop in excess degree close to average degree means that the degree of individuals are roughly the same as their neighbors. This also means there is less or vitually no hub behavior.
+
+The France legislative bodies have had a steady increase of vertices, starting with less than 300 certices in 1986 and currently at 500. The number of edges peaked during 2002-2007 when it was 16,000. The average distance has not decreased by much, which is surprising given the amount of increase in vertices.
+
+For the UK data, the average vertices is around 675, which is greater than the average number of edges (663). This means that generally, each node has slightly less than one edge. The average excess degree is greater than 200, which is more than 100 times the average degree. This can also be explained when observing a subset of the betweenness graph, as seen in Figure \ref{fig:uk-betweenness}. The majority of the UK betweenness graph has a single node that is connected to many other nodes that only has one edge. 
+
+\begin{center}
+  \image[0.2]{Images/uk-betweenness.png}{uk-betweenness}{Subset of UK Betweenness Graph}
+\end{center}
+
+In Denmark, there are two categories that highest number of vertices: economy and justice. According to Forbes in December 2017, Denmark is known for its extremely efficient economy and equitable distribution of income. It is also currently undergoing an economic expansion. Denmark is rated \#1 for least corruption \cite{denmark}. Given this information, it is not surprising that Denmark would have the most legislators responsible for Economy and Justice.
+
+There exists few changes in Switzerland's graph statistics over the years. The country's clustering coefficient remains consistently around 0.5, and its number of vertices around 130 and its number of edges around 1750. 
+
+There is an interesting change in the number of cosponsorships across Swedish parties between the years 2014-2018. The number of vertices across years consistently hover around 350, whereas the number of edges dropped from 4000 in 1988-1991 to 2000 in 2014-2018. This result happens to coincide with an event during the 2014 Swedish general election, in which the Social Democrats declared that they would not work with the Sweden Democrats. This decrease in edges across parties is evidently seen when comparing the assortativity graphs from the years 1988-1991 and 2014-2018.
+
+\image[0.3]{../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf}{}{}{}
+\image[0.3]{../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf}{}{}{}
+
+The US has extremely consistent number of edges (around 100,000), vertices (a little over 500), clustering coefficient (almost 1.0), average degree (around 350), and average excess degree (roughly 400). This shows that although members change every 2 years, the legislators and their interactions are relatively stable. 
 
 \subsection{Across-Country Results}
+
+Comparison of Number of Edges and Number of Vertices: UK has the largest number of vertices but the fewest number of edges, which means that there are many people with few connections when compared to that of other countries.
+
+Comparison of Average Degree and Average Excess Degree: US has an average degree that is much higher than that of other countries, which is unsurprising given the size of each house and congress. The UK also has one of the lowest average degrees but has the second largest average excess degree. This means that although each node is not connected to many other nodes, it is on average connected to other important nodes. This is a contrast between US and Denmark where their average degree and average excess degrees are relatively similar. 
+
+Comparison of Number of Edges and Average Distance: US has a much larger average number of edges when compared to that of other countries, but has the second smallest average distance. This is expected since legislators are highly connected so the distances between any random two people   (there are many nodes but they are very highly connected so the distance between any two random nodes is much less than other countries)
+
 \begin{itemize}
-  \item Comparison of Number of Edges and Number of Vertices: UK has the largest number of vertices but one of the smallest number of edges (large number of people but very few connections made between them in comparison to other countries)
-  \item Average Degree: US has average degree which is much higher than the average degree for other countries (each node is very highly connected to many other nodes)
-  \item Comparison of Average Degree and Average Excess Degree: UK has one of the lowest average degrees but has the second largest average excess degree. This means that although each node is not connected to many other nodes, it is on average connected to other important nodes. This is a contrast between US and Denmark where their average degree and average excess degrees are relatively similar. 
-  \item Comparison of Number of Edges and Average Distance: US has a much larger average number of edges when compared to other countries but has the second smallest average distance (there are many nodes but they are very highly connected so the distance between any two random nodes is much less than other countries)
+  \item Comparison of Number of Edges and Average Distance: US has a much larger average number of edges when compared to that of other countries, but has the second smallest average distance (there are many nodes but they are very highly connected so the distance between any two random nodes is much less than other countries)
   \item Comparison of Size of LCC and Number of CC: US has the largest average size of LCC but has the smallest number of CC (US nodes are very highly connected and only has a few connected components). In comparison, France has an average size of LCC that is slightly lower than the average of all countries, but it has the highest number of CC.
   \item US graph is almost completely connected. Fully connected graphs have $n(n-1)/2$ edges. There are about 100,000 edges and 552 vertices. A complete graph would have 152,076. So this is about 67\%.
+  %To-do check if this is really true because kind of unclear
+  \item Assortativity measures are most positive for  Sweden (around 0.8) and most negative for Austria (around -0.45). Positive assortativity measures means that nodes tend to associate more with nodes with similar attributes, while negative assortativity means that nodes associate with nodes with different attributes. The US assortativity value is very close to 0, which indicates that there is no preference in either direction. 
+  %To-do check US database
+  \image[0.3]{../plots/assortativity/all_countries.png}{}{}{}
 \end{itemize}
 
 
 \section{Discussion}
-For our project, we use legislative cosponsorship networks across the US and selected European countries to try to infer social relationships in government that may influence legislative behavior. How well officials work together has a direct impact on the efficiency and productivity of government. The dynamic social relationships between legislators - of forging new relationships and maintaining older established relationships - matter.
-We have uncovered some intriguing results. First, we notice that the average distance tends to increase as the world gets smaller. 
+For our project, we use legislative cosponsorship networks across the US and selected European countries to try to infer social relationships in government that may influence legislative behavior. How well officials work together has a direct impact on the efficiency and productivity of government. The dynamic social relationships between legislators - of forging new relationships and maintaining older established relationships - matter. Moreover, our generated outputs hints at past and ongoing events that impact legislative cosponsorships. For example, the drop in number of cosponsorships across different parties in 2014-2018 in Sweden reflects the events that unfolded during the 2014 general elections, 
+We have uncovered some intriguing results. First, we notice that the average distance tends to increase as the world gets smaller. One interpretation of this result is that members tend to be more isolated and fewer are willing to cooporate outside of their local network. As the world gets larger, the friendship circles that define and maintain social relationships grow. As communication between legislators improves, links become increasingly more interconnected, and the relative distance between any two given legislators decreases. This underlying phenomenom is reflected in the comparison of clustering coefficients across countries. For example, small countries like Austria or Denmark have low clustering coefficients of 0 and 0.2 respectively, whereas a large country like the US has a clustering coefficient of nearly 1. 
+We also notice a surprising outcome in the US assortativity graph. We expected partisanship between the democratic and republican party. However, the US graphs have an assortativity of around 0, which suggests that there exists much more bipartisanship than one would think.  
 
-there exists an inverse relationship between the size of a graph and its average distance. 
 
 \newpage
 \begin{thebibliography}{9}
@@ -159,5 +180,5 @@ there exists an inverse relationship between the size of a graph and its average
 \end{thebibliography}
 
 
-
+\end{multicols*}
 \end{document}
