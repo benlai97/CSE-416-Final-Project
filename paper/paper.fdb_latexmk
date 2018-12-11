@@ -1,5 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1544524802 "/Users/jonathan/Desktop/classes/416/final-project/paper/paper.tex" "paper.pdf" "paper" 1544524804
+["pdflatex"] 1544551760 "/Users/jonathan/Desktop/classes/416/final-project/paper/paper.tex" "paper.pdf" "paper" 1544551763
+  "../plots/across-country/Average DegreeAverage Excess Degree.pdf" 1544528431 13141 7422a1995e1ebaf0da94050a65c9df8c ""
   "../plots/across-country/Number of EdgesNumber of Vertices.pdf" 1544521842 15194 0c67c9abd74da53e2aad857df165a77e ""
   "../plots/assortativity/all_countries.pdf" 1544519667 13232 ae89056ead7c20799827324bf6295928 ""
   "../plots/averages/completeness.pdf" 1544522358 13661 f633ebc31abd1e7ee70eccfa399ccf4b ""
@@ -10,8 +11,8 @@
   "../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf" 1544516513 980787 9672f66d579a86397df4a33f471e45e5 ""
   "../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf" 1544516513 395322 2b1018ff7ac43330631cae79257fdcfa ""
   "../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf" 1544516513 211583 09754413382b3b2df7ecc49e3d4a4a46 ""
-  "/Users/jonathan/Desktop/classes/416/final-project/paper/paper.tex" 1544524801 19306 f5b9bfdf1f06cb66cd9efe660b3cc8c9 ""
-  "/dev/null" 1544524801 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/Users/jonathan/Desktop/classes/416/final-project/paper/paper.tex" 1544551758 20353 189aa3ac54151e015a7b575a354eb030 ""
+  "/dev/null" 1544551753 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -75,6 +76,7 @@
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls" 1523050425 19823 fcbc01552b07b608574cbf8e1977e0c0 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty" 1523050425 5161 c004ea5a189d4bdcf42e86754ad75a58 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty" 1523050425 5052 f2525dfd6e503dc383e90b568c6c9f02 ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd" 1523050425 2472 aa08940f0a4dc6c24ae9f943b04ae0b9 ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo" 1523050425 8305 4e2a90a380a17c0472dd191689c67cbc ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty" 1480098823 66233 8b81cfab95a1f8fc2f0f6c89415b087a ""
   "/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty" 1480098823 64866 1ea74c5f2d1685881497f021b8f186b2 ""
@@ -127,10 +129,10 @@
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "Images/uk-betweenness.png" 1544516359 833783 cbd9ab45b07a518183935c815b65e2d0 ""
   "paper.aex" 0 -1 0 ""
-  "paper.aux" 1544524804 3612 46af97685f34130d4ffb952a3b4977f6 ""
-  "paper.tex" 1544524801 19306 f5b9bfdf1f06cb66cd9efe660b3cc8c9 ""
+  "paper.aux" 1544551763 3788 37670d788e3aaeb6972a98ed3ceb0ec0 ""
+  "paper.tex" 1544551758 20353 189aa3ac54151e015a7b575a354eb030 ""
   "paper.w18" 0 -1 0 ""
   (generated)
-  "paper.pdf"
-  "paper.log"
   "paper.aux"
+  "paper.log"
+  "paper.pdf"

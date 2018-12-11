@@ -62,7 +62,7 @@
     \begin{center}
       \caption[(details)]{\textbf{#4}\label{fig:#3}}
     \end{center}
-    \vspace{-3em}
+    \vspace{-2.5em}
   \end{figure}}
 
 
@@ -93,7 +93,7 @@
 
 In the United States, politics has increasingly become a point of conversation due to change in presidency and new, controversial bills being signed into law. Cosponsorship provides a rich network between legislators that can be used to explain the political effects and efficiency of legislative processes. We propose to analyze the networks of different legislative bodies in select North American and European countries to determine how legislators interact amongst each other to cosponsor bills. We aim to answer questions such as which countries' legislators are most connected, how legislative parties and other attributes play into cosponsorship data, and what that means in terms of government performance and productivity. To perform our research, we will use cosponsorship data from different countries followed by analysis and comparison of statistics and centrality measures.
 
-According a study conducted by James Folwer from the Department of Political Science at the University of California, Davis, there are several trends that have been observed among legislators. In the United States, biennial elections cause members of the U.S. House and Senate to change every two years, but the trends remain stable. Firstly, party affiliation and similar values and ideals often lead to increased possibility of cosponsorship. Second, average number of cosponsors per legislator reflects the degree that the individual is integrated into their political network \cite{fowler1}. Because these studies were performed solely within U.S. Congression, we propose to analyze legislators from different first-world countries to determine if these trends would be observed in other political environments as well.
+According to a study conducted by James Folwer from the Department of Political Science at the University of California, Davis, there are several trends that have been observed among legislators. In the United States, biennial elections cause members of the U.S. House and Senate to change every two years, but the trends remain stable. Firstly, party affiliation and similar values and ideals often lead to increased possibility of cosponsorship. Second, average number of cosponsors per legislator reflects the degree that the individual is integrated into their political network \cite{fowler1}. Because these studies were performed solely within U.S. Congression, we propose to analyze legislators from different first-world countries to determine if these trends would be observed in other political environments as well.
  
 \section{Materials and Methods}
 
@@ -127,7 +127,7 @@ There is an interesting change in the number of cosponsorships across Swedish pa
 \image[0.3]{../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf}{swe_ass_1988}{Sweden Assortativity 1988-1991}
 \image[0.3]{../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf}{swe_ass_2014}{Sweden Assortativity 2014-2018}
 
-The US has extremely consistent number of edges (around 100,000), vertices (a little over 500), clustering coefficient (almost 1.0), average degree (around 350), and average excess degree (roughly 400). This shows that although members change every 2 years, the legislators and their interactions are relatively stable. Most notably, the United States legislative bodies have highest completeness (67\%; Figure \ref{fig:completeness}) amongst the examined graphs, where completeness is the ratio between the number of edges in a graph and the number of edges in a complete graph with the same number of vertices.
+The US has an extremely consistent number of edges (around 100,000), vertices (a little over 500), clustering coefficient (almost 1.0), average degree (around 350), and average excess degree (roughly 400). This shows that although members change every 2 years, the legislators and their interactions are relatively stable. Most notably, the United States legislative bodies have highest completeness (67\%; Figure \ref{fig:completeness}) amongst the examined graphs, where completeness is the ratio between the number of edges in a graph and the number of edges in a complete graph with the same number of vertices.
 
 \image[0.3]{../plots/averages/completeness.pdf}{completeness}{Graph Completeness}
 
@@ -146,12 +146,14 @@ In Denmark, there are two categories that have the highest number of vertices: E
 
 We seek now to compare our results between countries. We see that, when comparing the number of edges and number of vertices, the UK has the largest number of vertices but the fewest number of edges, which means that the country has a very low average degree since there are many people with few connections when compared to that of other countries. This can be observed in Figure \ref{fig:edge-vert}.
 \image[0.26]{../plots/across-country/Number of EdgesNumber of Vertices}{edge-vert}{Number of Edges and Vertices}
-However, the UK has the second largest average excess degree, which means that although each legislator is not connected to many others, they are on average connected to other relatively important individuals. On the other hand, the US has an average degree that is much higher than that of other countries. We notice that the graph structure of the US - much like that of the UK - is separated into clumps. But unlike the UK, the US depicts an extreme partisonship structure in Figure \ref{fig:us_ass}, and Figure \ref{fig:uk_ass}.
+However, the UK has the second largest average excess degree, which means that although each legislator is not connected to many others, they are on average connected to other relatively important individuals. On the other hand, the US has an average degree that is much higher than that of other countries. This can be seen in the Figure \ref{fig:degree-excess}
+\image[0.26]{../plots/across-country/Average DegreeAverage Excess Degree.pdf}{degree-excess}{Average Degree and Excess Degree}
+We notice that the graph structure of the US - much like that of the UK - is separated into clumps. But unlike the UK, the US depicts an extreme partisonship structure in Figure \ref{fig:us_ass}.
 
 \image[0.3]{../plots/graph/US/assortativity/assortativity_us.115.pdf}{us_ass}{US Assortativity 115}
 \image[0.3]{../plots/graph/UK/assortativity/assortativity_uk.pdf}{uk_ass}{UK Assortativity}
 
-When compared to other countries, the US has a much larger average number of edges, and has the second smallest average distance. These results are not surprising, since legislators in the US are highly connected, so the distances between any random two people in the same clumps are much less compared to that of other country. We also observe that the generated graphs reflect the underlying structure of governance. For example, from Figure \ref{fig:fr_assortativity} we notice that the pink component has a single central actor, and one can thus make an educated guess that the cluster represents the French Socialist Party. 
+When compared to other countries, the US has a much larger average number of edges, and has the second smallest average distance. These results are not surprising, since legislators in the US are highly connected, so the distances between any random two people in the same clumps are much less compared to that of other country. We also observe that the generated graphs reflect the underlying structure of governance. For example, from the France graph in Figure \ref{fig:fr_assortativity} we notice that the pink component has a single central actor, and one can thus make an educated guess that the cluster represents the French Socialist Party. 
 
 \image[0.3]{../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf}{fr_assortativity}{France Assortativity 2012-2017}
 
@@ -171,6 +173,11 @@ We also expect that each country should exhibit power-law distributions, as ther
 % ------------------------------------------------------------------------
 
 \section{Discussion}
+\begin{itemize}
+  \item Stability over time: US and France, something about democracy
+  \item US - Has very consistent statistics. While the number of vertices do not change every two years during the turnaround, the number of edges do not necessarily need to be the same. However, the trend that the number of edges does not fluctuate widely across the years suggests that it is possible that the process that the legislators undergo is very stable and potentially inflexible. This is not innately a negative or positive trait of the United States legislative system
+  \item France - steady increase in vertices but average distance does not change. This could imply that new members when they join the Parliament are joining existing neighborhoods rather than building new bridges. This could suggest that there is a strong party identity in France.
+\end{itemize}
 For our project, we use legislative cosponsorship networks across the US and selected European countries to try to infer social relationships in government that may influence legislative behavior. How well officials work together has a direct impact on the efficiency and productivity of government. The dynamic social relationships between legislators - of forging new relationships and maintaining older established relationships - matter. Moreover, our generated outputs hints at past and ongoing events that impact legislative cosponsorships. For example, the drop in number of cosponsorships across different parties in 2014-2018 in Sweden reflects the events that unfolded during the 2014 general elections. 
 We have uncovered some intriguing results. First, we notice that the average distance tends to increase as the world gets smaller. One interpretation of this result is that members tend to be more isolated and fewer are willing to cooporate outside of their local network. As the world gets larger, the friendship circles that define and maintain social relationships grow. As communication between legislators improves, links become increasingly more interconnected, and the relative distance between any two given legislators decreases. This underlying phenomenom is reflected in the comparison of clustering coefficients across countries. For example, small countries like Austria or Denmark have low clustering coefficients of 0 and 0.2 respectively, whereas a large country like the US has a clustering coefficient of nearly 1. 
 We also notice extreme partisanship in the US senate, which is expected given the party division and clashes between the Republicans and Democrats. The two components of the graph also represent the house and the senate. The house and the senate differ from an institutional design and have contrasting social structures, and so we would expect the behaviour in these two components to exhibit unique characteristics as well. Although we did not conduct any direct tests, the house and senate should differ in quantities such as clustering coefficient and average path length. 
