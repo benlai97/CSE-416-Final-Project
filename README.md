@@ -16,5 +16,4 @@ Fowler, J. H., Waugh, A.S., and Sohn, Y. "Cosponsorship Network." 2010. http://j
 
 UK Parliament. https://edm.parliament.uk/
 
-% \bibitem{US} United States Congress. \url{https://github.com/unitedstates/congress}
-% \end{thebibliography}
+United States Congress. https://github.com/unitedstates/congress
