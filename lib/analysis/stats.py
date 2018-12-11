@@ -1,20 +1,16 @@
 import graph_tool.all as gt
 import numpy as np
+import pandas as pd
 from functools import reduce
 from .clustering import coefficient as clustering_coefficient
 from .dist import degree, excess_degree
 
-def generate_party_property(g: gt.Graph, label: str):
-    partyMap = {}
-    out = []
-    parties = [party for party in g.vertex_properties[label]]
-    d = dict([(y,x+1) for x,y in enumerate(sorted(set(parties)))])
-    for party in parties:
-        out.append(d[party])
-    party_id = g.new_vertex_property("int32_t")
-    for i in range(len(out)):
-        party_id[g.vertex(i)] = out[i]
-    g.vertex_properties['party_id'] = party_id
+def generate_party_property(g: gt.Graph, label='party'):
+    party_map = pd.Series(list(g.vp[label]))
+    enum_map = {party: i for i, party in enumerate(party_map.unique())}
+    party_id = party_map.replace(enum_map).values
+    g.vp['party_id'] = g.new_vp('int', party_id)
+    return g.vp['party_id'] 
 
 def assortativity(g: gt.Graph, attribute_map: gt.PropertyMap) -> np.float:
     coeff, _ = gt.assortativity(g, attribute_map)
