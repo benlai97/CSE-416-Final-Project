@@ -21,6 +21,9 @@
 \usepackage{hyperref}
 \usepackage{wrapfig}
 \usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{subcaption}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -35,6 +38,9 @@
 \rhead{Lai, Jiang, and Chen}
 \cfoot{\thepage}
 
+\titleformat*{\section}{\large\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries}
+
 % environment for cases
 \newlength\mylen
 \settowidth\mylen{\textbf{Case~5.}}
@@ -44,32 +50,53 @@
 
 % images
 \captionsetup[figure]{
-  font={footnotesize,singlespacing},
+  font={singlespacing},
   labelfont=bf,
   singlelinecheck=off,
-  justification=raggedright,
+  justification=centering,
   labelsep=period
 }
 
-\newcommand{\image}[4][0.6]{
-  % 1 - path to asset
-  % 2 - label
-  % 3 - title
-  % 4 - caption
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\textwidth,height=#1\textwidth,keepaspectratio]{#2}
-    \begin{center}
-      \caption[(details)]{\textbf{#4}\label{fig:#3}}
-    \end{center}
-    \vspace{-2.5em}
-  \end{figure}}
+\captionsetup[subfigure]{
+  font={footnotesize,singlespacing},
+  labelfont=bf,
+  singlelinecheck=off,
+  justification=centering
+}
 
+\newcommand{\doubleimage}[7]{
+  % 1 - figure title
+  % 2 - path to asset 1
+  % 3 - label
+  % 4 - title
+  % 5 - path to asset 2
+  % 6 - label
+  % 7 - title
+  \begin{figure*}[t]
+    \centering
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[width=0.8\textwidth,height=0.5\textwidth,keepaspectratio]{#2}
+      \caption[(details)]{\textbf{#4}\label{fig:#3}}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[width=0.8\textwidth,height=0.5\textwidth,keepaspectratio]{#5}
+      \caption[(details)]{\textbf{#7}\label{fig:#6}}
+    \end{subfigure}
+    \begin{center}
+      \caption{\textbf{#1}}
+    \end{center}
+    \vspace{-2em}
+  \end{figure*}
+}
 
 % minted
 \usemintedstyle{pastie}
 \setminted[python]{frame=lines,linenos,autogobble,framesep=1.4em,breaklines,%
                    escapeinside=||,mathescape,python3}
+
+\newcommand{\code}[1]{\small\texttt{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % the document begins here!
@@ -77,16 +104,20 @@
 \title{Comparative Analysis of Legislative Complex Networks}
 \author{\names \\ \small\url{https://github.com/jowch/CSE-416-Final-Project}}
   
-\date{December 11, 2018}
-    
+\date{December 12, 2018}
+
 \begin{document}
+% \newgeometry{top=0.5in}  %% I increased for demo
+\vspace{-2em}
 \maketitle
 % \vspace{0.1em}
 \thispagestyle{empty}
+% \restoregeometry
 
-\begin{abstract}
-    Given the complex nature of today's political climate, we were interested in analyzing and quantifying various legislative bodies in select first-world countries. To do so, we performed complex network analysis on seven North Amerian and European countries (Austria, Denmark, France, Sweden, Switerland, UK, and US) to understand how a wide variety political parties interacted amongst each other with respect to cosponsorship. We found and plotted summary statistics and centrality measures to make comparisons possible.
-\end{abstract}
+
+% \begin{abstract}
+%     Given the complex nature of today's political climate, we were interested in analyzing and quantifying various legislative bodies in select first-world countries. To do so, we performed complex network analysis on seven North Amerian and European countries (Austria, Denmark, France, Sweden, Switerland, UK, and US) to understand how a wide variety political parties interacted amongst each other with respect to cosponsorship. We found and plotted summary statistics and centrality measures to make comparisons possible.
+% \end{abstract}
 
 \begin{multicols*}{2}
 \section{Introduction} 
@@ -98,107 +129,97 @@ According to a study conducted by James Folwer from the Department of Political 
 \section{Materials and Methods}
 
 \subsection{Data Collection and Pre-Processing}
-We first obtained cosponsorship data for the countries: Austria, Denmark, France, Sweden, Switzerland, United Kingdom, and the United States. The European networks were produced by a French researcher's website \cite{briatte}. The United Kingdom Parliament was scraped from Early Day Motions \cite{UK}, a web portal listing bills discussed. The United States Congress data was scraped using a public domain tool \cite{US}. The raw data was parsed and saved as \texttt{graphml} files. 
+We obtained cosponsorship data for the countries: Austria, Denmark, France, Sweden, Switzerland, United Kingdom, and the United States. The European networks were produced by a French researcher's website \cite{briatte}. The United Kingdom Parliament was scraped from Early Day Motions \cite{UK}, a web portal listing bills discussed. The United States Congress data was scraped using a public domain tool \cite{US}. The raw data was parsed and saved as \code{graphml} files. 
 % Because the data from many databases were divided based on years, we also had to load and combine various \texttt{graphml} files to create a single network for each country we were analyzing.
-The data is stored in \texttt{CSE-416-Final-Project/data/} and the pre-processing was performed in the \texttt{Analysis} file in the root directory within our repository.
+% The data is stored in \code{CSE-416-Final-Project/data/} and the pre-processing was performed in the \code{Analysis} file in the root directory within our repository.
 
 \subsection{Data Analysis}
 
-Our analysis was performed using a library called \href{https://graph-tool.skewed.de}{graph-tool}, which provides Python bindings to powerful abstractions and parallel algorithms for processing graphs. In addition, we used \texttt{numpy}, \texttt{scipy}, \texttt{pandas}, \texttt{seaborn}, and \texttt{matplotlib} to perform the comparative analysis.
+Our analysis was performed using the library \href{https://graph-tool.skewed.de}{graph-tool}, which provides Python bindings to powerful abstractions and parallel algorithms for processing graphs. In addition, we used \texttt{numpy}, \texttt{scipy}, \texttt{pandas}, \texttt{seaborn}, and \texttt{matplotlib} to perform the comparative analysis.
 
 We wrote a summary function that returns a summary of graph statistics with a given graph. These statistics include: number of edges, number of vertices, average clustering coefficient, average degree, average excess degree, average path length, size of largest connected component, and number of connected components. We then wrote a script that produces a summary output in a csv file for every country for every year. 
 
 An important attribute of our generated networks that we needed to measure was assortativity. Each graph had various vertex properties to perform assortativity measures on, but we decided to use `party' to determine whether governments cooporate on a partison or bipartison basis. We mapped each `party' to a unique ID, and joined this party enumeration property map with the original vertex properties. We then produced graphs for every country across each year, with nodes colored based off their respective enumerated `party' property map.
 
-Betweenness, closeness, and eigenvector centrality measures were also performed on our data to identify influential legislators. The graphed vertices and edges were scaled and colored with respect to its corresponding centrality measure. Vertices and edges that are yellow and larger in size reflect greater importance, whilst those that are blue and smaller in size reflect lesser importance. For the generated betweenness graphs, the top 3 percent of legislators with the highest betweenness centralities were colored yellow and enlarged.
+Betweenness, closeness, and eigenvector centrality measures were also performed on our data to identify influential legislators. The graphed vertices and edges were scaled and colored with respect to its corresponding centrality measure. Vertices and edges that are yellow and larger in size reflect greater importance, whilst those that are blue and smaller in size reflect lesser importance. For the generated betweenness graphs, the top three percent of legislators with the highest betweenness centralities were colored yellow and enlarged.
 
 \section{Results and Discussion}
 \subsection{Country-level Results}
-We will now go through the summary results for each country observed. It is important to note that every country we collected data on had temporal data except for Denmark and the UK, which was due to the structure of the resource from which we obtained the data. However, we still produced the same summary statistics and produced graphs whenever possible.
+We will now go through the summary results for each country observed. Every country we collected data on had temporal data except for Denmark and the UK, which was due to the structure of the data resource. However, we still produced the same summary statistics and produced graphs whenever possible.
 
-For Austria, the number of vertices and edges did not fluctuate between the years, maintaining average values of 63.1 and 63.0, respectively. As expected from this result, average degree has also been relatively stable. Excess degree decreased dramatically from 1995 to 1999, dropping from 4.5 to 2, which is similar to the average degree. This happens to coincide with Austria joining the European Union in 1995. Although it is unclear whether there is a correlation between these two events, it can be noted that the drop in excess degree close to average degree means that the degree of individuals are roughly the same as their neighbors. This means that there was, on average, a sharp decrease in hub behavior to nearly none at all.
+For Austria, the number of vertices and edges did not fluctuate between the years, and maintained average values of 63.1 and 63.0 respectively. As expected, average degree also stayed relatively stable. Excess degree decreased dramatically from 1995 to 1999, dropping from 4.5 to 2, which is similar to the average degree. This happens to coincide with Austria joining the European Union in 1995. Although it is unclear whether there is a correlation between these two events, it can be noted that the drop in excess degree close to average degree means that the degree of individuals are roughly the same as their neighbors. This means that there was on average a sharp decrease in hub behavior.
 
-The France legislative bodies have had a steady increase of vertices, starting with less than 300 vertices in 1986 to 500 today. The number of edges peaked during 2002-2007 when it was 16,000. The average distance has not decreased by much, which is surprising given the amount of increase in vertices.
+The French legislative bodies had a steady increase of vertices, starting with less than 300 vertices in 1986 to 500 today. The number of edges peaked during 2002-2007 at 16,000. The average distance has not decreased dramatically, which is surprising given the increase in vertices.
 
-There exists few changes in Switzerland's graph statistics over the years observed. The country's clustering coefficient remains consistently around 0.5, its number of vertices around 130, and its number of edges around 1750. According to BBC, Switzerland's neutrality and political stability has allowed it to become one of the world's wealthiest countries \cite{switzerland}. This knowledge helps explain why Switzerland's legislative data has barely changed over the last decade.
+Switzerland's graph statistics have been stable over the years observed. The country's clustering coefficient remains around 0.5, its number of vertices around 130, and its number of edges around 1750. According to BBC, Switzerland's neutrality and political stability has allowed it to become one of the world's wealthiest countries \cite{switzerland}. This knowledge helps explain why Switzerland's legislative data has barely changed over the last decade.
 
-There is an interesting change in the number of cosponsorships across Swedish parties between the years 2014-2018. The number of vertices across years consistently hover around 350, whereas the number of edges dropped from 4000 in 1988-1991 to 2000 in 2014-2018. This result happens to coincide with an event during the 2014 Swedish general election, in which the Social Democrats declared that they would not work with the Swedish Democrats. This decrease in edges across parties is evidently seen when comparing the assortativity graphs from the years 1988-1991 and 2014-2018, seen in Figures \ref{fig:swe_ass_1988} and \ref{fig:swe_ass_2014}
+There was an interesting change in the number of cosponsorships across Swedish parties between the years 2014-2018. The number of vertices across years consistently hover around 350, whereas the number of edges dropped from 4000 in 1988-1991 to 2000 in 2014-2018. This result happens to coincide with the 2014 Swedish general election, in which the Social Democrats declared that they would not work with the Swedish Democrats. This decrease in edges across parties is evident when comparing graphs from the years 1988-1991 and 2014-2018, seen in Figures \ref{fig:swe_ass_1988} and \ref{fig:swe_ass_2014}
 
-\image[0.3]{../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf}{swe_ass_1988}{Sweden Assortativity 1988-1991}
-\image[0.3]{../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf}{swe_ass_2014}{Sweden Assortativity 2014-2018}
+\doubleimage
+{}{../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf}{swe_ass_1988}{Sweden Assortativity 1988-1991}{../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf}{swe_ass_2014}{Sweden Assortativity 2014-2018}
 
-The US has an extremely consistent number of edges (around 100,000), vertices (a little over 500), clustering coefficient (almost 1.0), average degree (around 350), and average excess degree (roughly 400). This shows that although members change every 2 years, the legislators and their interactions are relatively stable. Most notably, the United States legislative bodies have highest completeness (67\%; Figure \ref{fig:completeness}) amongst the examined graphs, where completeness is the ratio between the number of edges in a graph and the number of edges in a complete graph with the same number of vertices.
+The United States has an extremely consistent number of edges (around 100,000), vertices (a little over 500), clustering coefficient (almost 1.0), average degree (around 350), and average excess degree (around 400). This shows that despite changing some members every two years, the legislators and their interactions are relatively stable. Most notably, the US legislative bodies have highest completeness (67\%; Figure \ref{fig:completeness}) amongst the examined graphs, where completeness is the ratio between the number of edges in a graph and the number of edges in a complete graph with the same number of vertices.
 
-\image[0.3]{../plots/averages/completeness.pdf}{completeness}{Graph Completeness}
+For the UK data, the average vertices is around 675, which is greater than the average number of edges (663). This means that generally, each node has slightly less than one edge. The average excess degree is greater than 200, which is more than 100 times the average degree. This can also be explained when observing a subset of the betweenness graph, as seen in Figure \ref{fig:uk-betweenness}. The majority of the UK betweenness graph has a single node that is surrounded by many other nodes. 
 
-For the UK data, the average vertices is around 675, which is greater than the average number of edges (663). This means that generally, each node has slightly less than one edge. The average excess degree is greater than 200, which is more than 100 times the average degree. This can also be explained when observing a subset of the betweenness graph, as seen in Figure \ref{fig:uk-betweenness}. The majority of the UK betweenness graph has a single node that is connected to many other nodes that only has one edge. 
-
-\begin{center}
-  \image[0.2]{Images/uk-betweenness.png}{uk-betweenness}{Subset of UK Betweenness Graph}
-\end{center}
+\doubleimage{}{../plots/averages/completeness.pdf}{completeness}{Graph Completeness}{Images/uk-betweenness.png}{uk-betweenness}{Subset of UK Betweenness Graph}
 
 In Denmark, there are two categories that have the highest number of vertices: Economy and Justice. According to Forbes in December 2017, Denmark is known for its extremely efficient economy and equitable distribution of income. It is also currently undergoing an economic expansion. Denmark is rated \#1 for least corruption \cite{denmark}. Given this information, it is not surprising that Denmark would have the most legislators assigned to Economy and Justice.
 
 \subsection{Across-Country Results}
 
-% TODO:
-%---------------------------------------------------------------------------
+The next step to our analysis is to compare results between countries. When comparing the average number of edges and vertices for each country, the UK has the largest number of vertices but the fewest number of edges, signifying that the country has a very low average degree. This property can be observed in Figure \ref{fig:edge-vert}.
 
-We seek now to compare our results between countries. We see that, when comparing the number of edges and number of vertices, the UK has the largest number of vertices but the fewest number of edges, which means that the country has a very low average degree since there are many people with few connections when compared to that of other countries. This can be observed in Figure \ref{fig:edge-vert}.
-\image[0.26]{../plots/across-country/Number of EdgesNumber of Vertices}{edge-vert}{Number of Edges and Vertices}
-However, the UK has the second largest average excess degree, which means that although each legislator is not connected to many others, they are on average connected to other relatively important individuals. On the other hand, the US has an average degree that is much higher than that of other countries. This can be seen in the Figure \ref{fig:degree-excess}
-\image[0.26]{../plots/across-country/Average DegreeAverage Excess Degree.pdf}{degree-excess}{Average Degree and Excess Degree}
-We notice that the graph structure of the US - much like that of the UK - is separated into clumps. But unlike the UK, the US depicts an extreme partisonship structure in Figure \ref{fig:us_ass}.
+However, we can also compare the average degree and excess degree across countries. Despite the low average degree, the UK also has the second largest average excess degree. This means that although each vertex is not connected to many other vertices, they are on average connected to relatively important individuals. On the other hand, the US has the highest average degree and the highest average excess degree. This can be observed in the Figure \ref{fig:degree-excess}
 
-\image[0.3]{../plots/graph/US/assortativity/assortativity_us.115.pdf}{us_ass}{US Assortativity 115}
-\image[0.3]{../plots/graph/UK/assortativity/assortativity_uk.pdf}{uk_ass}{UK Assortativity}
+\doubleimage{}{../plots/across-country/Number of EdgesNumber of Vertices}{edge-vert}{Number of Edges and Vertices}{../plots/across-country/Average DegreeAverage Excess Degree.pdf}{degree-excess}{Average Degree and Excess Degree}
 
-When compared to other countries, the US has a much larger average number of edges, and has the second smallest average distance. These results are not surprising, since legislators in the US are highly connected, so the distances between any random two people in the same clumps are much less compared to that of other country. We also observe that the generated graphs reflect the underlying structure of governance. For example, from the France graph in Figure \ref{fig:fr_assortativity} we notice that the pink component has a single central actor, and one can thus make an educated guess that the cluster represents the French Socialist Party. 
+We notice that the graph structure of the US - much like that of the UK - is separated into exclusive clusters. But unlike the UK, the US depicts an extreme partisonship structure in Figure \ref{fig:us_ass}.
 
-\image[0.3]{../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf}{fr_assortativity}{France Assortativity 2012-2017}
+\doubleimage{}{../plots/graph/US/assortativity/assortativity_us.115.pdf}{us_ass}{US Assortativity 115}{../plots/graph/UK/assortativity/assortativity_uk.pdf}{uk_ass}{UK Assortativity}
 
-% US graph is almost completely connected. Fully connected graphs have $n(n-1)/2$ edges. There are about 100,000 edges and 552 vertices. A complete graph would have 152,076. So this is about 67\%.
-%To-do check if this is really true because kind of unclear
+When compared to other countries, the US has a much larger average number of edges and has the second smallest average distance. These results are not surprising. Since legislators in the US are highly connected, the distance between any two random people in the same cluster is much less compared to that of other countries. We also observe that the generated graphs reflect the underlying structure of governance. For example, from the France graph in Figure \ref{fig:fr_assortativity} we notice that the pink component has a single central legislator, and one can thus make an educated guess that the cluster represents the French Socialist Party. 
 
-Assortativity measures can be seen in Figure \ref{fig:ass}. Assortativity values are most positive for Sweden (around 0.8) and most negative for Austria (around -0.45). Positive assortativity measures means that nodes tend to associate more with nodes with similar attributes, while negative assortativity means that nodes associate with nodes with different attributes. The US assortativity value is very close to 0, which indicates that there is no preference in either direction. 
+% 
+
+Assortativity measures can be seen in Figure \ref{fig:ass}. Assortativity values are most positive for Sweden (around 0.8) and most negative for Austria (around -0.45). Positive assortativity measures means that nodes tend to associate more with nodes with similar attributes, while negative assortativity means that nodes associate with nodes with different attributes. The net US assortativity value is very close to 0, which indicates that there is no overall preference in either direction. 
 
 %To-do check US database
-\image[0.3]{../plots/assortativity/all_countries.pdf}{ass}{All-Country Assortativity Measures}
+\doubleimage{}{../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf}{fr_assortativity}{France Assortativity 2012-2017}{../plots/assortativity/all_countries.pdf}{ass}{All-Country Assortativity Measures}
 
-We also expect that each country should exhibit power-law distributions, as there should exist hubs of legislative members with very high degree centralities. This turns out to be the case for smaller less densley connected graphs such as Sweden in Figure \ref{fig:se_deg}. However, this does not hold true for largely connected graphs such as the US, as seen in Figure \ref{fig:us_deg}. The US graph is almost a completely connected graph; Fully connected graphs have $n(n-1)/2$ edges. There are roughly 100,000 edges and 552 vertices in our US graph. In this case a complete graph would have 152,076, so the US is about 67\% of a fully connected graph.
+We also expect that each country should exhibit power-law distributions, as there should exist hubs within legislative members with very high degree centralities. This turns out to be the case for smaller less densely connected graphs such as Sweden in Figure \ref{fig:se_deg}. However, this does not hold true for largely connected graphs such as the US, as seen in Figure \ref{fig:us_deg}. The US graph is almost a completely connected graph, where fully connected graphs have $n(n-1)/2$ edges. There are roughly 100,000 edges and 552 vertices in our US graph. In this case a complete graph would have 152,076 edges, so the US data holds about 67\% of expected edges when compared to a fully connected graph.
 
-\image[0.3]{../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png}{se_deg}{Sweden Degree Distribution 2014-2018}
-\image[0.3]{../plots/distributions/us/degree/degree_us.115.graphml.png}{us_deg}{US Degree Distribution 115}
- 
+\doubleimage{}{../plots/distributions/us/degree/degree_us.115.graphml.png}{us_deg}{US Degree Distribution 115}{../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png}{se_deg}{Sweden Degree Distribution 2014-2018}
+
 % ------------------------------------------------------------------------
 
 \section{Discussion}
-\begin{itemize}
-  \item Stability over time: US and France, something about democracy
-  \item US - Has very consistent statistics. While the number of vertices do not change every two years during the turnaround, the number of edges do not necessarily need to be the same. However, the trend that the number of edges does not fluctuate widely across the years suggests that it is possible that the process that the legislators undergo is very stable and potentially inflexible. This is not innately a negative or positive trait of the United States legislative system
-  \item France - steady increase in vertices but average distance does not change. This could imply that new members when they join the Parliament are joining existing neighborhoods rather than building new bridges. This could suggest that there is a strong party identity in France.
-\end{itemize}
-For our project, we use legislative cosponsorship networks across the US and selected European countries to try to infer social relationships in government that may influence legislative behavior. How well officials work together has a direct impact on the efficiency and productivity of government. The dynamic social relationships between legislators - of forging new relationships and maintaining older established relationships - matter. Moreover, our generated outputs hints at past and ongoing events that impact legislative cosponsorships. For example, the drop in number of cosponsorships across different parties in 2014-2018 in Sweden reflects the events that unfolded during the 2014 general elections. 
-We have uncovered some intriguing results. First, we notice that the average distance tends to increase as the world gets smaller. One interpretation of this result is that members tend to be more isolated and fewer are willing to cooporate outside of their local network. As the world gets larger, the friendship circles that define and maintain social relationships grow. As communication between legislators improves, links become increasingly more interconnected, and the relative distance between any two given legislators decreases. This underlying phenomenom is reflected in the comparison of clustering coefficients across countries. For example, small countries like Austria or Denmark have low clustering coefficients of 0 and 0.2 respectively, whereas a large country like the US has a clustering coefficient of nearly 1. 
-We also notice extreme partisanship in the US senate, which is expected given the party division and clashes between the Republicans and Democrats. The two components of the graph also represent the house and the senate. The house and the senate differ from an institutional design and have contrasting social structures, and so we would expect the behaviour in these two components to exhibit unique characteristics as well. Although we did not conduct any direct tests, the house and senate should differ in quantities such as clustering coefficient and average path length. 
-Lastly, we examined the degree distributions of every graph, and expected that they follow power-law distributions. As it turns out, this does not hold true for large densley connected graphs.
+For our project, we use legislative cosponsorship networks across the US and selected European countries to try to infer social relationships in government that may influence legislative behavior. How well officials work together has a direct impact on the efficiency and productivity of government. The dynamic social relationships between legislators - of forging new relationships and maintaining older established relationships - matter. Moreover, changes in network properties can hint at past and ongoing events that impact legislative cosponsorships. 
 
-\begin{thebibliography}{9}
+It should be noted that network properties - such as path length and clustering coefficient - of major developed countries like the US and France tend to show little fluctuation over time. These consistencies can suggest that the changes in governance do not have major influences on the quality of legislative processes, which is a positive sign because these developed countries have proven working systems of governance, democracy, and law. 
 
-\bibitem{briatte} Briatte, Francois. ``Bill cosponsorship networks in European parliaments.'' 2016. \url{https://github.com/briatte/parlnet}.
+We have uncovered some intriguing results. First, we notice that the average distance tends to increase as the world gets smaller. One interpretation of this result is that members tend to be more isolated and fewer are willing to cooporate outside of their local network. As the world gets larger, the communities that define and maintain social relationships grow. As communication between legislators improves, links become increasingly interconnected, and the relative distance between any two given legislators decreases. This underlying phenomenom is reflected in the comparison of clustering coefficients across countries. For example, small countries like Austria or Denmark have low clustering coefficients of 0 and 0.2 respectively, whereas a large country like the US has a clustering coefficient of nearly 1. 
 
-\bibitem{denmark} ``Denmark.'' \emph{Forbes}, Forbes Magazine, \url{www.forbes.com/places/denmark/}
+We also notice extreme partisanship in the US senate, which is expected given the party division and clashes between the Republicans and Democrats. The two components of the assortativity graph represent the house and the senate. The house and the senate differ from an institutional design standpoint and have contrasting social structures, and so we would expect the behavior in these two components to exhibit unique characteristics as well. Although we did not conduct any direct tests, the house and senate should differ in quantities such as clustering coefficient and average path length. 
 
-\bibitem{fowler1} Fowler, James H. ``Connecting the Congress: A Study of Cosponsorship Network.'' 2006. \url{http://fowler.ucsd.edu/best_connected_congressperson.pdf}.
+Lastly, we examined the degree distributions for every graph, and hypothesized that they would follow power-law distributions. As it turns out, this does not hold true for large densely connected graphs and non scale-free networks.
 
-\bibitem{fowler} Fowler, J. H., Waugh, A.S., and Sohn, Y. ``Cosponsorship Network.'' 2010. \url {http://jhfowler.ucsd.edu/cosponsorship.htm}
+% \begin{thebibliography}{9}
 
-\bibitem{switzerland} ``Switzerland country profile.'' \emph{BBC News}, BBC, 22 May 2018. \url{https://www.bbc.com/news/world-europe-17980650}
+% \bibitem{briatte} Briatte, Francois. ``Bill cosponsorship networks in European parliaments.'' 2016. \url{https://github.com/briatte/parlnet}.
 
-\bibitem{UK} UK Parliament. \url{https://edm.parliament.uk/}
+% \bibitem{denmark} ``Denmark.'' \emph{Forbes}, Forbes Magazine, \url{www.forbes.com/places/denmark/}
 
-\bibitem{US} United States Congress. \url{https://github.com/unitedstates/congress}
-\end{thebibliography}
+% \bibitem{fowler1} Fowler, James H. ``Connecting the Congress: A Study of Cosponsorship Network.'' 2006. \url{http://fowler.ucsd.edu/best_connected_congressperson.pdf}.
+
+% \bibitem{fowler} Fowler, J. H., Waugh, A.S., and Sohn, Y. ``Cosponsorship Network.'' 2010. \url {http://jhfowler.ucsd.edu/cosponsorship.htm}
+
+% \bibitem{switzerland} ``Switzerland country profile.'' \emph{BBC News}, BBC, 22 May 2018. \url{https://www.bbc.com/news/world-europe-17980650}
+
+% \bibitem{UK} UK Parliament. \url{https://edm.parliament.uk/}
+
+% \bibitem{US} United States Congress. \url{https://github.com/unitedstates/congress}
+% \end{thebibliography}
 
 
 \end{multicols*}

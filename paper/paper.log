@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  11 DEC 2018 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  11 DEC 2018 14:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -486,10 +486,25 @@ Package: multicol 2018/04/01 v1.8r multicolumn formatting (FMi)
 \mult@nat@firstbox=\box63
 \colbreak@box=\box64
 \mc@col@check@num=\count163
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box65
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen168
+\ttl@minus=\dimen169
+\ttl@toksa=\toks30
+\titlewidth=\dimen170
+\titlewidthlast=\dimen171
+\titlewidthfirst=\dimen172
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count164
+\c@subtable=\count165
 )
-\mylen=\skip65
-\c@enumcasesi=\count164
-\enitdp@enumcases=\count165
+\mylen=\skip67
+\c@enumcasesi=\count166
+\enitdp@enumcases=\count167
  (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -515,20 +530,20 @@ Package csquotes Info: ... none found.
  (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -566,17 +581,17 @@ LaTeX Font Info:    ... okay on input line 82.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count166
-\scratchdimen=\dimen168
-\scratchbox=\box65
-\nofMPsegments=\count167
-\nofMParguments=\count168
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count169
-\MPscratchDim=\dimen169
-\MPnumerator=\count170
-\makeMPintoPDFobject=\count171
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count168
+\scratchdimen=\dimen173
+\scratchbox=\box66
+\nofMPsegments=\count169
+\nofMParguments=\count170
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count171
+\MPscratchDim=\dimen174
+\MPnumerator=\count172
+\makeMPintoPDFobject=\count173
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -593,28 +608,67 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box66
-Package hyperref Info: Link coloring OFF on input line 82.
+\AtBeginShipoutBox=\box67
+Package hyperref Info: Link coloring OFF on input line 109.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count172
+\c@section@level=\count174
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
+LaTeX Font Info:    Try loading font information for U+msa on input line 114.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 114.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+
+LaTeX Warning: Citation `fowler1' on page 1 undefined on input line 127.
+
+
+LaTeX Warning: Citation `briatte' on page 1 undefined on input line 132.
+
+
+LaTeX Warning: Citation `UK' on page 1 undefined on input line 132.
+
+
+LaTeX Warning: Citation `US' on page 1 undefined on input line 132.
+
+[1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: Citation `switzerland' on page 2 undefined on input line 154.
+
+<../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf, id=23, 602.25pt x 602.25pt>
+File: ../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf Graphic file (type pdf)
+<use ../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf>
+Package pdftex.def Info: ../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf  used on input line 159.
+(pdftex.def)             Requested size: 124.66588pt x 124.66588pt.
+<../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf, id=24, 602.25pt x 602.25pt>
+File: ../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf Graphic file (type pdf)
+<use ../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf>
+Package pdftex.def Info: ../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf  used on input line 159.
+(pdftex.def)             Requested size: 124.66588pt x 124.66588pt.
+<../plots/averages/completeness.pdf, id=27, 433.62pt x 289.08pt>
+File: ../plots/averages/completeness.pdf Graphic file (type pdf)
+<use ../plots/averages/completeness.pdf>
+Package pdftex.def Info: ../plots/averages/completeness.pdf  used on input line 165.
+(pdftex.def)             Requested size: 186.99551pt x 124.66367pt.
+<Images/uk-betweenness.png, id=28, 629.35126pt x 603.25375pt>
+File: Images/uk-betweenness.png Graphic file (type png)
+<use Images/uk-betweenness.png>
+Package pdftex.def Info: Images/uk-betweenness.png  used on input line 165.
+(pdftex.def)             Requested size: 130.05498pt x 124.66194pt.
+
+LaTeX Warning: Citation `denmark' on page 2 undefined on input line 167.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -622,26 +676,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-<../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf, id=39, 602.25pt x 602.25pt>
-File: ../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf Graphic file (type pdf)
-<use ../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf>
-Package pdftex.def Info: ../plots/graph/sweden/assortativity/assortativity_net_se1988-1991.pdf  used on input line 127.
-(pdftex.def)             Requested size: 149.59721pt x 149.59721pt.
-<../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf, id=40, 602.25pt x 602.25pt>
-File: ../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf Graphic file (type pdf)
-<use ../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf>
-Package pdftex.def Info: ../plots/graph/sweden/assortativity/assortativity_net_se2014-2018.pdf  used on input line 128.
-(pdftex.def)             Requested size: 149.59721pt x 149.59721pt.
-<../plots/averages/completeness.pdf, id=42, 433.62pt x 289.08pt>
-File: ../plots/averages/completeness.pdf Graphic file (type pdf)
-<use ../plots/averages/completeness.pdf>
-Package pdftex.def Info: ../plots/averages/completeness.pdf  used on input line 132.
-(pdftex.def)             Requested size: 224.39859pt x 149.59904pt.
-<Images/uk-betweenness.png, id=44, 629.35126pt x 603.25375pt>
-File: Images/uk-betweenness.png Graphic file (type png)
-<use Images/uk-betweenness.png>
-Package pdftex.def Info: Images/uk-betweenness.png  used on input line 137.
-(pdftex.def)             Requested size: 104.04013pt x 99.72588pt.
+<../plots/across-country/Number of EdgesNumber of Vertices.pdf, id=41, 650.43pt x 361.35pt>
+File: ../plots/across-country/Number of EdgesNumber of Vertices.pdf Graphic file (type pdf)
+<use ../plots/across-country/Number of EdgesNumber of Vertices.pdf>
+Package pdftex.def Info: ../plots/across-country/Number of EdgesNumber of Vertices.pdf  used on input line 175.
+(pdftex.def)             Requested size: 199.46762pt x 110.81534pt.
+<../plots/across-country/Average DegreeAverage Excess Degree.pdf, id=42, 650.43pt x 361.35pt>
+File: ../plots/across-country/Average DegreeAverage Excess Degree.pdf Graphic file (type pdf)
+<use ../plots/across-country/Average DegreeAverage Excess Degree.pdf>
+Package pdftex.def Info: ../plots/across-country/Average DegreeAverage Excess Degree.pdf  used on input line 175.
+(pdftex.def)             Requested size: 199.46762pt x 110.81534pt.
+<../plots/graph/US/assortativity/assortativity_us.115.pdf, id=44, 602.25pt x 602.25pt>
+File: ../plots/graph/US/assortativity/assortativity_us.115.pdf Graphic file (type pdf)
+<use ../plots/graph/US/assortativity/assortativity_us.115.pdf>
+Package pdftex.def Info: ../plots/graph/US/assortativity/assortativity_us.115.pdf  used on input line 179.
+(pdftex.def)             Requested size: 124.66588pt x 124.66588pt.
+<../plots/graph/UK/assortativity/assortativity_uk.pdf, id=45, 602.25pt x 602.25pt>
+File: ../plots/graph/UK/assortativity/assortativity_uk.pdf Graphic file (type pdf)
+<use ../plots/graph/UK/assortativity/assortativity_uk.pdf>
+Package pdftex.def Info: ../plots/graph/UK/assortativity/assortativity_uk.pdf  used on input line 179.
+(pdftex.def)             Requested size: 124.66588pt x 124.66588pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -656,26 +710,26 @@ pdfTeX warning: pdflatex (file ../plots/graph/sweden/assortativity/assortativity
 
 pdfTeX warning: pdflatex (file ../plots/averages/completeness.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Images/uk-betweenness.png>]
-<../plots/across-country/Number of EdgesNumber of Vertices.pdf, id=101, 650.43pt x 361.35pt>
-File: ../plots/across-country/Number of EdgesNumber of Vertices.pdf Graphic file (type pdf)
-<use ../plots/across-country/Number of EdgesNumber of Vertices.pdf>
-Package pdftex.def Info: ../plots/across-country/Number of EdgesNumber of Vertices.pdf  used on input line 148.
-(pdftex.def)             Requested size: 233.37056pt x 129.65031pt.
-<../plots/across-country/Average DegreeAverage Excess Degree.pdf, id=103, 650.43pt x 361.35pt>
-File: ../plots/across-country/Average DegreeAverage Excess Degree.pdf Graphic file (type pdf)
-<use ../plots/across-country/Average DegreeAverage Excess Degree.pdf>
-Package pdftex.def Info: ../plots/across-country/Average DegreeAverage Excess Degree.pdf  used on input line 150.
-(pdftex.def)             Requested size: 233.37056pt x 129.65031pt.
-<../plots/graph/US/assortativity/assortativity_us.115.pdf, id=105, 602.25pt x 602.25pt>
-File: ../plots/graph/US/assortativity/assortativity_us.115.pdf Graphic file (type pdf)
-<use ../plots/graph/US/assortativity/assortativity_us.115.pdf>
-Package pdftex.def Info: ../plots/graph/US/assortativity/assortativity_us.115.pdf  used on input line 153.
-(pdftex.def)             Requested size: 149.59721pt x 149.59721pt.
-<../plots/graph/UK/assortativity/assortativity_uk.pdf, id=106, 602.25pt x 602.25pt>
-File: ../plots/graph/UK/assortativity/assortativity_uk.pdf Graphic file (type pdf)
-<use ../plots/graph/UK/assortativity/assortativity_uk.pdf>
-Package pdftex.def Info: ../plots/graph/UK/assortativity/assortativity_uk.pdf  used on input line 154.
-(pdftex.def)             Requested size: 149.59721pt x 149.59721pt.
+<../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf, id=99, 602.25pt x 602.25pt>
+File: ../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf Graphic file (type pdf)
+<use ../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf>
+Package pdftex.def Info: ../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf  used on input line 188.
+(pdftex.def)             Requested size: 124.66588pt x 124.66588pt.
+<../plots/assortativity/all_countries.pdf, id=100, 433.62pt x 289.08pt>
+File: ../plots/assortativity/all_countries.pdf Graphic file (type pdf)
+<use ../plots/assortativity/all_countries.pdf>
+Package pdftex.def Info: ../plots/assortativity/all_countries.pdf  used on input line 188.
+(pdftex.def)             Requested size: 186.99551pt x 124.66367pt.
+<../plots/distributions/us/degree/degree_us.115.graphml.png, id=103, 433.62pt x 289.08pt>
+File: ../plots/distributions/us/degree/degree_us.115.graphml.png Graphic file (type png)
+<use ../plots/distributions/us/degree/degree_us.115.graphml.png>
+Package pdftex.def Info: ../plots/distributions/us/degree/degree_us.115.graphml.png  used on input line 192.
+(pdftex.def)             Requested size: 186.99551pt x 124.66367pt.
+<../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png, id=104, 433.62pt x 289.08pt>
+File: ../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png Graphic file (type png)
+<use ../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png>
+Package pdftex.def Info: ../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png  used on input line 192.
+(pdftex.def)             Requested size: 186.99551pt x 124.66367pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -693,33 +747,6 @@ pdfTeX warning: pdflatex (file ../plots/graph/US/assortativity/assortativity_us.
 
 pdfTeX warning: pdflatex (file ../plots/graph/UK/assortativity/assortativity_uk.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf, id=201, 602.25pt x 602.25pt>
-File: ../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf Graphic file (type pdf)
-<use ../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf>
-Package pdftex.def Info: ../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf  used on input line 158.
-(pdftex.def)             Requested size: 149.59721pt x 149.59721pt.
-<../plots/assortativity/all_countries.pdf, id=203, 433.62pt x 289.08pt>
-File: ../plots/assortativity/all_countries.pdf Graphic file (type pdf)
-<use ../plots/assortativity/all_countries.pdf>
-Package pdftex.def Info: ../plots/assortativity/all_countries.pdf  used on input line 166.
-(pdftex.def)             Requested size: 224.39859pt x 149.59904pt.
-<../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png, id=206, 433.62pt x 289.08pt>
-File: ../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png Graphic file (type png)
-<use ../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png>
-Package pdftex.def Info: ../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png  used on input line 170.
-(pdftex.def)             Requested size: 224.39859pt x 149.59904pt.
-<../plots/distributions/us/degree/degree_us.115.graphml.png, id=207, 433.62pt x 289.08pt>
-File: ../plots/distributions/us/degree/degree_us.115.graphml.png Graphic file (type png)
-<use ../plots/distributions/us/degree/degree_us.115.graphml.png>
-Package pdftex.def Info: ../plots/distributions/us/degree/degree_us.115.graphml.png  used on input line 171.
-(pdftex.def)             Requested size: 224.39859pt x 149.59904pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 177.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 177.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -729,49 +756,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [5 <../plots/graph/france/assortativity/assortativity_net_fr_an2012-2017.pdf> <../plots/assortativity/all_countries.pdf
 
 pdfTeX warning: pdflatex (file ../plots/assortativity/all_countries.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6 <../plots/distributions/us/degree/degree_us.115.graphml.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-\OT1/cmr/m/n/12 A Study of Cospon-sor-ship Net-work.''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-\OT1/cmr/m/n/12 2006. []$\OT1/cmtt/m/n/12 http : / / fowler . ucsd . edu / best _
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+> <../plots/distributions/us/degree/degree_us.115.graphml.png> <../plots/distributions/sweden/degree/degree_net_se2014-2018.graphml.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
  (./paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 226.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 12545 strings out of 492649
- 207185 string characters out of 6129622
- 475083 words of memory out of 5000000
- 16205 multiletter control sequences out of 15000+600000
- 15251 words of font info for 59 fonts, out of 8000000 for 9000
+ 12817 strings out of 492649
+ 210920 string characters out of 6129622
+ 484904 words of memory out of 5000000
+ 16492 multiletter control sequences out of 15000+600000
+ 14129 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,951b,666s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on paper.pdf (7 pages, 11599713 bytes).
+ 36i,11n,43p,951b,762s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on paper.pdf (5 pages, 11582518 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
