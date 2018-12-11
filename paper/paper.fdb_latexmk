@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1544491101 "/Users/catherinejiang/Repositories/CSE-416-Final-Project/paper/paper.tex" "paper.pdf" "paper" 1544491102
-  "/Users/catherinejiang/Repositories/CSE-416-Final-Project/paper/paper.tex" 1544491101 7607 4c5ef8b44cb265030d1718e83e897326 ""
-  "/dev/null" 1544491101 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1544501285 "/Users/catherinejiang/Repositories/CSE-416-Final-Project/paper/paper.tex" "paper.pdf" "paper" 1544501286
+  "/Users/catherinejiang/Repositories/CSE-416-Final-Project/paper/paper.tex" 1544501284 7811 3e67bae5423783cdf422ed7c6b17eb7c ""
+  "/dev/null" 1544501285 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -28,6 +28,7 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1480098701 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1480098733 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1480098733 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1480098733 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1480098733 32362 179c33bbf43f19adbb3825bb4e36e57a ""
@@ -115,10 +116,10 @@
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "paper.aex" 0 -1 0 ""
-  "paper.aux" 1544491101 1395 42ee264e3bd875059cfbdf5bfde8b365 ""
-  "paper.tex" 1544491101 7607 4c5ef8b44cb265030d1718e83e897326 ""
+  "paper.aux" 1544501285 1395 42ee264e3bd875059cfbdf5bfde8b365 ""
+  "paper.tex" 1544501284 7811 3e67bae5423783cdf422ed7c6b17eb7c ""
   "paper.w18" 0 -1 0 ""
   (generated)
   "paper.pdf"
-  "paper.log"
   "paper.aux"
+  "paper.log"
